@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tahoma', 'Segoe UI', system-ui, sans-serif;
+    background: radial-gradient(circle at 10% 20%, #0a0c18, #03050a);
+    color: #f0f3fa;
+    min-height: 100vh;
+}
+
+.app-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(18, 22, 36, 0.7);
+    border-radius: 1.5rem;
+    border: 1px solid rgba(255,107,139,0.3);
+}
+
+.logo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #FF6B8B, #9D4EDD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem auto 0 auto;
+    max-width: 500px;
+}
+.search-box {
+    width: 100%;
+    background: rgba(25, 30, 50, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,107,139,0.4);
+    border-radius: 3rem;
+    padding: 0.7rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    transition: all 0.3s ease;
+}
+.search-box:focus-within {
+    border-color: #ff6b8b;
+    box-shadow: 0 0 15px rgba(255,107,139,0.3);
+    background: rgba(35, 40, 65, 0.9);
+}
+.search-box .search-icon {
+    color: #ff8aa5;
+    font-size: 1.2rem;
+}
+.search-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    font-size: 1rem;
+    font-family: inherit;
+}
+.search-box input::placeholder {
+    color: #9aa4bf;
+}
+
+.back-home {
+    background: rgba(30, 35, 55, 0.8);
+    border: 1px solid rgba(255,107,139,0.4);
+    padding: 0.5rem 1.2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.no-result {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 3rem;
+    background: rgba(0,0,0,0.3);
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+.anime-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.anime-card {
+    background: rgba(18, 22, 36, 0.75);
+    backdrop-filter: blur(8px);
+    border-radius: 1.2rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255,255,255,0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.anime-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 107, 139, 0.6);
+    background: rgba(28, 33, 55, 0.9);
+}
+
+.card-cover {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    background: linear-gradient(145deg, #1e243b, #0f1222);
+    border-bottom: 2px solid rgba(255,107,139,0.3);
+}
+
+.card-content {
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.anime-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    color: #FFB347;
+}
+
+.rating-badges {
+    display: flex;
+    gap: 0.8rem;
+    margin: 0.3rem 0 0.5rem 0;
+}
+.rating-badge {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.rating-imdb {
+    background: #f5c518;
+    color: #000;
+}
+.rating-mal {
+    background: #2e51a2;
+    color: #fff;
+}
+
+.genres {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+    flex-wrap: wrap;
+}
+
+.genre {
+    background: rgba(156, 80, 255, 0.3);
+    padding: 0.2rem 0.8rem;
+    border-radius: 2rem;
+    font-size: 0.7rem;
+}
+
+.anime-desc {
+    font-size: 0.8rem;
+    color: #b9c2e0;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+}
+
+.detail-btn {
+    background: none;
+    border: 1px solid #ff6b8b70;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    font-size: 0.75rem;
+    transition: 0.2s;
+    margin-top: 0.5rem;
+}
+
+.detail-btn:hover {
+    background: #ff6b8b20;
+    border-color: #ff6b8b;
+}
+
+.detail-container {
+    background: rgba(10, 12, 22, 0.7);
+    backdrop-filter: blur(8px);
+    border-radius: 1.5rem;
+    padding: 1.8rem;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.anime-header-info {
+    margin-bottom: 2rem;
+    border-bottom: 1px dashed rgba(255,255,255,0.1);
+    padding-bottom: 1rem;
+}
+
+.anime-header-info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFB347;
+    margin-bottom: 0.5rem;
+}
+
+.detail-ratings {
+    display: flex;
+    gap: 1rem;
+    margin: 0.5rem 0;
+}
+.detail-rating {
+    padding: 0.2rem 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.detail-imdb {
+    background: #f5c518;
+    color: #000;
+}
+
+.anime-poster {
+    max-width: 100%;
+    width: 350px;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    display: block;
+}
+
+.trailer-section {
+    margin: 1.5rem 0;
+    background: rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba(255,107,139,0.3);
+}
+.trailer-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    color: #FF8AA5;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.trailer-player {
+    width: 100%;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+.trailer-player video {
+    width: 100%;
+    max-height: 400px;
+    outline: none;
+    border-radius: 0.8rem;
+}
+
+.seasons-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.season-card {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid rgba(255,107,139,0.2);
+}
+
+.season-header {
+    background: rgba(25, 30, 50, 0.9);
+    padding: 1rem 1.2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s;
+    border-right: 3px solid #ff6b8b;
+}
+
+.season-header:hover {
+    background: rgba(35, 42, 65, 0.9);
+}
+
+.season-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FF8AA5;
+}
+
+.season-arrow {
+    font-size: 1rem;
+    transition: transform 0.3s;
+    color: #ff8aa5;
+}
+
+.season-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+    padding: 0 1rem;
+}
+
+.season-content.open {
+    max-height: 3000px;
+    padding: 1rem;
+}
+
+.episode-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.episode-item {
+    background: rgba(20, 25, 45, 0.7);
+    border-radius: 0.8rem;
+    padding: 0.7rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.8rem;
+    border: 1px solid #2f354a;
+}
+
+.episode-name {
+    font-weight: bold;
+    min-width: 100px;
+}
+
+.quality-buttons {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.quality-link {
+    background: linear-gradient(145deg, #1e243b, #12172b);
+    padding: 0.3rem 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    transition: 0.2s;
+    border: 1px solid rgba(255,255,210,0.1);
+}
+
+.quality-link:hover {
+    transform: translateY(-2px);
+    background: #ff4d6d;
+}
+
+.suggestions-section {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+.suggestions-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFB347;
+    margin-bottom: 1rem;
+}
+.suggestions-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+}
+.suggestion-card {
+    min-width: 160px;
+    background: rgba(18, 22, 36, 0.6);
+    border-radius: 0.8rem;
+    padding: 0.6rem;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.suggestion-card:hover {
+    border-color: #ff6b8b;
+    transform: translateY(-3px);
+}
+.suggestion-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.suggestion-title {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #FFB347;
+    margin-bottom: 0.2rem;
+}
+.suggestion-rating {
+    font-size: 0.7rem;
+    background: #f5c518;
+    color: #000;
+    display: inline-block;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    font-size: 0.7rem;
+    color: #6a7290;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+/* ========== استایل صفحه‌بندی ========== */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.pagination button {
+    background: rgba(25, 30, 50, 0.8);
+    border: 1px solid rgba(255,107,139,0.4);
+    color: #f0f3fa;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+
+.pagination button:hover:not(:disabled) {
+    background: #ff6b8b;
+    border-color: #ff6b8b;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination .page-numbers {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.pagination .page-btn {
+    background: rgba(25, 30, 50, 0.8);
+    padding: 0.5rem 0.8rem;
+}
+
+.pagination .page-btn.active {
+    background: #ff6b8b;
+    border-color: #ff6b8b;
+}
+
+.info-text {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #9aa4bf;
+}
+
+@media (max-width: 600px) {
+    .app-wrapper { padding: 1rem; }
+    .episode-item { flex-direction: column; align-items: flex-start; }
+    .anime-header-info h2 { font-size: 1.4rem; }
+    .anime-poster, .card-cover { width: 100%; }
+    .rating-badges { flex-wrap: wrap; }
+    .suggestions-grid { gap: 0.8rem; }
+    .suggestion-card { min-width: 130px; }
+    .suggestion-img { height: 160px; }
+}
