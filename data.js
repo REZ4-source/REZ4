@@ -469,7 +469,41 @@ const animeData = [
                 }
             ]
         },  
-
+      {
+            id: "The-Fragrant-Flower-Blooms-with-Dignity",
+            title: "The Fragrant Flower Blooms with Dignity",
+            fullTitle: "The Fragrant Flower Blooms with Dignity",
+            description: "",
+            genres: ["درام", "کمدی", "عاشقانه"],
+            imdbRating: "8.6",
+            malRating: "8.8",
+            poster: "https://intocdn.top/wp-content/uploads/2025/07/riMDV04KJfJqtGFurehl8Uvgs83.webp",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2025/07/riMDV04KJfJqtGFurehl8Uvgs83.webp",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2025/07/fcAKLwLJf6G8QaoGdJyxrVCHBnY-360x480.webp",
+            trailer: "https://edge43.324902.ir.cdn.ir/Series_09/The.Fragrant.Flower.Blooms.with.Dignity/S01/The.Fragrant.Flower.Blooms.with.Dignity_Trailer.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 13 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E01.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E02.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E03.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E04.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E05.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E06.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E07.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E08.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E09.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E10.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E11.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E12.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 13, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E13.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaoru.Hana.Wa.Rin.To.Saku/S01/Kaoru.Hana.Wa.Rin.To.Saku.S01E13.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                }
+            ]
+         }, 
+   
    
    
    
