@@ -535,4 +535,143 @@ body {
 
 body, button, input, .anime-title, .season-title, .detail-btn {
     font-family: 'Vazir', 'Tahoma', 'Segoe UI', system-ui, sans-serif;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #1e243b, #12172b);
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #ffccaa;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.05);
+    background: #ff6b8b;
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 107, 139, 0.4);
+}
+
+body.light-mode .theme-toggle {
+    background: linear-gradient(145deg, #f0f0f0, #e0e0e0);
+    color: #e67e22;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .theme-toggle:hover {
+    background: #ff6b8b;
+    color: white;
+}
+
+/* ========== بخش آخرین قسمت‌ها ========== */
+.recent-section {
+    margin: 1.5rem 0;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    color: #FFB347;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.recent-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.recent-item {
+    background: rgba(16, 16, 30, 0.6);
+    border-radius: 14px;
+    padding: 10px 15px;
+    border: 1px solid #262636;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recent-item:hover {
+    border-color: #ff6b8b;
+    background: rgba(30, 30, 50, 0.8);
+    transform: translateX(3px);
+}
+
+.recent-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.recent-num {
+    background: #ff6b8b;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.recent-info h4 {
+    font-size: 0.9rem;
+    margin-bottom: 3px;
+    color: #FFB347;
+}
+
+.recent-info span {
+    font-size: 0.65rem;
+    color: #aaa;
+}
+
+.recent-badge {
+    font-size: 0.6rem;
+    padding: 4px 10px;
+    border-radius: 30px;
+    background: #1e3a2f;
+    color: #99ffcc;
+}
+
+.recent-badge.hot {
+    background: #3a2a1e;
+    color: #ffaa66;
+}
+
+.recent-badge.today {
+    background: #2a1e3a;
+    color: #cc99ff;
+}
+
+/* ========== عنوان جداکننده ========== */
+.section-divider {
+    margin: 1rem 0 0.5rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(255, 107, 139, 0.3);
+}
+
+.section-divider h3 {
+    font-size: 1rem;
+    color: #FFB347;
+    display: inline-block;
+    background: rgba(255, 107, 139, 0.1);
+    padding: 0.2rem 1rem;
+    border-radius: 2rem;
     }
