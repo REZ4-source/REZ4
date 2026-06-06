@@ -500,3 +500,39 @@ body {
     .suggestion-card { min-width: 130px; }
     .suggestion-img { height: 160px; }
 }
+
+#searchBtn {
+    background: #ff6b8b;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.4rem 1.2rem;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.85rem;
+    margin-right: 0.8rem;
+    transition: all 0.2s;
+}
+
+#searchBtn:hover {
+    background: #ff4d6d;
+    transform: scale(0.97);
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('Vazir-Bold-FD-WOL.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body, button, input, .anime-title, .season-title, .detail-btn {
+    font-family: 'Vazir', 'Tahoma', 'Segoe UI', system-ui, sans-serif;
+    }
