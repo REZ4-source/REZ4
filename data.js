@@ -636,7 +636,7 @@ const animeData = [
             id: "Solo-Leveling",
             title: "Solo Leveling",
             fullTitle: "Solo Leveling",
-            description: "",
+            description: "شکارچیان که انسان‌هایی با توانایی‌های جادویی هستند، باید با هیولاهای مرگبار مبارزه کنند. یک شکارچی بدنام ضعیف به نام سونگ جین‌وو خود را در یک مبارزه به بی‌پایان برای بقا می‌بیند. یک روز، پس از اینکه به سختی از یک سیاه‌چاله بسیار قدرتمند جان سالم به در برد، یک برنامه مرموز به نام سیستم، او را به عنوان تنها بازیکن خود انتخاب می‌کند و توانایی بسیار نادری به وی می‌دهد تا از نظر قدرت، سطح خود را افرایش دهد.",
             genres: ["اکشن", "علمی‌تخیلی", "فانتزی"],
             imdbRating: "8.6",
             malRating: "8.8",
@@ -684,7 +684,108 @@ const animeData = [
                  }
             ]
          },
-   
+      {
+            id: "The-Angel-Next-Door-Spoils-Me-Rotten",
+            title: "The Angel Next Door Spoils Me Rotten",
+            fullTitle: "The Angel Next Door Spoils Me Rotten",
+            description: "«ماهیرو» دختری آن‌قدر زیباست که او را «فرشته» می‌نامند. در مقابل، «آمانه» یک پسر کاملاً معمولی است که هرگز توجه چندانی به زیبایی نداشته است؛ اما وقتی در میان یک طوفان با ماهیرو روبه‌رو می‌شود، همه‌چیز تغییر می‌کند و یک رابطه‌ی شگفت‌انگیز و دور از انتظار میان این دو شکل می‌گیرد.",
+            genres: ["زندگی روزمره", "کمدی", "عاشقانه"],
+            imdbRating: "8",
+            malRating: "8.1",
+            poster: "https://intocdn.top/wp-content/uploads/2026/04/lt6iImp0S1cFOUs8i0hr1ycqyCu.jpg",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2026/04/lt6iImp0S1cFOUs8i0hr1ycqyCu.jpg",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2026/04/xv8FOKQlVwb0b21t1F2VywpPLqf-360x480.jpg",
+            trailer: "https://edge43.166864.ir.cdn.ir/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/The-Angel-Next-Door-Trailer.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 12 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E03.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E04.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E05.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E06.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E07.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E08.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E09.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E10.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E12.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S01.New/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                  },
+                {
+                    seasonNumber: 2,
+                    seasonName: "فصل دوم - درحال پخش",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E03.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E04.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E05.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E06.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E07.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E08.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E09.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E10.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "", "720p": "" } },
+                        { epNum: 12, qualities: { "480p": "", "720p": "" } }
+                    ]
+                 }
+            ]
+         },
+   {
+            id: "Chained-Soldier",
+            title: "Chained Soldier",
+            fullTitle: "Chained Soldier",
+            description: "داستان در دنیایی رخ می‌دهد که توازن قدرت کاملاً دگرگون شده و تنها زنان دارای قابلیت‌های فراطبیعی و ابرقدرت هستند. در این جامعه‌ی زن‌سالار، یوکی واکورا، پسری جوان و فاقد قدرت، به طور ناگهانی وارد بعد دیگری می‌شود که محل زندگی هیولاهای خطرناک است. او در آنجا توسط فرمانده‌ی یک واحد نخبه از دختران مبارز نجات می‌یابد و به دلیل پتانسیل خاصش، به عنوان عضوی از جوخه‌ی شکارچیان هیولا استخدام می‌شود تا در کنار آن‌ها مبارزه کند.",
+            genres: ["کمدی", "فانتزی", "اکشن"],
+            imdbRating: "6.1",
+            malRating: "7.8",
+            poster: "https://intocdn.top/wp-content/uploads/2026/02/ziAF5O1c0KcV9TVD9jw4N7Oj0S.jpg",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2026/02/ziAF5O1c0KcV9TVD9jw4N7Oj0S.jpg",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2026/02/kY47zKsZirB8S7xWjVUGAeWsWVR-360x480.jpg",
+            trailer: "https://edge43.166864.ir.cdn.ir/Series/Mato.Seihei.no.Slave/S01/Chained.Soldier.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 12 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E03.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E04.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E05.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E06.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E07.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E08.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E09.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E10.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E12.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S01/Mato.Seihei.no.Slave.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                  },
+                {
+                    seasonNumber: 2,
+                    seasonName: "فصل دوم - 12 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E03.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E04.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E05.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E06.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E07.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E08.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E09.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E10.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E12.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mato.Seihei.no.Slave/S02/Mato.Seihei.no.Slave.2.S02E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                 }
+            ]
+         },
    
    
    
