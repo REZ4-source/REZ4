@@ -2,7 +2,7 @@ let currentAnimeId = null;
 let searchTimeout = null;
 let currentPage = 1;
 let currentSearchTerm = '';
-const ITEMS_PER_PAGE = 9;
+const ITEMS_PER_PAGE = 10;
 const appContainer = document.getElementById('app');
 
 function escapeHtml(str) {
@@ -62,6 +62,7 @@ function renderHomePage() {
                 <div class="search-box">
                     <span class="search-icon">🔍</span>
                     <input type="text" id="searchInput" placeholder="جستجوی انیمه ..." value="${escapeHtml(currentSearchTerm)}">
+                    <button id="searchBtn">جستجو</button>
                 </div>
             </div>
         </div>
@@ -105,7 +106,6 @@ function renderHomePage() {
         cardsHtml += `<button class="prev-btn" ${currentPage === 1 ? 'disabled' : ''}>قبلی</button>`;
         cardsHtml += `<div class="page-numbers">`;
         
-        // نمایش صفحات (حداکثر ۵ دکمه)
         let startPage = Math.max(1, currentPage - 2);
         let endPage = Math.min(totalPages, startPage + 4);
         if (endPage - startPage < 4) {
@@ -168,16 +168,25 @@ function renderHomePage() {
         });
     });
     
-    // رویداد جستجو
+    // ========== جستجو با دکمه و Enter (تغییر داده شده) ==========
     const searchInput = document.getElementById('searchInput');
+    const searchBtn = document.getElementById('searchBtn');
+    
+    function doSearch() {
+        currentSearchTerm = searchInput.value;
+        currentPage = 1;
+        renderHomePage();
+    }
+    
+    if (searchBtn) {
+        searchBtn.addEventListener('click', doSearch);
+    }
+    
     if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
-            if (searchTimeout) clearTimeout(searchTimeout);
-            searchTimeout = setTimeout(() => {
-                currentSearchTerm = e.target.value;
-                currentPage = 1;  // برگشت به صفحه اول
-                renderHomePage();
-            }, 300);
+        searchInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                doSearch();
+            }
         });
     }
 }
