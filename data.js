@@ -473,7 +473,7 @@ const animeData = [
             id: "The-Fragrant-Flower-Blooms-with-Dignity",
             title: "The Fragrant Flower Blooms with Dignity",
             fullTitle: "The Fragrant Flower Blooms with Dignity",
-            description: "",
+            description: "دو دبیرستان در همسایگی هم وجود دارند. دبیرستان چیدوری، یک مدرسه پسرانه‌ی سطح پایین که به مدرسه‌ی احمق‌ها معروف است، و دبیرستان دخترانه کیکیو، یک مدرسه دخترانه برای دختران ثروتمند و نجیب. رینتارو تسوموگی، دانش آموز سال دوم در دبیرستان چیدوری که شخصیت آرام اما ظاهری خشن دارد، با کائوروکو واگوری، دختری که به عنوان مشتری به قنادی خانوادگی آنها سر می‌زند، آشنا می‌شود.",
             genres: ["درام", "کمدی", "عاشقانه"],
             imdbRating: "8.6",
             malRating: "8.8",
@@ -503,7 +503,187 @@ const animeData = [
                 }
             ]
          }, 
-   
+      {
+            id: "Kaiju-No.8",
+            title: "Kaiju No. 8",
+            fullTitle: "Kaiju No. 8",
+            description: "هیولاهای وحشتناک و شبیه به گودزیلایی به نام “کایجو” برای سال‌های متمادی در ژاپن ظاهر شده‌اند. برای مقابله با این موجودات، واحد نظامی الیت به نام گروه دفاعی زندگی‌شان را برای محافظت از شهروندان عادی به خطر می‌اندازند. پس از کشته شدن یک موجود، “جاروگران” – که زیر نظر شرکت حرفه‌ای تمیزکاری کایجو کار می‌کنند",
+            genres: ["فانتزی", "علمی تخیلی", "اکشن"],
+            imdbRating: "8.2",
+            malRating: "8.1",
+            poster: "https://intocdn.top/wp-content/uploads/2024/06/htGeuCcNhlBe8GTx3izKOsd8frw-1.jpg",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2024/06/htGeuCcNhlBe8GTx3izKOsd8frw-1.jpg",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2024/06/pXHVRmVxUltjX4EatkXuB5eDAjx-360x480.jpg",
+            trailer: "https://edge43.240667.ir.cdn.ir/Series/Kaijuu.8.Gou/S01/Kaiju_No.8_OFFICIAL_TRAILER.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 12 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.01.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.01.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.02.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.02.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.03.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.03.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.04.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.04.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.05.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.05.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.06.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.06.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.07.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.07.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.08.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.08.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.09.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.09.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.10.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.10.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.11.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.11.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.12.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaijuu.8.Gou/S01/Kaijuu.8.Gou.12.720p.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                  },
+                {
+                    seasonNumber: 2,
+                    seasonName: "فصل دوم - 11 قسمت",
+                    episodes: [
+                        { epNum: 0, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaiju.No.8/S02/Kaiju.No.8.S02E00.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaiju.No.8/S02/Kaiju.No.8.S02E00.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 1, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaiju.No.8/S02/Kaiju.No.8.S02E01.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaiju.No.8/S02/Kaiju.No.8.S02E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaiju.No.8/S02/Kaiju.No.8.S02E02.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Kaiju.No.8/S02/Kaiju.No.8.S02E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E03.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E04.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E05.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E06.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E07.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E08.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E09.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E10.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E11.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Kaiju.No.8/S02/Kaiju.No.8.S02E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                   ]
+                }
+            ]
+         },
+   {
+            id: "To-Be-Hero-X",
+            title: "To Be Hero X",
+            fullTitle: "To Be Hero X 2025",
+            description: "داستان در دنیایی روایت می‌شود که قهرمانان برجسته و خارق‌العاده، مورد ستایش و تشویق همگان قرار می‌گیرند. اما نکته متمایزکننده این جهان، منبع قدرت این ابرقهرمانان است: اعتماد",
+            genres: ["اکشن", "فانتزی", "انیمیشن"],
+            imdbRating: "8.5",
+            malRating: "8.8",
+            poster: "https://intocdn.top/wp-content/uploads/2025/04/xBqKMyb3VjJSjOAw7RunDVwYA3Q.jpg",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2025/04/xBqKMyb3VjJSjOAw7RunDVwYA3Q.jpg",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2025/04/7ynNG9lYS9HIR8cYMgawO19VPkg-360x480.jpg",
+            trailer: "https://edge43.324902.ir.cdn.ir/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01.Trailer.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 24 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E01.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E02.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E03.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E04.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E05.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E06.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E07.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E08.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E09.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E10.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E11.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E12.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 13, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E13.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E13.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 14, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E14.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E14.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 15, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E15.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E15.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 16, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E16.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E16.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 17, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E17.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/To.Be.Hero.X/S01/To.Be.Hero.X.S01E17.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 18, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/To.Be.Hero.X/S01/To.Be.Hero.X.S01E18.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/To.Be.Hero.X/S01/To.Be.Hero.X.S01E18.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 19, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/To.Be.Hero.X/S01/To.Be.Hero.X.S01E19.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/To.Be.Hero.X/S01/To.Be.Hero.X.S01E19.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 20, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/To.Be.Hero.X/S01/To.Be.Hero.X.S01E20.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/To.Be.Hero.X/S01/To.Be.Hero.X.S01E20.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 21, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/To.Be.Hero.X/S01/To.Be.Hero.X.S01E21.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/To.Be.Hero.X/S01/To.Be.Hero.X.S01E21.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 22, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/To.Be.Hero.X/S01/To.Be.Hero.X.S01E22.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/To.Be.Hero.X/S01/To.Be.Hero.X.S01E22.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 23, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/To.Be.Hero.X/S01/To.Be.Hero.X.S01E23.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/To.Be.Hero.X/S01/To.Be.Hero.X.S01E23.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 24, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/To.Be.Hero.X/S01/To.Be.Hero.X.S01E24.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/To.Be.Hero.X/S01/To.Be.Hero.X.S01E24.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                 }
+            ]
+         },
+        {
+            id: "Dead-Account",
+            title: "Dead Account",
+            fullTitle: "Dead Account 2026",
+            description: "استریمر آنلاین آورینگو یک ترول تمام‌عیار است و با محتوای تحریک‌آمیز و آتش‌زا که از هر حدی فراتر می‌رود، بیننده‌های نفرت‌جو را به خودش جذب و درآمد سرشاری به دست می‌آورد. شاید فکر کنید او فقط یک آدم بی‌خاصیت و یک بار اضافی روی جامعه است",
+            genres: ["فانتزی", "کمدی", "اکشن"],
+            imdbRating: "--",
+            malRating: "--",
+            poster: "https://intocdn.top/wp-content/uploads/2026/02/pDQ9P84InNrBN1hDTCjhQ1dN1kO.jpg",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2026/02/pDQ9P84InNrBN1hDTCjhQ1dN1kO.jpg",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2026/02/diE7sml8eNipdiZeDxwnLTSTYwy-360x480.jpg",
+            trailer: "https://edge43.166864.ir.cdn.ir/Series/Dead.Account/Dead.Account.Official.Trailer.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 12 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E03.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E04.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E05.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E06.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E07.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E08.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E09.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E10.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E12.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dead.Account/Dead.Account.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                 }
+            ]
+         },
+   {
+            id: "Solo-Leveling",
+            title: "Solo Leveling",
+            fullTitle: "Solo Leveling",
+            description: "",
+            genres: ["اکشن", "علمی‌تخیلی", "فانتزی"],
+            imdbRating: "8.6",
+            malRating: "8.8",
+            poster: "https://intocdn.top/wp-content/uploads/2025/04/rC20PBShOwhAKLcuYNOi0q1RcVbe.png",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2025/04/rC20PBShOwhAKLcuYNOi0q1RcVbe.png",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2024/03/a7i9OdTUo9jZ1XoraCRIQNJ6ACX-360x480.jpg",
+            trailer: "https://edge43.240667.ir.cdn.ir/Series/Solo.Leveling/S01/Solo_Leveling_OFFICIAL_TRAILER.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 12 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E1.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E1.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E2.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E2.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E3.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E3.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E4.480p.Farsi.Sub.Film2Media..mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E4.720p.Farsi.Sub.Film2Media..mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E5.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E5.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E6.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E6.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E7.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E7.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E8.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E8.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E9.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E9.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E10.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E10.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E11.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E11.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E12.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Solo.Leveling/S01/Solo.Leveling.E12.720p.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                  },
+                {
+                    seasonNumber: 2,
+                    seasonName: "فصل دوم - 13 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E01.WEB-DL.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E01.WEB-DL.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E02.WEB-DL.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E02.WEB-DL.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E03.WEB-DL.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E03.WEB-DL.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E04.WEB-DL.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E04.WEB-DL.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E05.WEB-DL.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E05.WEB-DL.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E06.WEB-DL.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E06.WEB-DL.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E07.480p.WEB-DL.Farsi.Sub.Fix.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E07.720p.WEB-DL.Farsi.Sub.Fix.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E08.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E09.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E10.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E11.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E12.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 13, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E13.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Solo.Leveling/S02/Solo.Leveling.S02E13.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                 }
+            ]
+         },
    
    
    
