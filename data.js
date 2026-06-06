@@ -95,7 +95,10 @@ const animeData = [
                         { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E05.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 6, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E06.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E07.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { epNum: 8, qualities: { "480p": "", "720p": "" } }
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E08.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E09.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E10.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "", "720p": "" } },
                     ]
                 }
             ]
