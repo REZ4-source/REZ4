@@ -253,7 +253,7 @@ function renderDetailPage(animeId) {
         if (a.id === anime.id) return false;
         const commonGenres = a.genres.filter(g => anime.genres.includes(g));
         return commonGenres.length >= 2;
-    }).slice(0, 4);
+    }).slice(0, 10);
     
     let suggestionsHtml = '';
     if (suggestions.length > 0) {
