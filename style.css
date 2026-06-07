@@ -9,6 +9,7 @@ body {
     background: radial-gradient(circle at 10% 20%, #0a0c18, #03050a);
     color: #f0f3fa;
     min-height: 100vh;
+    padding-bottom: 70px;
 }
 
 .app-wrapper {
@@ -315,6 +316,11 @@ body {
     font-size: 1rem;
     transition: transform 0.3s;
     color: #ff8aa5;
+    }
+.season-arrow img {
+    width: 22px;
+    height: 22px;
+    transform: translateY(3px);
 }
 
 .season-content {
@@ -586,7 +592,7 @@ body.light-mode .theme-toggle:hover {
     margin-bottom: 0.8rem;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1px;
 }
 
 .recent-list {
@@ -670,8 +676,300 @@ body.light-mode .theme-toggle:hover {
 .section-divider h3 {
     font-size: 1rem;
     color: #FFB347;
-    display: inline-block;
+    display: inline-flex;        /* تغییر از inline-block به inline-flex */
+    align-items: center;         /* وسط‌چین عمودی */
+    gap: 0px;                    /* فاصله بین آیکون و متن */
     background: rgba(255, 107, 139, 0.1);
     padding: 0.2rem 1rem;
     border-radius: 2rem;
+}
+
+.section-divider h3 img {
+    display: block;
+}
+
+/* ========== آیکون سرچ ========== */
+.search-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+.season-arrow img {
+    transition: transform 0.3s ease;
+}
+
+.season-card .season-content.open + .season-header .season-arrow img,
+.season-header.open .season-arrow img {
+    transform: rotate(180deg);
+}
+
+
+
+
+/* ========== نوار ناوبری پایین ========== */
+.bottom-nav {
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(18, 22, 36, 0.9);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    padding: 5px 25px;
+    display: flex;
+    gap: 35px;
+    z-index: 1000;
+    border: 1px solid rgba(255, 107, 139, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 4px 8px;
+    border-radius: 30px;
+}
+
+.nav-item:hover {
+    transform: translateY(-2px);
+}
+
+.nav-icon {
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 107, 139, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.nav-item:hover .nav-icon {
+    background: #ff6b8b;
+    transform: scale(1.05);
+}
+
+.nav-icon img {
+    width: 18px;
+    height: 18px;
+    display: block;
+}
+
+.nav-label {
+    font-size: 0.5rem;
+    color: #9aa4bf;
+    font-weight: 500;
+}
+
+.nav-item:hover .nav-label {
+    color: #ff6b8b;
+}
+
+/* تم روشن */
+body.light-mode .bottom-nav {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .nav-label {
+    color: #666;
+}
+
+body.light-mode .nav-icon {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .nav-item:hover .nav-icon {
+    background: #ff6b8b;
+}
+
+body.light-mode .nav-icon img {
+    filter: brightness(0);
+}
+
+body.light-mode .nav-item:hover .nav-icon img {
+    filter: brightness(1);
+}
+
+/* برای موبایل */
+@media (max-width: 600px) {
+    .bottom-nav {
+        padding: 4px 20px;
+        gap: 25px;
+        bottom: 12px;
+    }
+    .nav-icon {
+        width: 32px;
+        height: 32px;
+    }
+    .nav-icon img {
+        width: 16px;
+        height: 16px;
+    }
+    .nav-label {
+        font-size: 0.45rem;
+    }
+}
+
+
+
+/* ========== منوی دسته‌بندی (سایدبار) ========== */
+.category-sidebar {
+    position: fixed;
+    top: 0;
+    right: -350px;
+    width: 320px;
+    height: 100%;
+    background: rgba(18, 22, 36, 0.98);
+    backdrop-filter: blur(20px);
+    z-index: 2000;
+    transition: right 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    padding: 1rem;
+    border-left: 1px solid rgba(255, 107, 139, 0.3);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.category-sidebar.open {
+    right: 0;
+}
+
+/* هدر سایدبار */
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 107, 139, 0.3);
+}
+
+.category-header h3 {
+    font-size: 1.2rem;
+    color: #FFB347;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.close-sidebar {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    color: #ff8aa5;
+}
+
+.close-sidebar:hover {
+    background: rgba(255, 107, 139, 0.2);
+    transform: scale(1.05);
+}
+
+.close-sidebar img {
+    width: 18px;
+    height: 18px;
+    display: block;
+    filter: brightness(0) invert(1);
+}
+
+/* لیست دسته‌بندی */
+.category-list {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.category-item {
+    margin-bottom: 0.5rem;
+}
+
+.category-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    background: rgba(25, 30, 50, 0.6);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: #f0f3fa;
+}
+
+.category-main:hover {
+    background: rgba(255, 107, 139, 0.2);
+}
+
+.category-main .toggle-icon {
+    font-size: 0.8rem;
+    transition: transform 0.3s;
+}
+
+.category-main.open .toggle-icon {
+    transform: rotate(90deg);
+}
+
+.category-sub {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    padding-right: 1rem;
+}
+
+.category-sub.open {
+    max-height: 500px;
+}
+
+.sub-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px 8px 20px;
+    margin: 4px 0;
+    background: rgba(30, 35, 55, 0.4);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 0.85rem;
+}
+
+.sub-item:hover {
+    background: rgba(255, 107, 139, 0.15);
+    transform: translateX(-3px);
+}
+
+.sub-item .count {
+    font-size: 0.7rem;
+    color: #ff8aa5;
+}
+
+/* تم روشن */
+body.light-mode .category-sidebar {
+    background: rgba(255, 255, 255, 0.98);
+}
+
+body.light-mode .category-main {
+    background: rgba(200, 200, 220, 0.6);
+    color: #1a1a2e;
+}
+
+body.light-mode .sub-item {
+    background: rgba(220, 220, 240, 0.5);
+    color: #1a1a2e;
+}
+
+body.light-mode .close-sidebar img {
+    filter: brightness(0);
     }
