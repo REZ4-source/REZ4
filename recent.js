@@ -17,6 +17,13 @@ const recentEpisodes = [
         type: "hot"
     },
     {
+        id: "Classroom-of-the-Elite",
+        episodeNum: 14,
+        title: "Classroom of the Elite S4",
+        badge: "بروزشده",
+        type: "today"
+    },
+    {
         id: "witch-hat-atelier",
         episodeNum: 10,
         title: "Witch Hat Atelier",
