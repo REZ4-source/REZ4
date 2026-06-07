@@ -22,7 +22,8 @@ function getFilteredAnime() {
     const query = currentSearchTerm.trim().toLowerCase();
     return animeData.filter(anime => 
         anime.title.toLowerCase().includes(query) || 
-        anime.fullTitle.toLowerCase().includes(query)
+        anime.fullTitle.toLowerCase().includes(query) ||
+        anime.genres.some(g => g.toLowerCase().includes(query))
     );
 }
 
@@ -52,6 +53,127 @@ function resetSearch() {
     if (searchInput) searchInput.value = '';
 }
 
+function getBottomNav() {
+    return `
+        <div class="bottom-nav">        
+            <div class="nav-item" data-nav="categories">
+                <div class="nav-icon"><img src="icons/category.svg" alt="دسته‌بندی" width="22" height="22"></div>
+                <div class="nav-label">دسته‌ها</div>  
+            </div>
+            <div class="nav-item" data-nav="home">
+                <div class="nav-icon"><img src="icons/home.svg" alt="خانه" width="22" height="22"></div>
+                <div class="nav-label">خانه</div>
+            </div>
+            <div class="nav-item" data-nav="profile">
+                <div class="nav-icon"><img src="icons/profile.svg" alt="آخرین" width="22" height="22"></div>
+                <div class="nav-label">آخرین</div>
+            </div>
+        </div>
+    `;
+}
+
+function getGenreCounts() {
+    const counts = {};
+    animeData.forEach(anime => {
+        anime.genres.forEach(genre => {
+            if (counts[genre]) {
+                counts[genre]++;
+            } else {
+                counts[genre] = 1;
+            }
+        });
+    });
+    return counts;
+}
+
+function scrollToWithOffset(element, offset = 80) {
+    if (!element) return;
+    const elementPosition = element.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - offset;
+    window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+    });
+}
+
+function renderCategorySidebar() {
+    const container = document.getElementById('categoryList');
+    if (!container) return;
+    
+    const genreCounts = getGenreCounts();
+    
+    const genresList = [
+        "اکشن", "کمدی", "درام", "فانتزی", "عاشقانه", 
+        "علمی تخیلی", "ماجراجویی", "ماورایی", "ترسناک", "هیجانی"
+    ];
+    
+    let html = `
+        <div class="category-item">
+            <div class="category-main">
+                <span>🎬 ژانر انیمه</span>
+                <span class="toggle-icon">▶</span>
+            </div>
+            <div class="category-sub">
+    `;
+    
+    genresList.forEach(genre => {
+        const count = genreCounts[genre] || 0;
+        html += `
+            <div class="sub-item" data-genre="${genre}">
+                <span>${genre}</span>
+                <span class="count">(${count})</span>
+            </div>
+        `;
+    });
+    
+    html += `
+            </div>
+        </div>
+    `;
+    
+    container.innerHTML = html;
+    
+    const categoryMain = document.querySelector('.category-main');
+    const categorySub = document.querySelector('.category-sub');
+    if (categoryMain && categorySub) {
+        categoryMain.addEventListener('click', (e) => {
+            e.stopPropagation();
+            categoryMain.classList.toggle('open');
+            categorySub.classList.toggle('open');
+        });
+    }
+    
+    document.querySelectorAll('.sub-item').forEach(item => {
+        item.addEventListener('click', () => {
+            const genre = item.getAttribute('data-genre');
+            if (genre) {
+                currentSearchTerm = genre;
+                currentPage = 1;
+                closeCategorySidebar();
+                renderHomePage();
+                
+                setTimeout(() => {
+                    const firstCard = document.querySelector('.anime-card');
+                    if (firstCard) {
+                        scrollToWithOffset(firstCard, 80);
+                    }
+                }, 150);
+            }
+        });
+    });
+}
+
+function openCategorySidebar() {
+    const sidebar = document.getElementById('categorySidebar');
+    if (sidebar) sidebar.classList.add('open');
+    renderCategorySidebar();
+}
+
+function closeCategorySidebar() {
+    const sidebar = document.getElementById('categorySidebar');
+    if (sidebar) sidebar.classList.remove('open');
+}
+
 function renderHomePage() {
     const filteredAnime = getPaginatedAnime();
     const totalPages = getTotalPages();
@@ -63,7 +185,9 @@ function renderHomePage() {
             <p style="margin-top: 0.5rem;">دانلود مستقیم انیمه و سریال</p>
             <div class="search-container">
                 <div class="search-box">
-                    <span class="search-icon">🔍</span>
+                    <span class="search-icon">
+                        <img src="icons/search.svg" alt="جستجو" width="22" height="22">
+                    </span>
                     <input type="text" id="searchInput" placeholder="جستجوی انیمه ..." value="${escapeHtml(currentSearchTerm)}">
                     <button id="searchBtn">جستجو</button>
                 </div>
@@ -74,7 +198,7 @@ function renderHomePage() {
     if (typeof getRecentEpisodes !== 'undefined') {
         const recentList = getRecentEpisodes(5);
         if (recentList.length > 0) {
-            cardsHtml += `<div class="recent-section"><div class="section-title"><span></span> آخرین قسمت‌ها</div><div class="recent-list">`;
+            cardsHtml += `<div class="recent-section"><div class="section-title"><img src="icons/recent.svg" alt="آخرین" width="22" height="22" style="margin-left: 5px;">آخرین قسمت‌ها</div><div class="recent-list">`;
             recentList.forEach(ep => {
                 const badgeClass = ep.type === 'hot' ? 'hot' : (ep.type === 'today' ? 'today' : 'new');
                 cardsHtml += `
@@ -96,7 +220,10 @@ function renderHomePage() {
     
     cardsHtml += `
         <div class="section-divider">
-            <h3>لیست انیمه‌ها</h3>
+            <h3>
+                <img src="icons/list.svg" alt="لیست" width="18" height="18" style="margin-left: 6px; vertical-align: middle;">
+                لیست انیمه‌ها
+            </h3>
         </div>
         <div class="anime-grid">
     `;
@@ -139,6 +266,7 @@ function renderHomePage() {
         cardsHtml += `<div class="info-text">${totalItems} انیمه</div>`;
     }
     
+    cardsHtml += getBottomNav();
     cardsHtml += `<div class="footer">تمامی لینک ها جمع آوری شده از منابع دیگر</div>`;
     appContainer.innerHTML = cardsHtml;
     
@@ -172,6 +300,29 @@ function renderHomePage() {
         btn.addEventListener('click', () => { const page = parseInt(btn.getAttribute('data-page')); if (!isNaN(page)) goToPage(page); });
     });
     
+    // رویدادهای نوار ناوبری
+    document.querySelectorAll('.nav-item').forEach(item => {
+        item.addEventListener('click', () => {
+            const action = item.getAttribute('data-nav');
+            if (action === 'home') {
+                window.location.hash = '';
+                currentSearchTerm = '';
+                currentPage = 1;
+                renderHomePage();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else if (action === 'categories') {
+                openCategorySidebar();
+            } else if (action === 'profile') {
+                const recentSection = document.querySelector('.recent-section');
+                if (recentSection) {
+                    scrollToWithOffset(recentSection, 80);
+                } else {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            }
+        });
+    });
+    
     const searchInput = document.getElementById('searchInput');
     const searchBtn = document.getElementById('searchBtn');
     
@@ -180,13 +331,12 @@ function renderHomePage() {
         currentPage = 1; 
         renderHomePage();
         
-        // اضافه کردن state به تاریخچه مرورگر
         history.pushState({ search: currentSearchTerm }, '', window.location.pathname + window.location.search);
         
         setTimeout(() => {
             const firstCard = document.querySelector('.anime-card');
             if (firstCard) {
-                firstCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                scrollToWithOffset(firstCard, 80);
             }
         }, 150);
     }
@@ -214,7 +364,10 @@ function renderDetailPage(animeId) {
             episodesHtml += `<div class="episode-item"><div class="episode-name">قسمت ${ep.epNum}</div><div class="quality-buttons">${hasLinks ? `<a href="${quality480}" class="quality-link" target="_blank" download>480p</a><a href="${quality720}" class="quality-link" target="_blank" download>720p</a>` : `<span class="quality-link" style="opacity:0.6; cursor:default; background:#333;">به زودی</span>`}</div></div>`;
         });
         episodesHtml += `</div>`;
-        seasonsHtml += `<div class="season-card" data-season="${idx}"><div class="season-header"><div><span class="season-title">${escapeHtml(season.seasonName)}</span></div><div class="season-arrow">▼</div></div><div class="season-content">${episodesHtml}</div></div>`;
+        seasonsHtml += `<div class="season-card" data-season="${idx}"><div class="season-header"><div><span class="season-title">${escapeHtml(season.seasonName)}</span></div><div class="season-arrow">
+    <img src="icons/arrow-down.svg" alt="باز کردن" width="16" height="16">
+</div>
+</div><div class="season-content">${episodesHtml}</div></div>`;
     });
     seasonsHtml += `</div>`;
 
@@ -224,7 +377,30 @@ function renderDetailPage(animeId) {
         suggestionsHtml = `<div class="suggestions-section"><div class="suggestions-title">پیشنهادات مرتبط</div><div class="suggestions-grid">${suggestions.map(sug => `<div class="suggestion-card" data-id="${sug.id}"><img class="suggestion-img" src="${sug.verticalCover}" onerror="this.src='https://placehold.co/160x200/1e243b/9aa4bf?text=No+Image'"><div class="suggestion-title">${escapeHtml(sug.title)}</div><div class="suggestion-rating"> ${sug.imdbRating !== '--' ? sug.imdbRating : '?'}</div></div>`).join('')}</div></div>`;
     }
     
-    const detailHtml = `<div class="header"><div class="logo">AniVerse</div><div class="back-home" id="backHomeBtn">بازگشت به صفحه اصلی</div></div><div class="detail-container"><div class="anime-header-info"><h2>${escapeHtml(anime.fullTitle)}</h2><div class="detail-ratings"><span class="detail-rating detail-imdb"> IMDB: ${anime.imdbRating || '?'}</span></div><div class="genres" style="margin-top: 0.5rem;">${anime.genres.map(g => `<span class="genre">${escapeHtml(g)}</span>`).join('')}</div><img class="anime-poster" src="${anime.poster}"><p style="margin-top: 1rem; line-height: 1.6;">${escapeHtml(anime.description)}</p></div>${trailerHtml}${seasonsHtml}${suggestionsHtml}</div><div class="footer">تمامی لینک ها جمع آوری شده از منابع دیگر</div>`;
+    const detailHtml = `
+        <div class="header">
+            <div class="logo">AniVerse</div>
+            <div class="back-home" id="backHomeBtn">بازگشت به صفحه اصلی</div>
+        </div>
+        <div class="detail-container">
+            <div class="anime-header-info">
+                <h2>${escapeHtml(anime.fullTitle)}</h2>
+                <div class="detail-ratings">
+                    <span class="detail-rating detail-imdb"> IMDB: ${anime.imdbRating || '?'}</span>
+                </div>
+                <div class="genres" style="margin-top: 0.5rem;">
+                    ${anime.genres.map(g => `<span class="genre">${escapeHtml(g)}</span>`).join('')}
+                </div>
+                <img class="anime-poster" src="${anime.poster}">
+                <p style="margin-top: 1rem; line-height: 1.6;">${escapeHtml(anime.description)}</p>
+            </div>
+            ${trailerHtml}
+            ${seasonsHtml}
+            ${suggestionsHtml}
+        </div>
+        ${getBottomNav()}
+        <div class="footer">تمامی لینک ها جمع آوری شده از منابع دیگر</div>
+    `;
     
     appContainer.innerHTML = detailHtml;
     
@@ -242,6 +418,33 @@ function renderDetailPage(animeId) {
         card.addEventListener('click', () => { const id = card.getAttribute('data-id'); if(id) { window.location.hash = `anime/${id}`; renderDetailPage(id); } });
     });
     
+    // رویدادهای نوار ناوبری در صفحه جزئیات
+    document.querySelectorAll('.nav-item').forEach(item => {
+        item.addEventListener('click', () => {
+            const action = item.getAttribute('data-nav');
+            if (action === 'home') {
+                window.location.hash = '';
+                currentSearchTerm = '';
+                currentPage = 1;
+                renderHomePage();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else if (action === 'categories') {
+                openCategorySidebar();
+            } else if (action === 'profile') {
+                window.location.hash = '';
+                currentSearchTerm = '';
+                currentPage = 1;
+                renderHomePage();
+                setTimeout(() => {
+                    const recentSection = document.querySelector('.recent-section');
+                    if (recentSection) {
+                        scrollToWithOffset(recentSection, 80);
+                    }
+                }, 200);
+            }
+        });
+    });
+    
     const backBtn = document.getElementById('backHomeBtn');
     if (backBtn) {
         backBtn.addEventListener('click', () => { 
@@ -256,7 +459,6 @@ function renderDetailPage(animeId) {
 function handleRouting() {
     const hash = window.location.hash.slice(1);
     
-    // اگه هش وجود داره و شروعش با anime/ هست
     if (hash.startsWith('anime/')) {
         const id = hash.split('/')[1];
         if (id) {
@@ -267,31 +469,42 @@ function handleRouting() {
         }
     }
     
-    // صفحه اصلی: ریست کردن جستجو
     resetSearch();
     currentAnimeId = null;
     renderHomePage();
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// پشتیبانی از دکمه Back گوشی
 window.addEventListener('popstate', function(event) {
-    // اگه state وجود داره و سرچ توش هست
     if (event.state && event.state.search !== undefined) {
         currentSearchTerm = event.state.search;
         currentPage = 1;
         renderHomePage();
         
-        // آپدیت کردن مقدار اینپوت
         const searchInput = document.getElementById('searchInput');
         if (searchInput) searchInput.value = currentSearchTerm;
     } else {
-        // برگشت به حالت بدون سرچ
         resetSearch();
         currentPage = 1;
         renderHomePage();
     }
 });
 
+const closeCategoryBtn = document.getElementById('closeCategoryBtn');
+if (closeCategoryBtn) {
+    closeCategoryBtn.addEventListener('click', closeCategorySidebar);
+}
+
+document.addEventListener('click', function(event) {
+    const sidebar = document.getElementById('categorySidebar');
+    const categoryBtn = document.querySelector('.nav-item[data-nav="categories"]');
+    if (sidebar && sidebar.classList.contains('open')) {
+        if (!sidebar.contains(event.target) && !categoryBtn?.contains(event.target)) {
+            closeCategorySidebar();
+        }
+    }
+});
+
 window.addEventListener('hashchange', handleRouting);
+renderCategorySidebar();
 handleRouting();
