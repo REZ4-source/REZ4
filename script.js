@@ -58,7 +58,7 @@ function getBottomNav() {
         <div class="bottom-nav">        
             <div class="nav-item" data-nav="categories">
                 <div class="nav-icon"><img src="icons/category.svg" alt="دسته‌بندی" width="22" height="22"></div>
-                <div class="nav-label">دسته‌ها</div>  
+                <div class="nav-label">دسته‌بندی</div>  
             </div>
             <div class="nav-item" data-nav="home">
                 <div class="nav-icon"><img src="icons/home.svg" alt="خانه" width="22" height="22"></div>
