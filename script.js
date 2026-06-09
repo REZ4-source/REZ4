@@ -5,6 +5,10 @@ let currentSearchTerm = '';
 const ITEMS_PER_PAGE = 10;
 const appContainer = document.getElementById('app');
 
+// ========== ترکیب دیتابیس اصلی و دیتابیس دوم ==========
+animeData.push(...animeData2);
+animeData.push(...animeData3);
+
 function escapeHtml(str) {
     if (!str) return '';
     return str.replace(/[&<>]/g, function(m) {
@@ -58,7 +62,7 @@ function getBottomNav() {
         <div class="bottom-nav">        
             <div class="nav-item" data-nav="categories">
                 <div class="nav-icon"><img src="icons/category.svg" alt="دسته‌بندی" width="22" height="22"></div>
-                <div class="nav-label">دسته‌بندی</div>  
+                <div class="nav-label">دسته‌ها</div>  
             </div>
             <div class="nav-item" data-nav="home">
                 <div class="nav-icon"><img src="icons/home.svg" alt="خانه" width="22" height="22"></div>
@@ -105,8 +109,7 @@ function renderCategorySidebar() {
     const genresList = [
         "اکشن", "کمدی", "درام", "فانتزی", "عاشقانه", 
         "علمی تخیلی", "ماجراجویی", "ماورایی", "ترسناک", "هیجانی","تاریخی","مدرسه‌ای"
-
-   ];
+    ];
     
     let html = `
         <div class="category-item">
@@ -253,15 +256,44 @@ function renderHomePage() {
     
     cardsHtml += `</div>`;
     
+    // ========== صفحه‌بندی ساده (فقط یک صفحه قبل و بعد) ==========
     if (totalPages > 1) {
-        cardsHtml += `<div class="pagination"><button class="prev-btn" ${currentPage === 1 ? 'disabled' : ''}>قبلی</button><div class="page-numbers">`;
-        let startPage = Math.max(1, currentPage - 2);
-        let endPage = Math.min(totalPages, startPage + 4);
-        if (endPage - startPage < 4) startPage = Math.max(1, endPage - 4);
-        for (let i = startPage; i <= endPage; i++) {
-            cardsHtml += `<button class="page-btn ${i === currentPage ? 'active' : ''}" data-page="${i}">${i}</button>`;
+        cardsHtml += `<div class="pagination"><button class="prev-btn" ${currentPage === 1 ? 'disabled' : ''}>قبلی</button>`;
+        
+        // صفحه اول
+        cardsHtml += `<button class="page-btn ${currentPage === 1 ? 'active' : ''}" data-page="1">1</button>`;
+        
+        // سه نقطه اول (اگه صفحه فعلی از ۲ بیشتر باشه)
+        if (currentPage > 2) {
+            cardsHtml += `<span class="page-dots">...</span>`;
         }
-        cardsHtml += `</div><button class="next-btn" ${currentPage === totalPages ? 'disabled' : ''}>بعدی</button></div>`;
+        
+        // صفحه قبل از صفحه فعلی (اگه موجود باشه و ۱ نباشه)
+        if (currentPage - 1 > 1 && currentPage - 1 < totalPages) {
+            cardsHtml += `<button class="page-btn" data-page="${currentPage - 1}">${currentPage - 1}</button>`;
+        }
+        
+        // صفحه فعلی (اگه ۱ یا آخر نباشه)
+        if (currentPage !== 1 && currentPage !== totalPages) {
+            cardsHtml += `<button class="page-btn active" data-page="${currentPage}">${currentPage}</button>`;
+        }
+        
+        // صفحه بعد از صفحه فعلی (اگه موجود باشه و آخر نباشه)
+        if (currentPage + 1 > 1 && currentPage + 1 < totalPages) {
+            cardsHtml += `<button class="page-btn" data-page="${currentPage + 1}">${currentPage + 1}</button>`;
+        }
+        
+        // سه نقطه آخر (اگه صفحه فعلی از ۲ تا آخر فاصله داشته باشه)
+        if (currentPage < totalPages - 1) {
+            cardsHtml += `<span class="page-dots">...</span>`;
+        }
+        
+        // صفحه آخر
+        if (totalPages > 1) {
+            cardsHtml += `<button class="page-btn ${currentPage === totalPages ? 'active' : ''}" data-page="${totalPages}">${totalPages}</button>`;
+        }
+        
+        cardsHtml += `<button class="next-btn" ${currentPage === totalPages ? 'disabled' : ''}>بعدی</button></div>`;
         cardsHtml += `<div class="info-text">نمایش ${filteredAnime.length} از ${totalItems} انیمه - صفحه ${currentPage} از ${totalPages}</div>`;
     } else if (totalItems > 0) {
         cardsHtml += `<div class="info-text">${totalItems} انیمه</div>`;
