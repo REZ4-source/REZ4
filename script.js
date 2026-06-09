@@ -182,7 +182,7 @@ function renderHomePage() {
     
     let cardsHtml = `
         <div class="header">
-            <div class="logo">AniVerse</div>
+            <div class="logo">Anivora</div>
             <p style="margin-top: 0.5rem;">دانلود مستقیم انیمه و سریال</p>
             <div class="search-container">
                 <div class="search-box">
@@ -380,7 +380,7 @@ function renderDetailPage(animeId) {
     
     const detailHtml = `
         <div class="header">
-            <div class="logo">AniVerse</div>
+            <div class="logo">Anivora</div>
             <div class="back-home" id="backHomeBtn">بازگشت به صفحه اصلی</div>
         </div>
         <div class="detail-container">
