@@ -1033,7 +1033,270 @@ const animeData = [
                 }
             ]
          },
-   
+   {
+            id: "May-I-Ask-for-One-Final-Thing?",
+            title: "May I Ask for One Final Thing",
+            fullTitle: "May I Ask for One Final Thing",
+            description: "پس از سال‌ها تحقیر، خیانت جرقه‌ای می‌شود که آتش انتقام اسکارلت را شعله‌ور می‌کند. در تالار پرزرق‌وبرق قصر، او همچون طوفانی فرو می‌آید؛ شاهزاده مغرور و درباریان متکبرش را به زانو می‌کشد و نامش را در دفتر سیاه انتقام‌ها حک می‌کند…",
+            genres: ["فانتزی", "کمدی", "عاشقانه"],
+            imdbRating: "7.4",
+            malRating: "7.36",
+            poster: "https://intocdn.top/wp-content/uploads/2025/10/cSAVRsNxzpuf51wpwbju1udVgsz.jpg",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2025/10/cSAVRsNxzpuf51wpwbju1udVgsz.jpg",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2025/10/u5kCaEFoDX30k68RwP4F6bsYQbb-360x480.jpg",
+            trailer: "https://edge43.166864.ir.cdn.ir/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing_Trailer.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 13 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E01.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E02.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E03.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E04.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E05.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E06.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E07.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E08.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E09.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E10.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E11.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E12.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 13, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E13.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/May.I.Ask.For.One.Final.Thing/S01/May.I.Ask.For.One.Final.Thing.S01E13.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                }
+            ]
+         }, 
+       {
+            id: "This-Monster-Wants-to-Eat-Me",
+            title: "This Monster Wants to Eat Me",
+            fullTitle: "This Monster Wants to Eat Me",
+            description: "یک دختر می‌پذیرد توسط یک پری‌دریایی خورده شود؛ در نتیجه، خود پری‌دریایی قبول می‌کند تا زمانی که موعد خوردن فرا برسد، از او مراقبت کرده و محافظش باشد…",
+            genres: ["فراطبیعی", "ترسناک", "درام"],
+            imdbRating: "6.9",
+            malRating: "7.4",
+            poster: "https://intocdn.top/wp-content/uploads/2025/10/iYR7X4SbQeItQrBWdgmSVCa3roQ.jpg",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2025/10/iYR7X4SbQeItQrBWdgmSVCa3roQ.jpg",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2025/10/wWeX98utJGCTvLKPUYnlg8Euw2o-360x480.jpg",
+            trailer: "https://edge43.166864.ir.cdn.ir/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me_Trailer.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 13 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E01.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E02.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E03.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E04.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E05.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E06.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E07.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E08.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E09.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E10.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E11.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E12.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 13, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E13.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/This.Monster.Wants.To.Eat.Me/S01/This.Monster.Wants.To.Eat.Me.S01E13.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                }
+            ]
+         },
+      {
+            id: "My-Status-as-an-Assassin-Obviously-Exceeds-the-Heros",
+            title: "My Status as an Assassin Obviously Exceeds the Hero’s",
+            fullTitle: "My Status as an Assassin Obviously Exceeds the Hero’s",
+            description: "آکیرا به‌طور اسرارآمیزی به دنیایی دیگر احضار می‌شود، او و همکلاسی‌هایش قدرت‌های اعجاب‌آوری دریافت می‌کنند اما تنها یک فرد به قدری خوش‌اقبال است که قهرمان حقیقی شود. اگرچه آکیرا قاتلی ساده می‌شود، اما",
+            genres: ["اکشن", "ایسکای", "فانتزی"],
+            imdbRating: "6.6",
+            malRating: "6.57",
+            poster: "https://intocdn.top/wp-content/uploads/2025/10/G0XHWM1JP-backdrop_wide.jpg",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2025/10/G0XHWM1JP-backdrop_wide.jpg",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2025/10/oQk3aXYEa4TMd9rAYgzDpAYTU8P-360x480.jpg",
+            trailer: "https://edge43.166864.ir.cdn.ir/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros_Trailer.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 12 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E01.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E02.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E03.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E04.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E05.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E06.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E07.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E08.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E09.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E10.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E11.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E12.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros/S01/My.Status.As.An.Asasin.Obviously.Exceeds.The.Heros.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                }
+            ]
+         },                  
+      {
+            id: "Sanda",
+            title: "Sanda",
+            fullTitle: "Sanda",
+            description: "در ژاپن آینده، جایی که کاهش نرخ تولد به کودکان جایگاهی بالاتر از بزرگسالان بخشیده است، بابانوئل به‌واسطه نفرینی مهر و موم شده و کریسمس تنها به افسانه‌ای بدل گشته است. در این میان، ساندا کازوشیگه درمی‌یابد که پیوندی پنهان با بابانوئل اسطوره‌ای دارد…",
+            genres: ["مدرسه‌ای", "معمایی", "اکشن"],
+            imdbRating: "6.9",
+            malRating: "7.44",
+            poster: "https://intocdn.top/wp-content/uploads/2025/10/7gphZmKk3BVAeIK4AdN8GLmtoZ2.jpg",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2025/10/7gphZmKk3BVAeIK4AdN8GLmtoZ2.jpg",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2025/10/uPMJU0u3kOk9ITrsJnHpBFvEK0H-360x480.jpg",
+            trailer: "https://edge43.166864.ir.cdn.ir/Series/Sanda/S01/Sanda_Trailer.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 12 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E01.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E02.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E03.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E04.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E05.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E06.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E07.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E08.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E09.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E10.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E11.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E12.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sanda/S01/Sanda.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                }
+            ]
+         },   
+   {
+            id: "Sakamoto-Days",
+            title: "Sakamoto Days",
+            fullTitle: "Sakamoto Days",
+            description: "ساکاموتو تارو را بزرگترین آدمکش حرفه ای تمام دوران می دانند. او که خیلی ها از آن می ترسند، بر بام دنیای جنایت ایستاده بوده تا اینکه با زنی آشنا و سپس عاشق او می شود. در نتیجه، ساکاموتو زندگی جنایتکارانه خود را رها می کند و اکنون در قالب یک مرد خیکی به عنوان مدیر یک سوپرمارکت کار می کند. اما پشت سر گذاشتن گذشته مشکوکش دشوارتر از آن چیزی است که ساکاموتو در ابتدا تصور می کرد.",
+            genres: ["شونن", "کمدی", "جنایی"],
+            imdbRating: "7.9",
+            malRating: "7.59",
+            poster: "https://intocdn.top/wp-content/uploads/2025/01/blSthAPRbEOJBowdxppeQqNPRh9.jpg",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2025/01/blSthAPRbEOJBowdxppeQqNPRh9.jpg",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2025/01/qTNIxDIzKjLLuS17fxdXjcKAlW7-360x480.jpg",
+            trailer: "https://edge43.324902.ir.cdn.ir/Series_09/Sakamoto.Days/S01/Sakamoto.Days.Final.Trailer.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 22 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E01.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E02.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E03.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E04.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E05.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E06.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E07.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E08.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E09.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E10.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E11.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E12.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 13, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E13.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E13.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 14, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E14.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E14.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 15, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E15.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Sakamoto.Days/S01/Sakamoto.Days.S01E15.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 16, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Sakamoto.Days/S01/Sakamoto.Days.S01E16.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Sakamoto.Days/S01/Sakamoto.Days.S01E16.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 17, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Sakamoto.Days/S01/Sakamoto.Days.S01E17.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Sakamoto.Days/S01/Sakamoto.Days.S01E17.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 18, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sakamoto.Days/S01/Sakamoto.Days.S01E18.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sakamoto.Days/S01/Sakamoto.Days.S01E18.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 19, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sakamoto.Days/S01/Sakamoto.Days.S01E19.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sakamoto.Days/S01/Sakamoto.Days.S01E19.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 20, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sakamoto.Days/S01/Sakamoto.Days.S01E20.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sakamoto.Days/S01/Sakamoto.Days.S01E20.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 21, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sakamoto.Days/S01/Sakamoto.Days.S01E21.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sakamoto.Days/S01/Sakamoto.Days.S01E21.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 22, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sakamoto.Days/S01/Sakamoto.Days.S01E22.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Sakamoto.Days/S01/Sakamoto.Days.S01E22.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                }
+            ]
+         },
+   {
+            id: "Wind-Breaker",
+            title: "Wind Breaker",
+            fullTitle: "Wind Breaker",
+            description: "انیمه‌ای اکشن ماجراجویی بر اساس مانهوای بادشکن است. هاروکا ساکورا هیچ علاقه‌ای به افراد ضعیف‌ ندارد. او تازه وارد دبیرستان فورین شده است، دبیرستانی از اوباش که فقط به خاطر قدرت دعوایشان شناخته می‌شوند. قدرتی که",
+            genres: ["دارم", "کمدی", "اکشن"],
+            imdbRating: "7.4",
+            malRating: "7.48",
+            poster: "https://intocdn.top/wp-content/uploads/2024/06/czrAvoN103RYYX8lhkZPs2zgnkl-1.jpg",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2024/06/czrAvoN103RYYX8lhkZPs2zgnkl-1.jpg",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2024/06/3kTFL3PAeTyS8gGZAh0iYG6NNjt-1-360x480.jpg",
+            trailer: "https://edge43.240667.ir.cdn.ir/Series/Wind.Breaker/S01/WIND_BREAKER_MAIN_TRAILER.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 13 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Wind.Breaker/S01/Wind.Breaker.S01E01.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Wind.Breaker/S01/Wind.Breaker.S01E01.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Wind.Breaker/S01/Wind.Breaker.S01E02.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Wind.Breaker/S01/Wind.Breaker.S01E02.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Wind.Breaker/S01/Wind.Breaker.S01E03.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://ymnyrfzzs84wqjrdxmmh85rn.abrtech.top/rD7g/Series/Wind.Breaker/S01/Wind.Breaker.S01E03.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E04.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E04.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E05.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E05.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E06.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E06.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E07.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E07.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E08.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E08.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E09.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E09.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E10.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E10.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E11.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E11.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E12.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E12.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 13, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E13.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S01/Wind.Breaker.S01E13.720p.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                },
+                {
+                    seasonNumber: 2,
+                    seasonName: "فصل دوم - 12 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E01.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E02.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E03.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E04.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E05.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E06.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E07.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E08.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E09.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E10.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E11.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E12.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Wind.Breaker/S02/Wind.Breaker.S02E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                }
+            ]
+         },
+   {
+            id: "Lord-of-Mysteries",
+            title: "Lord of Mysteries",
+            fullTitle: "Lord of Mysteries",
+            description: "داستان درباره جوانی به نام ژو مینگ‌رُی است که پس از مرگ، در دنیایی دیگر به نام «دنیای اسرار» حلول می‌کند. این دنیا در دوران ویکتوریایی با عناصر ماوراءالطبیعه و رازآلود آمیخته شده است. ژو مینگ‌رُی که اکنون به عنوان کلاین مورتی در این دنیا حضور دارد، باید با استفاده از هوش و دانشی که از دنیای قبلی‌اش به همراه دارد",
+            genres: ["هیجان‌انگیز", "فانتزی", "معمایی"],
+            imdbRating: "9",
+            malRating: "8.77",
+            poster: "https://intocdn.top/wp-content/uploads/2025/06/8c3Y7I3QReCY6y4kHM6sqVQrxnN.jpg",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2025/06/8c3Y7I3QReCY6y4kHM6sqVQrxnN.jpg",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2025/06/4aooijlClS93CYgEdBV6njmZ5Rk-360x480.jpg",
+            trailer: "https://edge43.324902.ir.cdn.ir/Movie/2025/Lord-the-ysteries-Trailer.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 13 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Lord.of.the.Mysteries/S01/Lord.of.the.Mysteries.S01E01.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Lord.of.the.Mysteries/S01/Lord.of.the.Mysteries.S01E01.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Lord.of.the.Mysteries/S01/Lord.of.the.Mysteries.S01E02.480p.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Lord.of.the.Mysteries/S01/Lord.of.the.Mysteries.S01E02.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E03.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Lord.of.the.Mysteries/S01/Lord.Of.Mysteries.S01E04.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Lord.of.the.Mysteries/S01/Lord.Of.Mysteries.S01E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Lord.of.the.Mysteries/S01/Lord.Of.Mysteries.S01E05.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Lord.of.the.Mysteries/S01/Lord.Of.Mysteries.S01E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Lord.of.the.Mysteries/S01/Lord.Of.Mysteries.S01E06.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series_09/Lord.of.the.Mysteries/S01/Lord.Of.Mysteries.S01E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E07.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E08.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E09.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E10.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E11.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E12.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 13, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E13.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/S01/Lord.Of.Mysteries.S01E13.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                }
+            ]
+         },
+
    
    
    
