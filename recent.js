@@ -15,7 +15,14 @@ const recentEpisodes = [
         title: "Marriagetoxin",
         badge: "پربازدید",
         type: "hot"
-    },
+    },  
+    {
+        id: "witch-hat-atelier",
+        episodeNum: 11,
+        title: "Witch Hat Atelier",
+        badge: "جدید",
+        type: "new"
+    },   
     {
         id: "Classroom-of-the-Elite",
         episodeNum: 14,
@@ -24,13 +31,6 @@ const recentEpisodes = [
         type: "today"
     },
     {
-        id: "witch-hat-atelier",
-        episodeNum: 10,
-        title: "Witch Hat Atelier",
-        badge: "جدید",
-        type: "new"
- },   
- {
         id: "The-Angel-Next-Door-Spoils-Me-Rotten",
         episodeNum: 10,
         title: "The Angel Next Door Spoils Me Rotten",
