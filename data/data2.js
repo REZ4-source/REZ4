@@ -1094,7 +1094,150 @@ const animeData2 = [
                  }
             ]
          },
-    
+    {
+            id: "Hells-Paradise",
+            title: "Hell’s Paradise: Jigokuraku",
+            fullTitle: "Hell’s Paradise: Jigokuraku",
+            description: "بهشت جهنم جیگوکوراکو یا بهشت جهنمی یا بهشت جهنمیان؛ انیمه ای بر پایه یک مجموعه مانگای ژاپنی است که توسط یوجی کاکو نوشته و مصورسازی شده است. داستان در دوره ادو ژاپن اتفاق می‌افتد و نینجا گابیمارو و جلاد یامادا آسائمون ساگیری را دنبال می‌کند که در جستجوی اکسیر جاودانگی هستند…",
+            genres: ["فانتزی", "ماجراجویی", "اکشن"],
+            imdbRating: "8.1",
+            malRating: "8.09",
+            poster: "https://intocdn.top/wp-content/uploads/2023/07/vjiIuR3XGpoGSumQ7DziPAmxIYR.jpg",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2023/07/vjiIuR3XGpoGSumQ7DziPAmxIYR.jpg",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2023/07/1V9I7SvZbYoMbSvdtnlkkq9SB1k-360x480.jpg",
+            trailer: "https://edge43.127759.ir.cdn.ir/Series/Hells.Paradise.Jigokuraku/S01/Hell_s_Paradise_Jigokuraku_Official_Trailer.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - 13 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "", "720p": "https://zz6rb5sa7t84cqpedeeqwjw5.abrtech.top/oG4i/Series/Hells.Paradise.Jigokuraku/S01/Hells.Paradise.Jigokuraku.S01E01.10bit.x265.720p.WEBRip.2CH.PSA.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "", "720p": "https://zz6rb5sa7t84cqpedeeqwjw5.abrtech.top/oG4i/Series/Hells.Paradise.Jigokuraku/S01/Hells.Paradise.Jigokuraku.S01E02.10bit.x265.720p.WEBRip.2CH.PSA.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "", "720p": "https://zz6rb5sa7t84cqpedeeqwjw5.abrtech.top/oG4i/Series/Hells.Paradise.Jigokuraku/S01/Hells.Paradise.Jigokuraku.S01E03.10bit.x265.720p.WEBRip.2CH.PSA.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "", "720p": "https://zz6rb5sa7t84cqpedeeqwjw5.abrtech.top/oG4i/Series/Hells.Paradise.Jigokuraku/S01/Hells.Paradise.Jigokuraku.S01E04.10bit.x265.720p.WEBRip.2CH.PSA.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "", "720p": "https://zz6rb5sa7t84cqpedeeqwjw5.abrtech.top/oG4i/Series/Hells.Paradise.Jigokuraku/S01/Hells.Paradise.Jigokuraku.S01E05.10bit.x265.720p.WEBRip.2CH.PSA.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "", "720p": "https://zz6rb5sa7t84cqpedeeqwjw5.abrtech.top/oG4i/Series/Hells.Paradise.Jigokuraku/S01/Hells.Paradise.Jigokuraku.S01E06.10bit.x265.720p.WEBRip.2CH.PSA.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "", "720p": "https://zz6rb5sa7t84cqpedeeqwjw5.abrtech.top/oG4i/Series/Hells.Paradise.Jigokuraku/S01/Hells.Paradise.Jigokuraku.S01E07.10bit.x265.720p.WEBRip.2CH.PSA.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "", "720p": "https://zz6rb5sa7t84cqpedeeqwjw5.abrtech.top/oG4i/Series/Hells.Paradise.Jigokuraku/S01/Hells.Paradise.Jigokuraku.S01E08.10bit.x265.720p.WEBRip.2CH.PSA.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "", "720p": "https://zz6rb5sa7t84cqpedeeqwjw5.abrtech.top/oG4i/Series/Hells.Paradise.Jigokuraku/S01/Hells.Paradise.Jigokuraku.S01E09.10bit.x265.720p.WEBRip.2CH.PSA.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "", "720p": "https://zz6rb5sa7t84cqpedeeqwjw5.abrtech.top/oG4i/Series/Hells.Paradise.Jigokuraku/S01/Hells.Paradise.Jigokuraku.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "", "720p": "https://zz6rb5sa7t84cqpedeeqwjw5.abrtech.top/oG4i/Series/Hells.Paradise.Jigokuraku/S01/Hells.Paradise.Jigokuraku.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "", "720p": "https://zz6rb5sa7t84cqpedeeqwjw5.abrtech.top/oG4i/Series/Hells.Paradise.Jigokuraku/S01/Hells.Paradise.Jigokuraku.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 13, qualities: { "480p": "", "720p": "https://zz6rb5sa7t84cqpedeeqwjw5.abrtech.top/oG4i/Series/Hells.Paradise.Jigokuraku/S01/Hells.Paradise.Jigokuraku.S01E13.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                },
+                {
+                    seasonNumber: 2,
+                    seasonName: "فصل دوم - 12 قسمت",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E01.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E02.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E03.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E04.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E05.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E06.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E07.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E08.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E09.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E10.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E11.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E12.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Hells.Paradise.Jigokuraku/S02/Hells.Paradise.Jigokuraku.S02E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                }
+            ]
+         },
+    {
+            "id": "Jujutsu-Kaisen",
+            "title": "Jujutsu Kaisen",
+            "fullTitle": "Jujutsu Kaisen",
+            "description": "انیمه‌ای ژاپنی بر اساس مانگایی به همین نام که توسط گِگه آکوتامی نوشته و مصورسازی شده است. یوجی ایتادوری یک دانش آموز دبیرستانی معمولی که با پدربزرگش در سِندای زندگی می کند و قدرت بدنی بالایی دارد. او علی‌رغم استعداد ذاتی اش در ورزش، به دلیل بیزاری از دو و میدانی مرتباً ازپیوستن به تیم مدرسه اش اجتناب می کند",
+            "genres": ["فانتزی", "اکشن", "فراطبیعی"],
+            "imdbRating": "8.5",
+            "malRating": "8.6",
+            "poster": "https://intocdn.top/wp-content/uploads/2023/12/gmECX1DvFgdUPjtio2zaL8BPYPu.jpg",
+            "horizontalCover": "https://intocdn.top/wp-content/uploads/2023/12/gmECX1DvFgdUPjtio2zaL8BPYPu.jpg",
+            "verticalCover": "https://intocdn.top/wp-content/uploads/2023/12/fHpKWq9ayzSk8nSwqRuaAUemRKh-360x480.jpg",
+            "trailer": "https://edge43.127759.ir.cdn.ir/Series/Jujutsu.Kaisen/S02/Official_Trailer___Jujutsu_Kaisen.mp4",
+            "seasons": [
+                {
+                    "seasonNumber": 1,
+                    "seasonName": "فصل اول - 24 قسمت",
+                    "episodes": [
+                        { "epNum": 1, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E01.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 2, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E02.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 3, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E03.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 4, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E04.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 5, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E05.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 6, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E06.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 7, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E07.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 8, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E08.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 9, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E09.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 10, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E10.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 11, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E11.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 12, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E12.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 13, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E13.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 14, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E14.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 15, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E15.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 16, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E16.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 17, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E17.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 18, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E18.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 19, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E19.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 20, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E20.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 21, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E21.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 22, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E22.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 23, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E23.720p.BluRay.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 24, "qualities": { "480p": "", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/Jujutsu.Kaisen.S01E24.720p.BluRay.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                },
+                {
+                    "seasonNumber": 2,
+                    "seasonName": "فصل دوم - 23 قسمت",
+                    "episodes": [
+                        { "epNum": 1, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E01.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 2, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E02.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 3, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E03.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 4, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E04.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 5, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E05.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 6, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E06.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 7, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E07.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 8, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E08.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 9, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E09.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 10, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E10.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 11, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E11.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 12, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E12.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 13, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E13.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E13.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 14, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E14.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E14.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 15, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E15.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E15.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 16, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E16.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E16.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 17, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E17.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E17.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 18, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E18.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E18.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 19, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E19.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E19.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 20, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E20.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E20.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 21, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E21.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E21.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 22, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E22.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E22.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 23, "qualities": { "480p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E23.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bvxbbajdhgxd9g87jwb463wx.abrtech.top/yA3f/Series/Jujutsu.Kaisen/S02/Jujutsu.Kaisen.S02E23.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                },
+                {
+                    "seasonNumber": 3,
+                    "seasonName": "فصل سوم - 12 قسمت",
+                    "episodes": [
+                        { "epNum": 1, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E01.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 2, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E02.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 3, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E03.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 4, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E04.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 5, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E05.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 6, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E06.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 7, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E07.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 8, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E08.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 9, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E09.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 10, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E10.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 11, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E11.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 12, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E12.480p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Jujutsu.Kaisen/S03/Jujutsu.Kaisen.S03E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                }
+            ]
+        },
     
     
     
