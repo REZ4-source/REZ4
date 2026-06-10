@@ -393,8 +393,24 @@ function renderDetailPage(animeId) {
         season.episodes.forEach(ep => {
             const quality480 = ep.qualities["480p"];
             const quality720 = ep.qualities["720p"];
-            const hasLinks = quality480 && quality720 && quality480 !== "#" && quality720 !== "";
-            episodesHtml += `<div class="episode-item"><div class="episode-name">قسمت ${ep.epNum}</div><div class="quality-buttons">${hasLinks ? `<a href="${quality480}" class="quality-link" target="_blank" download>480p</a><a href="${quality720}" class="quality-link" target="_blank" download>720p</a>` : `<span class="quality-link" style="opacity:0.6; cursor:default; background:#333;">به زودی</span>`}</div></div>`;
+            
+            // بررسی هر کدوم از لینک‌ها جداگانه
+            const has480 = quality480 && quality480 !== "#" && quality480 !== "";
+            const has720 = quality720 && quality720 !== "#" && quality720 !== "";
+            
+            let buttonsHtml = '';
+            if (has480) buttonsHtml += `<a href="${quality480}" class="quality-link" target="_blank" download>480p</a>`;
+            if (has720) buttonsHtml += `<a href="${quality720}" class="quality-link" target="_blank" download>720p</a>`;
+            if (!has480 && !has720) buttonsHtml = `<span class="quality-link" style="opacity:0.6; cursor:default; background:#333;">به زودی</span>`;
+            
+            episodesHtml += `
+                <div class="episode-item">
+                    <div class="episode-name">قسمت ${ep.epNum}</div>
+                    <div class="quality-buttons">
+                        ${buttonsHtml}
+                    </div>
+                </div>
+            `;
         });
         episodesHtml += `</div>`;
         seasonsHtml += `<div class="season-card" data-season="${idx}"><div class="season-header"><div><span class="season-title">${escapeHtml(season.seasonName)}</span></div><div class="season-arrow">
