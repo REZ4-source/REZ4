@@ -4,11 +4,13 @@
 const recentEpisodes = [
 
 
-
-
-
-
-
+   {
+        id: "one-piece",
+        episodeNum: 1165,
+        title: "One Piece S2",
+        badge: "پربازدید",
+        type: "hot"
+    },
     {
         id: "marriagetoxin",
         episodeNum: 9,
