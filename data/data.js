@@ -1,5 +1,39 @@
 const animeData = [
 
+ 
+   {
+            "id": "Smoking-Behind-the-Supermarket-with-You",
+            "title": "Smoking Behind the Supermarket with You",
+            "fullTitle": "Smoking Behind the Supermarket with You",
+            "description": "کارمند خسته از روزمرگی، و تایاما، موتورسوار آزاد و مرموز، در گوشه‌ای پنهان پشت یک سوپرمارکت با هم روبه‌رو می‌شوند؛ جایی دور از شلوغی جهان و نگاه دیگران. میان دود آرام سیگار و سکوت شبانه، دو روح تنها کم‌کم یکدیگر را می‌یابند و ارتباطی شکل می‌گیرد که ساده، بی‌صدا و عمیق است.",
+            "genres": ["زندگی‌روزمره", "درام", "رمانتیک"],
+            "imdbRating": "8.7",
+            "malRating": "8.58",
+            "poster": "https://intocdn.top/wp-content/uploads/2026/06/gkmE41A5ev5M299hLgX3JrWAM16.jpg",
+            "horizontalCover": "https://intocdn.top/wp-content/uploads/2026/06/gkmE41A5ev5M299hLgX3JrWAM16.jpg",
+            "verticalCover": "https://intocdn.top/wp-content/uploads/2026/06/gHVfuuOXPVs0ltFbOZQjxpXtSSH-360x480.jpg",
+            "trailer": "https://edge43.166864.ir.cdn.ir/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu_Trailer.mp4",
+            "seasons": [
+                {
+                    "seasonNumber": 1,
+                    "seasonName": "فصل اول - 12 قسمت",
+                    "episodes": [
+                        { "epNum": 1, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 2, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 3, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E03.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 4, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E04.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 5, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E05.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 6, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E06.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 7, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E07.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 8, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E08.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 9, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E09.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 10, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E10.FIX.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.FIX.mkv" } },
+                        { "epNum": 11, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 12, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E12.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
+                    ]
+                }
+            ]
+        },
  {
             id: "one-piece",
             title: "One Piece S2",
@@ -151,7 +185,7 @@ const animeData = [
                         { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E08.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E09.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E10.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { epNum: 11, qualities: { "480p": "", "720p": "" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 12, qualities: { "480p": "", "720p": "" } }
                     ]
                  }
