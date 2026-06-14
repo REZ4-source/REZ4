@@ -1397,6 +1397,57 @@ const animeData2 = [
                 }
             ]
         },
+      {
+            "id": "Grand-blue",
+            "title": "Grand Blue",
+            "fullTitle": "Grand Blue",
+            "description": "ایوری کیتاهارا، دانشجوی تازه‌وارد، به شهر ساحلی می‌ره تا زندگی دانشجویی رویایی‌اش رو شروع کنه. قراره تو مغازه عموش که «گرند بلو» نام داره زندگی کنه. اما به محض ورود، با یه صحنه‌ی وحشتناک مواجه می‌شه: یه مشت مرد کاملاً لخت و مست که دارن مسابقه «هالو» بازی می‌کنن! ",
+            "genres": ["کمدی", "زندگی‌روزمره", "سینن"],
+            "imdbRating": "7.8",
+            "malRating": "8.15",
+            "poster": "https://i.postimg.cc/G2Bgt86W/525557b6e8de6b50b9d07fb0b0c58d53.jpg",
+            "horizontalCover": "https://i.postimg.cc/G2Bgt86W/525557b6e8de6b50b9d07fb0b0c58d53.jpg",
+            "verticalCover": "https://i.postimg.cc/zXwty1PN/ff266e6a2b333eaef479655c288f3bb7.jpg",
+            "trailer": "http://anjs11.animeonapp.com/anjsdl3/GrandBlue.Trailer.mkv",
+            "seasons": [
+                {
+                    "seasonNumber": 1,
+                    "seasonName": "فصل اول - 12 قسمت",
+                    "episodes": [
+                        { "epNum": 1, "qualities": { "480p": "http://anjs44.animeonapp.com/anjsdl12/GrandBlueDreaming-01-480pBD--AnimeON-.mkv", "720p": "http://anjs11.animeonapp.com/anjsdl3/Grand.Blue.S01.HDTV.720p.x264.E-1-.mkv" } },
+                        { "epNum": 2, "qualities": { "480p": "http://anjs44.animeonapp.com/anjsdl12/GrandBlueDreaming-02-480pBD--AnimeON-.mkv", "720p": "http://anjs11.animeonapp.com/anjsdl3/Grand.Blue.S01.HDTV.720p.x264.E-2-.mkv" } },
+                        { "epNum": 3, "qualities": { "480p": "http://anjs44.animeonapp.com/anjsdl12/GrandBlueDreaming-03-480pBD--AnimeON-.mkv", "720p": "http://anjs11.animeonapp.com/anjsdl3/Grand.Blue.S01.HDTV.720p.x264.E-3-.mkv" } },
+                        { "epNum": 4, "qualities": { "480p": "http://anjs44.animeonapp.com/anjsdl12/GrandBlueDreaming-04-480pBD--AnimeON-.mkv", "720p": "http://anjs11.animeonapp.com/anjsdl3/Grand.Blue.S01.HDTV.720p.x264.E-4-.mkv" } },
+                        { "epNum": 5, "qualities": { "480p": "http://anjs44.animeonapp.com/anjsdl12/GrandBlueDreaming-05-480pBD--AnimeON-.mkv", "720p": "http://anjs11.animeonapp.com/anjsdl3/Grand.Blue.S01.HDTV.720p.x264.E-5-.mkv" } },
+                        { "epNum": 6, "qualities": { "480p": "http://anjs44.animeonapp.com/anjsdl12/GrandBlueDreaming-06-480pBD--AnimeON-.mkv", "720p": "http://anjs11.animeonapp.com/anjsdl3/Grand.Blue.S01.HDTV.720p.x264.E-6-.mkv" } },
+                        { "epNum": 7, "qualities": { "480p": "http://anjs44.animeonapp.com/anjsdl12/GrandBlueDreaming-07-480pBD--AnimeON-.mkv", "720p": "http://anjs11.animeonapp.com/anjsdl3/Grand.Blue.S01.HDTV.720p.x264.E-7-.mkv" } },
+                        { "epNum": 8, "qualities": { "480p": "http://anjs44.animeonapp.com/anjsdl12/GrandBlueDreaming-08-480pBD--AnimeON-.mkv", "720p": "http://anjs11.animeonapp.com/anjsdl3/Grand.Blue.S01.HDTV.720p.x264.E-8-.mkv" } },
+                        { "epNum": 9, "qualities": { "480p": "http://anjs44.animeonapp.com/anjsdl12/GrandBlueDreaming-09-480pBD--AnimeON-.mkv", "720p": "http://anjs11.animeonapp.com/anjsdl3/Grand.Blue.S01.HDTV.720p.x264.E-9-.mkv" } },
+                        { "epNum": 10, "qualities": { "480p": "http://anjs44.animeonapp.com/anjsdl12/GrandBlueDreaming-10-480pBD--AnimeON-.mkv", "720p": "http://anjs11.animeonapp.com/anjsdl3/Grand.Blue.S01.HDTV.720p.x264.E-10-.mkv" } },
+                        { "epNum": 11, "qualities": { "480p": "http://anjs44.animeonapp.com/anjsdl12/GrandBlueDreaming-11-480pBD--AnimeON-.mkv", "720p": "http://anjs11.animeonapp.com/anjsdl3/Grand.Blue.S01.HDTV.720p.x264.E-11-.mkv" } },
+                        { "epNum": 12, "qualities": { "480p": "http://anjs44.animeonapp.com/anjsdl12/GrandBlueDreaming-12-480pBD--AnimeON-.mkv", "720p": "http://anjs11.animeonapp.com/anjsdl3/Grand.Blue.S01.HDTV.720p.x264.E-12-.mkv" } }
+                    ]
+                },
+                {
+                    "seasonNumber": 2,
+                    "seasonName": "فصل دوم - 12 قسمت",
+                    "episodes": [
+                        { "epNum": 1, "qualities": { "480p": "http://anjs33.animeonapp.com/anjsdl20/Grand.Blue.S02E01.480p.WEB-DL.x264.SoftSub.AnimeON.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl20/Grand.Blue.S02E01.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
+                        { "epNum": 2, "qualities": { "480p": "http://anjs33.animeonapp.com/anjsdl20/Grand.Blue.S02E02.480p.WEB-DL.AnimeON.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl20/Grand.Blue.S02E02.720p.WEB-DL.AnimeON.mkv" } },
+                        { "epNum": 3, "qualities": { "480p": "http://anjs33.animeonapp.com/anjsdl20/Grand.Blue.S02E03.480p.WEB-DL.AnimeON.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl20/Grand.Blue.S02E03.720p.WEB-DL.AnimeON.mkv" } },
+                        { "epNum": 4, "qualities": { "480p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E04.480p.WEB-DL.x264.SoftSub.AnimeON.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E04.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
+                        { "epNum": 5, "qualities": { "480p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E05.480p.WEB-DL.x264.SoftSub.AnimeON.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E05.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
+                        { "epNum": 6, "qualities": { "480p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E06.480p.WEB-DL.AnimeON.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E06.720p.WEB-DL.AnimeON.mkv" } },
+                        { "epNum": 7, "qualities": { "480p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E07.480p.WEB-DL.AnimeON.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E07.720p.WEB-DL.AnimeON.mkv" } },
+                        { "epNum": 8, "qualities": { "480p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E08.480p.WEB-DL.x264.SoftSub.AnimeON.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E08.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
+                        { "epNum": 9, "qualities": { "480p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E09.480p.WEB-DL.x264.SoftSub.AnimeON.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E09.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
+                        { "epNum": 10, "qualities": { "480p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E10.480p.WEB-DL.x264.SoftSub.AnimeON.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E10.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
+                        { "epNum": 11, "qualities": { "480p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E11.480p.WEB-DL.x264.SoftSub.AnimeON.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E11.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
+                        { "epNum": 12, "qualities": { "480p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E12.480p.WEB-DL.x264.SoftSub.AnimeON.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl21/Grand.Blue.S02E12.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } }
+                    ]
+                }
+            ]
+        },   
     
     
     
