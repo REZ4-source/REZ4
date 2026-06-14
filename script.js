@@ -5,8 +5,7 @@ let currentSearchTerm = '';
 const ITEMS_PER_PAGE = 10;
 const appContainer = document.getElementById('app');
 
-// ========== ترکیب دیتابیس‌ها ==========
-// توجه: animeData, animeData2, animeData3 باید قبل از این فایل لود شده باشند
+// ========== ترکیب دیتابیس ==========
 const fullAnimeData = [...animeData, ...animeData2, ...animeData3];
 
 // ========== مدیریت علاقه‌مندی‌ها ==========
@@ -265,11 +264,12 @@ function renderHomePage() {
         cardsHtml += `<div class="no-result">❌ هیچ انیمه‌ای با این نام پیدا نشد.</div>`;
     } else {
         filteredAnime.forEach(anime => {
+            const isFav = isFavorite(anime.id);
             cardsHtml += `
                 <div class="anime-card" data-id="${anime.id}">
                     <img class="card-cover" src="${anime.horizontalCover}" loading="lazy">
                     <div class="favorite-btn" data-id="${anime.id}">
-                        <i class="${isFavorite(anime.id) ? 'fas fa-heart' : 'far fa-heart'}"></i>
+                        <img src="icons/${isFav ? 'heart-filled.svg' : 'heart-outline.svg'}" alt="علاقه‌مندی" width="20" height="20">
                     </div>
                     <div class="card-content">
                         <div class="anime-title">${escapeHtml(anime.title)}</div>
@@ -340,11 +340,11 @@ function renderHomePage() {
             e.stopPropagation();
             const id = btn.getAttribute('data-id');
             const isFav = toggleFavorite(id);
-            const icon = btn.querySelector('i');
+            const img = btn.querySelector('img');
             if (isFav) {
-                icon.className = 'fas fa-heart';
+                img.src = 'icons/heart-filled.svg';
             } else {
-                icon.className = 'far fa-heart';
+                img.src = 'icons/heart-outline.svg';
             }
         });
     });
@@ -437,6 +437,8 @@ function renderDetailPage(animeId) {
         suggestionsHtml = `<div class="suggestions-section"><div class="suggestions-title">پیشنهادات مرتبط</div><div class="suggestions-grid">${suggestions.map(sug => `<div class="suggestion-card" data-id="${sug.id}"><img class="suggestion-img" src="${sug.verticalCover}" onerror="this.src='https://placehold.co/160x200/1e243b/9aa4bf?text=No+Image'"><div class="suggestion-title">${escapeHtml(sug.title)}</div><div class="suggestion-rating"> ${sug.imdbRating !== '--' ? sug.imdbRating : '?'}</div></div>`).join('')}</div></div>`;
     }
     
+    const isFav = isFavorite(anime.id);
+    
     const detailHtml = `
         <div class="header">
             <div class="logo">Anivora</div>
@@ -446,7 +448,7 @@ function renderDetailPage(animeId) {
             <div class="anime-header-info">
                 <h2>${escapeHtml(anime.fullTitle)}</h2>
                 <div class="favorite-btn-detail" data-id="${anime.id}">
-                    <i class="${isFavorite(anime.id) ? 'fas fa-heart' : 'far fa-heart'}"></i>
+                    <img src="icons/${isFav ? 'heart-filled.svg' : 'heart-outline.svg'}" alt="علاقه‌مندی" width="20" height="20">
                     <span>علاقه‌مندی</span>
                 </div>
                 <div class="detail-ratings">
@@ -482,18 +484,17 @@ function renderDetailPage(animeId) {
         card.addEventListener('click', () => { const id = card.getAttribute('data-id'); if(id) { window.location.hash = `anime/${id}`; renderDetailPage(id); } });
     });
     
-    // دکمه علاقه‌مندی در صفحه جزئیات
     const favDetailBtn = document.querySelector('.favorite-btn-detail');
     if (favDetailBtn) {
         favDetailBtn.addEventListener('click', (e) => {
             e.stopPropagation();
             const id = favDetailBtn.getAttribute('data-id');
-            const isFav = toggleFavorite(id);
-            const icon = favDetailBtn.querySelector('i');
-            if (isFav) {
-                icon.className = 'fas fa-heart';
+            const newFav = toggleFavorite(id);
+            const img = favDetailBtn.querySelector('img');
+            if (newFav) {
+                img.src = 'icons/heart-filled.svg';
             } else {
-                icon.className = 'far fa-heart';
+                img.src = 'icons/heart-outline.svg';
             }
         });
     }
