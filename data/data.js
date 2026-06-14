@@ -45,7 +45,7 @@ const animeData = [
             poster: "https://i.postimg.cc/dQrpqVvJ/42c4e1708c4136f128ecb57a084bee19.jpg",
             horizontalCover: "https://i.postimg.cc/dQrpqVvJ/42c4e1708c4136f128ecb57a084bee19.jpg",
             verticalCover: "https://i.postimg.cc/cJvkPsTc/0793036344891436c2a1b23df20c97e1.jpg",
-            trailer: "http://anjs11.animeonapp.com/anjsdl2/1434659607842-pgv4ql-1564065260545.mp4",
+            trailer: "https://edge01.166864.ir.cdn.ir/Series/One.Piece.Anime/One.Piece.Trailer.mp4",
             seasons: [
                 {
                     seasonNumber: 2,
