@@ -5,9 +5,34 @@ let currentSearchTerm = '';
 const ITEMS_PER_PAGE = 10;
 const appContainer = document.getElementById('app');
 
-// ========== ترکیب دیتابیس اصلی و دیتابیس دوم ==========
-animeData.push(...animeData2);
-animeData.push(...animeData3);
+// ========== ترکیب دیتابیس‌ها ==========
+// توجه: animeData, animeData2, animeData3 باید قبل از این فایل لود شده باشند
+const fullAnimeData = [...animeData, ...animeData2, ...animeData3];
+
+// ========== مدیریت علاقه‌مندی‌ها ==========
+function getFavorites() {
+    const favorites = localStorage.getItem('animeFavorites');
+    return favorites ? JSON.parse(favorites) : [];
+}
+
+function saveFavorites(favorites) {
+    localStorage.setItem('animeFavorites', JSON.stringify(favorites));
+}
+
+function toggleFavorite(animeId) {
+    let favorites = getFavorites();
+    if (favorites.includes(animeId)) {
+        favorites = favorites.filter(id => id !== animeId);
+    } else {
+        favorites.push(animeId);
+    }
+    saveFavorites(favorites);
+    return favorites.includes(animeId);
+}
+
+function isFavorite(animeId) {
+    return getFavorites().includes(animeId);
+}
 
 function escapeHtml(str) {
     if (!str) return '';
@@ -21,10 +46,10 @@ function escapeHtml(str) {
 
 function getFilteredAnime() {
     if (currentSearchTerm.trim() === '') {
-        return animeData;
+        return fullAnimeData;
     }
     const query = currentSearchTerm.trim().toLowerCase();
-    return animeData.filter(anime => 
+    return fullAnimeData.filter(anime => 
         anime.title.toLowerCase().includes(query) || 
         anime.fullTitle.toLowerCase().includes(query) ||
         anime.genres.some(g => g.toLowerCase().includes(query))
@@ -68,6 +93,10 @@ function getBottomNav() {
                 <div class="nav-icon"><img src="icons/home.svg" alt="خانه" width="22" height="22"></div>
                 <div class="nav-label">خانه</div>
             </div>
+            <div class="nav-item" data-nav="favorites">
+                <div class="nav-icon"><img src="icons/favorites.svg" alt="علاقه‌مندی" width="22" height="22"></div>
+                <div class="nav-label">علاقه‌مندی</div>
+            </div>
             <div class="nav-item" data-nav="profile">
                 <div class="nav-icon"><img src="icons/profile.svg" alt="آخرین" width="22" height="22"></div>
                 <div class="nav-label">آخرین</div>
@@ -78,7 +107,7 @@ function getBottomNav() {
 
 function getGenreCounts() {
     const counts = {};
-    animeData.forEach(anime => {
+    fullAnimeData.forEach(anime => {
         anime.genres.forEach(genre => {
             if (counts[genre]) {
                 counts[genre]++;
@@ -239,6 +268,9 @@ function renderHomePage() {
             cardsHtml += `
                 <div class="anime-card" data-id="${anime.id}">
                     <img class="card-cover" src="${anime.horizontalCover}" loading="lazy">
+                    <div class="favorite-btn" data-id="${anime.id}">
+                        <i class="${isFavorite(anime.id) ? 'fas fa-heart' : 'far fa-heart'}"></i>
+                    </div>
                     <div class="card-content">
                         <div class="anime-title">${escapeHtml(anime.title)}</div>
                         <div class="rating-badges">
@@ -256,43 +288,23 @@ function renderHomePage() {
     
     cardsHtml += `</div>`;
     
-    // ========== صفحه‌بندی ساده (فقط یک صفحه قبل و بعد) ==========
     if (totalPages > 1) {
         cardsHtml += `<div class="pagination"><button class="prev-btn" ${currentPage === 1 ? 'disabled' : ''}>قبلی</button>`;
-        
-        // صفحه اول
         cardsHtml += `<button class="page-btn ${currentPage === 1 ? 'active' : ''}" data-page="1">1</button>`;
-        
-        // سه نقطه اول (اگه صفحه فعلی از ۲ بیشتر باشه)
-        if (currentPage > 2) {
-            cardsHtml += `<span class="page-dots">...</span>`;
-        }
-        
-        // صفحه قبل از صفحه فعلی (اگه موجود باشه و ۱ نباشه)
+        if (currentPage > 2) cardsHtml += `<span class="page-dots">...</span>`;
         if (currentPage - 1 > 1 && currentPage - 1 < totalPages) {
             cardsHtml += `<button class="page-btn" data-page="${currentPage - 1}">${currentPage - 1}</button>`;
         }
-        
-        // صفحه فعلی (اگه ۱ یا آخر نباشه)
         if (currentPage !== 1 && currentPage !== totalPages) {
             cardsHtml += `<button class="page-btn active" data-page="${currentPage}">${currentPage}</button>`;
         }
-        
-        // صفحه بعد از صفحه فعلی (اگه موجود باشه و آخر نباشه)
         if (currentPage + 1 > 1 && currentPage + 1 < totalPages) {
             cardsHtml += `<button class="page-btn" data-page="${currentPage + 1}">${currentPage + 1}</button>`;
         }
-        
-        // سه نقطه آخر (اگه صفحه فعلی از ۲ تا آخر فاصله داشته باشه)
-        if (currentPage < totalPages - 1) {
-            cardsHtml += `<span class="page-dots">...</span>`;
-        }
-        
-        // صفحه آخر
+        if (currentPage < totalPages - 1) cardsHtml += `<span class="page-dots">...</span>`;
         if (totalPages > 1) {
             cardsHtml += `<button class="page-btn ${currentPage === totalPages ? 'active' : ''}" data-page="${totalPages}">${totalPages}</button>`;
         }
-        
         cardsHtml += `<button class="next-btn" ${currentPage === totalPages ? 'disabled' : ''}>بعدی</button></div>`;
         cardsHtml += `<div class="info-text">نمایش ${filteredAnime.length} از ${totalItems} انیمه - صفحه ${currentPage} از ${totalPages}</div>`;
     } else if (totalItems > 0) {
@@ -323,6 +335,20 @@ function renderHomePage() {
         });
     });
     
+    document.querySelectorAll('.favorite-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const id = btn.getAttribute('data-id');
+            const isFav = toggleFavorite(id);
+            const icon = btn.querySelector('i');
+            if (isFav) {
+                icon.className = 'fas fa-heart';
+            } else {
+                icon.className = 'far fa-heart';
+            }
+        });
+    });
+    
     const prevBtn = document.querySelector('.prev-btn');
     if (prevBtn) prevBtn.addEventListener('click', () => { if (currentPage > 1) goToPage(currentPage - 1); });
     
@@ -333,7 +359,6 @@ function renderHomePage() {
         btn.addEventListener('click', () => { const page = parseInt(btn.getAttribute('data-page')); if (!isNaN(page)) goToPage(page); });
     });
     
-    // رویدادهای نوار ناوبری
     document.querySelectorAll('.nav-item').forEach(item => {
         item.addEventListener('click', () => {
             const action = item.getAttribute('data-nav');
@@ -345,6 +370,8 @@ function renderHomePage() {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             } else if (action === 'categories') {
                 openCategorySidebar();
+            } else if (action === 'favorites') {
+                window.location.href = 'favorites/favorites.html';
             } else if (action === 'profile') {
                 const recentSection = document.querySelector('.recent-section');
                 if (recentSection) {
@@ -363,9 +390,7 @@ function renderHomePage() {
         currentSearchTerm = searchInput.value; 
         currentPage = 1; 
         renderHomePage();
-        
         history.pushState({ search: currentSearchTerm }, '', window.location.pathname + window.location.search);
-        
         setTimeout(() => {
             const firstCard = document.querySelector('.anime-card');
             if (firstCard) {
@@ -379,12 +404,12 @@ function renderHomePage() {
 }
 
 function renderDetailPage(animeId) {
-    const anime = animeData.find(a => a.id === animeId);
+    const anime = fullAnimeData.find(a => a.id === animeId);
     if (!anime) { renderHomePage(); return; }
     
     let trailerHtml = '';
     if (anime.trailer && anime.trailer !== '') {
-        trailerHtml = `<div class="trailer-section"><div class="trailer-title"><span></span>تریلر</span></div><div class="trailer-player"><video controls autoplay><source src="${anime.trailer}" type="video/mp4"></video></div></div>`;
+        trailerHtml = `<div class="trailer-section"><div class="trailer-title">تریلر</div><div class="trailer-player"><video controls autoplay><source src="${anime.trailer}" type="video/mp4"></video></div></div>`;
     }
     
     let seasonsHtml = `<div class="seasons-wrapper">`;
@@ -393,34 +418,20 @@ function renderDetailPage(animeId) {
         season.episodes.forEach(ep => {
             const quality480 = ep.qualities["480p"];
             const quality720 = ep.qualities["720p"];
-            
-            // بررسی هر کدوم از لینک‌ها جداگانه
             const has480 = quality480 && quality480 !== "#" && quality480 !== "";
             const has720 = quality720 && quality720 !== "#" && quality720 !== "";
-            
             let buttonsHtml = '';
             if (has480) buttonsHtml += `<a href="${quality480}" class="quality-link" target="_blank" download>480p</a>`;
             if (has720) buttonsHtml += `<a href="${quality720}" class="quality-link" target="_blank" download>720p</a>`;
             if (!has480 && !has720) buttonsHtml = `<span class="quality-link" style="opacity:0.6; cursor:default; background:#333;">به زودی</span>`;
-            
-            episodesHtml += `
-                <div class="episode-item">
-                    <div class="episode-name">قسمت ${ep.epNum}</div>
-                    <div class="quality-buttons">
-                        ${buttonsHtml}
-                    </div>
-                </div>
-            `;
+            episodesHtml += `<div class="episode-item"><div class="episode-name">قسمت ${ep.epNum}</div><div class="quality-buttons">${buttonsHtml}</div></div>`;
         });
         episodesHtml += `</div>`;
-        seasonsHtml += `<div class="season-card" data-season="${idx}"><div class="season-header"><div><span class="season-title">${escapeHtml(season.seasonName)}</span></div><div class="season-arrow">
-    <img src="icons/arrow-down.svg" alt="باز کردن" width="16" height="16">
-</div>
-</div><div class="season-content">${episodesHtml}</div></div>`;
+        seasonsHtml += `<div class="season-card" data-season="${idx}"><div class="season-header"><div><span class="season-title">${escapeHtml(season.seasonName)}</span></div><div class="season-arrow"><img src="icons/arrow-down.svg" alt="باز کردن" width="16" height="16"></div></div><div class="season-content">${episodesHtml}</div></div>`;
     });
     seasonsHtml += `</div>`;
 
-    const suggestions = animeData.filter(a => a.id !== anime.id && a.genres.filter(g => anime.genres.includes(g)).length >= 2).slice(0, 10);
+    const suggestions = fullAnimeData.filter(a => a.id !== anime.id && a.genres.filter(g => anime.genres.includes(g)).length >= 2).slice(0, 10);
     let suggestionsHtml = '';
     if (suggestions.length > 0) {
         suggestionsHtml = `<div class="suggestions-section"><div class="suggestions-title">پیشنهادات مرتبط</div><div class="suggestions-grid">${suggestions.map(sug => `<div class="suggestion-card" data-id="${sug.id}"><img class="suggestion-img" src="${sug.verticalCover}" onerror="this.src='https://placehold.co/160x200/1e243b/9aa4bf?text=No+Image'"><div class="suggestion-title">${escapeHtml(sug.title)}</div><div class="suggestion-rating"> ${sug.imdbRating !== '--' ? sug.imdbRating : '?'}</div></div>`).join('')}</div></div>`;
@@ -434,6 +445,10 @@ function renderDetailPage(animeId) {
         <div class="detail-container">
             <div class="anime-header-info">
                 <h2>${escapeHtml(anime.fullTitle)}</h2>
+                <div class="favorite-btn-detail" data-id="${anime.id}">
+                    <i class="${isFavorite(anime.id) ? 'fas fa-heart' : 'far fa-heart'}"></i>
+                    <span>علاقه‌مندی</span>
+                </div>
                 <div class="detail-ratings">
                     <span class="detail-rating detail-imdb"> IMDB: ${anime.imdbRating || '?'}</span>
                 </div>
@@ -467,7 +482,22 @@ function renderDetailPage(animeId) {
         card.addEventListener('click', () => { const id = card.getAttribute('data-id'); if(id) { window.location.hash = `anime/${id}`; renderDetailPage(id); } });
     });
     
-    // رویدادهای نوار ناوبری در صفحه جزئیات
+    // دکمه علاقه‌مندی در صفحه جزئیات
+    const favDetailBtn = document.querySelector('.favorite-btn-detail');
+    if (favDetailBtn) {
+        favDetailBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const id = favDetailBtn.getAttribute('data-id');
+            const isFav = toggleFavorite(id);
+            const icon = favDetailBtn.querySelector('i');
+            if (isFav) {
+                icon.className = 'fas fa-heart';
+            } else {
+                icon.className = 'far fa-heart';
+            }
+        });
+    }
+    
     document.querySelectorAll('.nav-item').forEach(item => {
         item.addEventListener('click', () => {
             const action = item.getAttribute('data-nav');
@@ -479,6 +509,8 @@ function renderDetailPage(animeId) {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             } else if (action === 'categories') {
                 openCategorySidebar();
+            } else if (action === 'favorites') {
+                window.location.href = 'favorites/favorites.html';
             } else if (action === 'profile') {
                 window.location.hash = '';
                 currentSearchTerm = '';
@@ -529,7 +561,6 @@ window.addEventListener('popstate', function(event) {
         currentSearchTerm = event.state.search;
         currentPage = 1;
         renderHomePage();
-        
         const searchInput = document.getElementById('searchInput');
         if (searchInput) searchInput.value = currentSearchTerm;
     } else {
