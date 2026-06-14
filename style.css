@@ -972,4 +972,138 @@ body.light-mode .sub-item {
 
 body.light-mode .close-sidebar img {
     filter: brightness(0);
+}
+
+.page-dots {
+    display: inline-block;
+    padding: 0.5rem 0.3rem;
+    color: #9aa4bf;
+    user-select: none;
+}
+
+/* استایل صفحه علاقه‌مندی */
+.favorites-header {
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+}
+.favorites-header h1 {
+    font-size: 1.6rem;
+    background: linear-gradient(135deg, #FF6B8B, #9D4EDD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.empty-favorites {
+    text-align: center;
+    padding: 3rem;
+    background: rgba(0,0,0,0.3);
+    border-radius: 1rem;
+    margin: 2rem 0;
+}
+.empty-favorites i {
+    font-size: 4rem;
+    color: #ff6b8b;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.btn-home {
+    background: #ff6b8b;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.remove-fav-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0,0,0,0.6);
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+}
+.remove-fav-btn:hover {
+    background: #ff4d6d;
+}
+
+
+.favorite-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    z-index: 10;
+}
+
+.favorite-btn:hover {
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.favorite-btn i {
+    font-size: 1.2rem;
+    color: white;
+    transition: 0.1s;
+}
+
+.favorite-btn i.fas {
+    color: #ff4d6d;
+}
+
+.anime-card {
+    position: relative;
+}
+
+.favorite-btn-detail {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 107, 139, 0.15);
+    border: 1px solid rgba(255, 107, 139, 0.4);
+    border-radius: 2rem;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 0.5rem 0;
+    width: fit-content;
+}
+
+.favorite-btn-detail:hover {
+    background: rgba(255, 107, 139, 0.3);
+    transform: scale(0.98);
+}
+
+.favorite-btn-detail i {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.favorite-btn-detail i.fas {
+    color: #ff4d6d;
+}
+
+.favorite-btn-detail span {
+    font-size: 0.8rem;
+    color: #ff8aa5;
     }
