@@ -57,17 +57,17 @@ function renderFavoritesPage() {
     let html = `
         <div class="header">
             <div class="logo">Anivora</div>
-            <p style="margin-top: 0.5rem;">انیمه‌های مورد علاقه شما</p>
+            <p style="margin-top: 0.5rem;">دانلود مستقیم انیمه و سریال</p>
         </div>
         <div class="favorites-header">
-            <h1><i class="fas fa-heart" style="color:#ff6b8b"></i> علاقه‌مندی‌ها</h1>
+            <h2>علاقه‌مندی‌ها</h2>
         </div>
     `;
     
     if (favoriteAnimes.length === 0) {
         html += `
             <div class="empty-favorites">
-                <i class="far fa-heart"></i>
+                <img src="../icons/heart.svg" alt="علاقه‌مندی" width="64" height="64" style="margin-bottom: 1rem;">
                 <h3>هیچ انیمه‌ای به علاقه‌مندی‌ها اضافه نشده است</h3>
                 <p>با کلیک روی قلب کنار هر انیمه، آن را به لیست علاقه‌مندی‌های خود اضافه کنید</p>
                 <button class="btn-home" onclick="location.href='../index.html'">بازگشت به صفحه اصلی</button>
@@ -79,15 +79,15 @@ function renderFavoritesPage() {
             html += `
                 <div class="anime-card" data-id="${anime.id}">
                     <div class="remove-fav-btn" data-id="${anime.id}">
-                        <i class="fas fa-trash-alt"></i>
+                        <img src="../icons/trash.svg" alt="حذف" width="18" height="18">
                     </div>
                     <img class="card-cover" src="${anime.horizontalCover}" loading="lazy">
                     <div class="card-content">
                         <div class="anime-title">${escapeHtml(anime.title)}</div>
                         <div class="rating-badges">
-    <span class="rating-badge rating-imdb"> IMDB ${anime.imdbRating || '?'}</span>
-    <span class="rating-badge rating-mal"> MAL ${anime.malRating || '?'}</span>
-</div>
+                            <span class="rating-badge rating-imdb"> IMDB ${anime.imdbRating || '?'}</span>
+                            <span class="rating-badge rating-mal"> MAL ${anime.malRating || '?'}</span>
+                        </div>
                         <div class="genres">${anime.genres.map(g => `<span class="genre">${escapeHtml(g)}</span>`).join('')}</div>
                         <div class="anime-desc">${escapeHtml(anime.description.length > 90 ? anime.description.slice(0, 90) + '...' : anime.description)}</div>
                         <div class="detail-btn">مشاهده جزئیات و دانلود</div>
@@ -125,7 +125,7 @@ function renderFavoritesPage() {
             if (action === 'home') window.location.href = '../index.html';
             else if (action === 'favorites') location.reload();
             else if (action === 'profile') window.location.href = '../index.html';
-            else if (action === 'categories') alert('منوی دسته‌بندی ها در صفحه اصلی قابل مشاهده است');
+            else if (action === 'categories') alert('دسته‌بندی ژانرها در صفحه اصلی');
         });
     });
 }
