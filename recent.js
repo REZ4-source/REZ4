@@ -6,7 +6,7 @@ const recentEpisodes = [
 
    {
         id: "one-piece",
-        episodeNum: 1165,
+        episodeNum: 1166,
         title: "One Piece S2",
         badge: "پربازدید",
         type: "hot"
