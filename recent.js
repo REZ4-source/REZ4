@@ -20,7 +20,7 @@ const recentEpisodes = [
     },  
     {
         id: "witch-hat-atelier",
-        episodeNum: 11,
+        episodeNum: 12,
         title: "Witch Hat Atelier",
         badge: "جدید",
         type: "new"
