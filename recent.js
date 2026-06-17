@@ -4,27 +4,20 @@
 const recentEpisodes = [
 
 
-   {
+    {
+        id: "marriagetoxin",
+        episodeNum: 11,
+        title: "Marriagetoxin",
+        badge: "پربازدید",
+        type: "hot"
+    },
+    {
         id: "one-piece",
         episodeNum: 1166,
         title: "One Piece S2",
         badge: "پربازدید",
         type: "hot"
     },
-    {
-        id: "marriagetoxin",
-        episodeNum: 10,
-        title: "Marriagetoxin",
-        badge: "پربازدید",
-        type: "hot"
-    },  
-    {
-        id: "witch-hat-atelier",
-        episodeNum: 12,
-        title: "Witch Hat Atelier",
-        badge: "جدید",
-        type: "new"
-    },   
     {
         id: "Classroom-of-the-Elite",
         episodeNum: 14,
@@ -33,8 +26,15 @@ const recentEpisodes = [
         type: "today"
     },
     {
+        id: "witch-hat-atelier",
+        episodeNum: 12,
+        title: "Witch Hat Atelier",
+        badge: "جدید",
+        type: "new"
+ },   
+ {
         id: "The-Angel-Next-Door-Spoils-Me-Rotten",
-        episodeNum: 10,
+        episodeNum: 11,
         title: "The Angel Next Door Spoils Me Rotten",
         badge: "بروزشده",
         type: "today"
