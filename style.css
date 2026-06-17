@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Tahoma', 'Segoe UI', system-ui, sans-serif;
-    background: radial-gradient(circle at 10% 20%, #0a0c18, #03050a);
+    background: radial-gradient(circle at 10% 20%, #0a0c18, #0F1022);
     color: #f0f3fa;
     min-height: 100vh;
     padding-bottom: 70px;
@@ -42,6 +42,7 @@ body {
     margin: 1.5rem auto 0 auto;
     max-width: 500px;
 }
+
 .search-box {
     width: 100%;
     background: rgba(25, 30, 50, 0.8);
@@ -54,15 +55,18 @@ body {
     gap: 0.8rem;
     transition: all 0.3s ease;
 }
+
 .search-box:focus-within {
     border-color: #ff6b8b;
     box-shadow: 0 0 15px rgba(255,107,139,0.3);
     background: rgba(35, 40, 65, 0.9);
 }
+
 .search-box .search-icon {
     color: #ff8aa5;
     font-size: 1.2rem;
 }
+
 .search-box input {
     background: transparent;
     border: none;
@@ -72,6 +76,7 @@ body {
     font-size: 1rem;
     font-family: inherit;
 }
+
 .search-box input::placeholder {
     color: #9aa4bf;
 }
@@ -104,6 +109,7 @@ body {
 }
 
 .anime-card {
+    position: relative;
     background: rgba(18, 22, 36, 0.75);
     backdrop-filter: blur(8px);
     border-radius: 1.2rem;
@@ -149,6 +155,7 @@ body {
     gap: 0.8rem;
     margin: 0.3rem 0 0.5rem 0;
 }
+
 .rating-badge {
     font-size: 0.65rem;
     padding: 0.15rem 0.5rem;
@@ -158,10 +165,12 @@ body {
     align-items: center;
     gap: 0.2rem;
 }
+
 .rating-imdb {
     background: #f5c518;
     color: #000;
 }
+
 .rating-mal {
     background: #2e51a2;
     color: #fff;
@@ -205,236 +214,6 @@ body {
     border-color: #ff6b8b;
 }
 
-.detail-container {
-    background: rgba(10, 12, 22, 0.7);
-    backdrop-filter: blur(8px);
-    border-radius: 1.5rem;
-    padding: 1.8rem;
-    border: 1px solid rgba(255,255,255,0.05);
-}
-
-.anime-header-info {
-    margin-bottom: 2rem;
-    border-bottom: 1px dashed rgba(255,255,255,0.1);
-    padding-bottom: 1rem;
-}
-
-.anime-header-info h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #FFB347;
-    margin-bottom: 0.5rem;
-}
-
-.detail-ratings {
-    display: flex;
-    gap: 1rem;
-    margin: 0.5rem 0;
-}
-.detail-rating {
-    padding: 0.2rem 0.8rem;
-    border-radius: 0.5rem;
-    font-size: 0.8rem;
-    font-weight: bold;
-}
-.detail-imdb {
-    background: #f5c518;
-    color: #000;
-}
-
-.anime-poster {
-    max-width: 100%;
-    width: 350px;
-    border-radius: 1rem;
-    margin: 1rem 0;
-    display: block;
-}
-
-.trailer-section {
-    margin: 1.5rem 0;
-    background: rgba(0,0,0,0.5);
-    border-radius: 1rem;
-    padding: 1rem;
-    border: 1px solid rgba(255,107,139,0.3);
-}
-.trailer-title {
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-bottom: 0.8rem;
-    color: #FF8AA5;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-.trailer-player {
-    width: 100%;
-    border-radius: 0.8rem;
-    overflow: hidden;
-}
-.trailer-player video {
-    width: 100%;
-    max-height: 400px;
-    outline: none;
-    border-radius: 0.8rem;
-}
-
-.seasons-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.season-card {
-    background: rgba(0, 0, 0, 0.4);
-    border-radius: 1rem;
-    overflow: hidden;
-    border: 1px solid rgba(255,107,139,0.2);
-}
-
-.season-header {
-    background: rgba(25, 30, 50, 0.9);
-    padding: 1rem 1.2rem;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.2s;
-    border-right: 3px solid #ff6b8b;
-}
-
-.season-header:hover {
-    background: rgba(35, 42, 65, 0.9);
-}
-
-.season-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #FF8AA5;
-}
-
-.season-arrow {
-    font-size: 1rem;
-    transition: transform 0.3s;
-    color: #ff8aa5;
-    }
-.season-arrow img {
-    width: 22px;
-    height: 22px;
-    transform: translateY(3px);
-}
-
-.season-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease-out;
-    padding: 0 1rem;
-}
-
-.season-content.open {
-    max-height: 3000px;
-    padding: 1rem;
-}
-
-.episode-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 0.7rem;
-}
-
-.episode-item {
-    background: rgba(20, 25, 45, 0.7);
-    border-radius: 0.8rem;
-    padding: 0.7rem 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.8rem;
-    border: 1px solid #2f354a;
-}
-
-.episode-name {
-    font-weight: bold;
-    min-width: 100px;
-}
-
-.quality-buttons {
-    display: flex;
-    gap: 0.8rem;
-}
-
-.quality-link {
-    background: linear-gradient(145deg, #1e243b, #12172b);
-    padding: 0.3rem 1rem;
-    border-radius: 2rem;
-    text-decoration: none;
-    color: white;
-    font-size: 0.7rem;
-    font-weight: bold;
-    transition: 0.2s;
-    border: 1px solid rgba(255,255,210,0.1);
-}
-
-.quality-link:hover {
-    transform: translateY(-2px);
-    background: #ff4d6d;
-}
-
-.suggestions-section {
-    margin-top: 2rem;
-    padding-top: 1rem;
-    border-top: 1px solid rgba(255,255,255,0.1);
-}
-.suggestions-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #FFB347;
-    margin-bottom: 1rem;
-}
-.suggestions-grid {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    overflow-x: auto;
-    padding-bottom: 0.5rem;
-}
-.suggestion-card {
-    min-width: 160px;
-    background: rgba(18, 22, 36, 0.6);
-    border-radius: 0.8rem;
-    padding: 0.6rem;
-    cursor: pointer;
-    transition: 0.2s;
-    border: 1px solid transparent;
-    text-align: center;
-}
-.suggestion-card:hover {
-    border-color: #ff6b8b;
-    transform: translateY(-3px);
-}
-.suggestion-img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-.suggestion-title {
-    font-size: 0.85rem;
-    font-weight: bold;
-    color: #FFB347;
-    margin-bottom: 0.2rem;
-}
-.suggestion-rating {
-    font-size: 0.7rem;
-    background: #f5c518;
-    color: #000;
-    display: inline-block;
-    padding: 0.1rem 0.5rem;
-    border-radius: 0.3rem;
-    font-weight: bold;
-}
-
 .footer {
     text-align: center;
     margin-top: 2.5rem;
@@ -443,7 +222,8 @@ body {
     color: #6a7290;
     border-top: 1px solid rgba(255,255,255,0.05);
 }
-/* ========== استایل صفحه‌بندی ========== */
+
+/* ========== صفحه‌بندی ========== */
 .pagination {
     display: flex;
     justify-content: center;
@@ -474,11 +254,6 @@ body {
     cursor: not-allowed;
 }
 
-.pagination .page-numbers {
-    display: flex;
-    gap: 0.3rem;
-}
-
 .pagination .page-btn {
     background: rgba(25, 30, 50, 0.8);
     padding: 0.5rem 0.8rem;
@@ -496,17 +271,14 @@ body {
     color: #9aa4bf;
 }
 
-@media (max-width: 600px) {
-    .app-wrapper { padding: 1rem; }
-    .episode-item { flex-direction: column; align-items: flex-start; }
-    .anime-header-info h2 { font-size: 1.4rem; }
-    .anime-poster, .card-cover { width: 100%; }
-    .rating-badges { flex-wrap: wrap; }
-    .suggestions-grid { gap: 0.8rem; }
-    .suggestion-card { min-width: 130px; }
-    .suggestion-img { height: 160px; }
+.page-dots {
+    display: inline-block;
+    padding: 0.5rem 0.3rem;
+    color: #9aa4bf;
+    user-select: none;
 }
 
+/* ========== جستجو ========== */
 #searchBtn {
     background: #ff6b8b;
     border: none;
@@ -525,6 +297,7 @@ body {
     transform: scale(0.97);
 }
 
+/* ========== فونت ========== */
 @font-face {
     font-family: 'Vazir';
     src: url('fonts/Vazir.ttf') format('truetype');
@@ -543,45 +316,7 @@ body, button, input, .anime-title, .season-title, .detail-btn {
     font-family: 'Vazir', 'Tahoma', 'Segoe UI', system-ui, sans-serif;
 }
 
-.theme-toggle {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background: linear-gradient(145deg, #1e243b, #12172b);
-    border: none;
-    cursor: pointer;
-    z-index: 1000;
-    transition: all 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.3rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    color: #ffccaa;
-}
-
-.theme-toggle:hover {
-    transform: scale(1.05);
-    background: #ff6b8b;
-    color: white;
-    box-shadow: 0 0 15px rgba(255, 107, 139, 0.4);
-}
-
-body.light-mode .theme-toggle {
-    background: linear-gradient(145deg, #f0f0f0, #e0e0e0);
-    color: #e67e22;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-body.light-mode .theme-toggle:hover {
-    background: #ff6b8b;
-    color: white;
-}
-
-/* ========== بخش آخرین قسمت‌ها ========== */
+/* ========== آخرین قسمت‌ها ========== */
 .recent-section {
     margin: 1.5rem 0;
 }
@@ -676,9 +411,9 @@ body.light-mode .theme-toggle:hover {
 .section-divider h3 {
     font-size: 1rem;
     color: #FFB347;
-    display: inline-flex;        /* تغییر از inline-block به inline-flex */
-    align-items: center;         /* وسط‌چین عمودی */
-    gap: 0px;                    /* فاصله بین آیکون و متن */
+    display: inline-flex;
+    align-items: center;
+    gap: 0px;
     background: rgba(255, 107, 139, 0.1);
     padding: 0.2rem 1rem;
     border-radius: 2rem;
@@ -697,19 +432,7 @@ body.light-mode .theme-toggle:hover {
     height: 20px;
 }
 
-.season-arrow img {
-    transition: transform 0.3s ease;
-}
-
-.season-card .season-content.open + .season-header .season-arrow img,
-.season-header.open .season-arrow img {
-    transform: rotate(180deg);
-}
-
-
-
-
-/* ========== نوار ناوبری پایین ========== */
+/* ========== نوار پایین ========== */
 .bottom-nav {
     position: fixed;
     bottom: 15px;
@@ -773,55 +496,7 @@ body.light-mode .theme-toggle:hover {
     color: #ff6b8b;
 }
 
-/* تم روشن */
-body.light-mode .bottom-nav {
-    background: rgba(255, 255, 255, 0.95);
-    border-color: rgba(0, 0, 0, 0.1);
-}
-
-body.light-mode .nav-label {
-    color: #666;
-}
-
-body.light-mode .nav-icon {
-    background: rgba(0, 0, 0, 0.05);
-}
-
-body.light-mode .nav-item:hover .nav-icon {
-    background: #ff6b8b;
-}
-
-body.light-mode .nav-icon img {
-    filter: brightness(0);
-}
-
-body.light-mode .nav-item:hover .nav-icon img {
-    filter: brightness(1);
-}
-
-/* برای موبایل */
-@media (max-width: 600px) {
-    .bottom-nav {
-        padding: 4px 20px;
-        gap: 25px;
-        bottom: 12px;
-    }
-    .nav-icon {
-        width: 32px;
-        height: 32px;
-    }
-    .nav-icon img {
-        width: 16px;
-        height: 16px;
-    }
-    .nav-label {
-        font-size: 0.45rem;
-    }
-}
-
-
-
-/* ========== منوی دسته‌بندی (سایدبار) ========== */
+/* ========== سایدبار دسته‌بندی ========== */
 .category-sidebar {
     position: fixed;
     top: 0;
@@ -843,7 +518,6 @@ body.light-mode .nav-item:hover .nav-icon img {
     right: 0;
 }
 
-/* هدر سایدبار */
 .category-header {
     display: flex;
     justify-content: space-between;
@@ -886,7 +560,6 @@ body.light-mode .nav-item:hover .nav-icon img {
     filter: brightness(0) invert(1);
 }
 
-/* لیست دسته‌بندی */
 .category-list {
     flex: 1;
     overflow-y: auto;
@@ -955,38 +628,43 @@ body.light-mode .nav-item:hover .nav-icon img {
     color: #ff8aa5;
 }
 
-/* تم روشن */
-body.light-mode .category-sidebar {
-    background: rgba(255, 255, 255, 0.98);
+/* ========== دکمه قلب صفحه اصلی ========== */
+.favorite-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    z-index: 10;
 }
 
-body.light-mode .category-main {
-    background: rgba(200, 200, 220, 0.6);
-    color: #1a1a2e;
+.favorite-btn:hover {
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.7);
 }
 
-body.light-mode .sub-item {
-    background: rgba(220, 220, 240, 0.5);
-    color: #1a1a2e;
+.favorite-btn img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    pointer-events: none;
 }
 
-body.light-mode .close-sidebar img {
-    filter: brightness(0);
-}
-
-.page-dots {
-    display: inline-block;
-    padding: 0.5rem 0.3rem;
-    color: #9aa4bf;
-    user-select: none;
-}
-
-/* استایل صفحه علاقه‌مندی */
-
+/* ========== صفحه علاقه‌مندی ========== */
 .favorites-header {
     text-align: center;
     margin: 1rem 0 2rem 0;
 }
+
 .favorites-header h2 {
     font-size: 1.6rem;
     background: linear-gradient(135deg, #FF6B8B, #9D4EDD);
@@ -1005,12 +683,11 @@ body.light-mode .close-sidebar img {
     border-radius: 1rem;
     margin: 2rem 0;
 }
-.empty-favorites img {
-    margin-bottom: 1rem;
-}
+
 .empty-favorites h3 {
     margin-bottom: 0.5rem;
 }
+
 .empty-favorites p {
     color: #aaa;
     font-size: 0.85rem;
@@ -1026,12 +703,12 @@ body.light-mode .close-sidebar img {
     margin-top: 1rem;
     transition: 0.2s;
 }
+
 .btn-home:hover {
     background: #ff4d6d;
     transform: scale(0.97);
 }
 
-/* دکمه حذف از علاقه‌مندی (سطل زباله) */
 .remove-fav-btn {
     position: absolute;
     top: 10px;
@@ -1049,72 +726,714 @@ body.light-mode .close-sidebar img {
     transition: all 0.2s;
     z-index: 10;
 }
+
 .remove-fav-btn:hover {
     background: #ff4d6d;
     transform: scale(1.05);
 }
+
 .remove-fav-btn img {
     width: 16px;
     height: 16px;
     display: block;
 }
 
-/* دکمه قلب در صفحه اصلی */
-.favorite-btn {
+/* ========== موبایل عمومی ========== */
+@media (max-width: 600px) {
+    .app-wrapper { padding: 1rem; }
+    .rating-badges { flex-wrap: wrap; }
+    .bottom-nav {
+        padding: 4px 20px;
+        gap: 25px;
+        bottom: 12px;
+    }
+    .nav-icon {
+        width: 32px;
+        height: 32px;
+    }
+    .nav-icon img {
+        width: 16px;
+        height: 16px;
+    }
+    .nav-label {
+        font-size: 0.45rem;
+    }
+}
+
+
+/* ===================================================
+   صفحه جزئیات - طراحی جدید
+   =================================================== */
+
+.detail-page {
+    min-height: 100vh;
+    background: radial-gradient(circle at 10% 20%, #0a0c18, #0F1022);
+}
+
+/* ===== هیرو ===== */
+.detail-hero {
+    position: relative;
+    width: 100%;
+    min-height: 280px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 24px 24px 0 0;
+    overflow: hidden;
+}
+
+.detail-hero-overlay {
     position: absolute;
-    top: 12px;
-    right: 12px;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(4px);
-    border: none;
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        transparent 40%,
+        rgba(21, 26, 45, 0.4) 60%,
+        rgba(21, 26, 45, 0.8) 80%,
+        #151a2d 100%
+    );
+    z-index: 1;
+}
+
+.detail-hero-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 15px 16px 20px 16px;
+}
+
+.detail-back-btn {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Vazir', sans-serif;
+    font-size: 13px;
+    margin-bottom: 16px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s;
+}
+
+.detail-back-btn:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.detail-hero-info {
+    display: flex;
+    gap: 14px;
+    align-items: flex-end;
+}
+
+.detail-poster {
+    width: 120px;
+    height: 170px;
+    border-radius: 14px;
+    object-fit: cover;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    flex-shrink: 0;
+}
+
+.detail-hero-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.detail-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 4px 0;
+    line-height: 1.4;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.detail-subtitle {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0 0 8px 0;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.detail-ratings-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.detail-rating-badge {
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+.detail-rating-badge.imdb {
+    background: linear-gradient(135deg, #f5c518, #e0a800);
+    color: #000;
+}
+
+.detail-rating-badge.mal {
+    background: linear-gradient(135deg, #2e51a2, #4a6fc7);
+    color: #fff;
+}
+
+.detail-genres {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.detail-genre-tag {
+    background: rgba(255, 107, 139, 0.15);
+    color: #ff6b8b;
+    padding: 2px 9px;
+    border-radius: 15px;
+    font-size: 10px;
+    border: 1px solid rgba(255, 107, 139, 0.25);
+}
+
+/* ===== بدنه ===== */
+.detail-body {
+    padding: 16px 16px 100px 16px;
+    background: #151a2d;
+    border-radius: 24px;
+    margin-top: -16px;
+    position: relative;
+    z-index: 3;
+}
+
+/* ===== دکمه علاقه‌مندی ===== */
+.detail-actions {
+    display: flex;
+    gap: 10px;
+    margin: 12px 0 20px 0;
+}
+
+.action-btn {
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 8px;
+    padding: 9px 18px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.06);
+    color: #ccc;
+    font-family: 'Vazir', sans-serif;
+    font-size: 12px;
     cursor: pointer;
-    transition: all 0.2s;
-    z-index: 10;
-}
-.favorite-btn:hover {
-    transform: scale(1.1);
-    background: rgba(0, 0, 0, 0.7);
-}
-.favorite-btn img {
-    width: 20px;
-    height: 20px;
-    display: block;
-    pointer-events: none;
+    transition: all 0.3s;
 }
 
-/* دکمه قلب در صفحه جزئیات */
-.favorite-btn-detail {
-    display: inline-flex;
+.action-btn:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.action-btn.is-fav {
+    background: rgba(255, 107, 139, 0.15);
+    border-color: rgba(255, 107, 139, 0.3);
+    color: #ff6b8b;
+}
+
+/* ===== بخش‌ها ===== */
+.detail-section {
+    margin-bottom: 20px;
+}
+
+.detail-section-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFB347;
+    margin-bottom: 12px;
+    display: flex;
     align-items: center;
     gap: 8px;
-    background: rgba(255, 107, 139, 0.15);
-    border: 1px solid rgba(255, 107, 139, 0.4);
-    border-radius: 2rem;
-    padding: 0.4rem 1rem;
-    cursor: pointer;
-    transition: 0.2s;
-    margin: 0.5rem 0;
-    width: fit-content;
-}
-.favorite-btn-detail:hover {
-    background: rgba(255, 107, 139, 0.3);
-    transform: scale(0.98);
-}
-.favorite-btn-detail img {
-    width: 18px;
-    height: 18px;
-}
-.favorite-btn-detail span {
-    font-size: 0.8rem;
-    color: #ff8aa5;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-.anime-card {
+/* ===== خلاصه داستان ===== */
+.detail-description {
     position: relative;
+}
+
+.detail-description p {
+    color: #b0b8cc;
+    font-size: 13px;
+    line-height: 1.9;
+    margin: 0;
+    transition: all 0.3s;
+}
+
+.desc-collapsed {
+    max-height: 70px;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(to bottom, #000 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 50%, transparent 100%);
+}
+
+.desc-toggle {
+    background: none;
+    border: none;
+    color: #ff6b8b;
+    cursor: pointer;
+    font-family: 'Vazir', sans-serif;
+    font-size: 12px;
+    padding: 6px 0;
+    font-weight: 600;
+}
+
+.desc-toggle:hover {
+    color: #ff8fa8;
+}
+
+/* ===== گرید اطلاعات ===== */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.info-item {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.info-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 107, 139, 0.2);
+    transform: translateY(-2px);
+}
+
+.info-label {
+    font-size: 10px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.info-value {
+    font-size: 12px;
+    font-weight: 600;
+    color: #e0e0e0;
+}
+
+.info-value.status-airing {
+    color: #66ffaa;
+}
+
+.info-value.status-finished {
+    color: #ff6b8b;
+}
+
+/* ===== تریلر ===== */
+.trailer-player {
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.trailer-player video {
+    width: 100%;
+    display: block;
+    border-radius: 14px;
+}
+
+/* ===== فصل‌ها ===== */
+.seasons-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.season-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.season-card.open {
+    border-color: rgba(255, 107, 139, 0.2);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.season-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.season-header:hover {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.season-header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.season-badge {
+    background: linear-gradient(135deg, #ff6b8b, #9D4EDD);
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.season-title {
+    color: #e0e0e0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.detail-note-simple {
+    color: #55ff6d;
+    font-size: 12px;
+    margin-top: -2px;
+    margin-right: 5px;
+     
+}
+
+.season-arrow {
+    transition: transform 0.3s;
+    opacity: 0.5;
+}
+
+.season-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s;
+    padding: 0 10px;
+}
+
+.season-content.open {
+    max-height: 5000px;
+    padding: 6px 10px 12px;
+}
+
+/* ===== قسمت‌ها ===== */
+.episode-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.episode-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 10px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    transition: all 0.2s;
+    gap: 8px;
+    min-height: 34px;
+}
+
+.episode-item:hover {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.episode-name {
+    color: #ccc;
+    font-size: 12px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.quality-buttons {
+    display: flex;
+    gap: 4px;
+    flex-shrink: 0;
+    margin-right: auto;
+}
+
+.quality-link {
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.quality-link.q480 {
+    background: rgba(102, 255, 170, 0.12);
+    color: #66ffaa;
+    border: 1px solid rgba(102, 255, 170, 0.2);
+}
+
+.quality-link.q480:hover {
+    background: rgba(102, 255, 170, 0.25);
+}
+
+.quality-link.q720 {
+    background: rgba(100, 149, 237, 0.12);
+    color: #6495ED;
+    border: 1px solid rgba(100, 149, 237, 0.2);
+}
+
+.quality-link.q720:hover {
+    background: rgba(100, 149, 237, 0.25);
+}
+
+.quality-link.q-soon {
+    background: rgba(255, 255, 255, 0.05);
+    color: #555;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    cursor: default;
+}
+
+/* ===== پیشنهادات ===== */
+.suggestions-grid {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.suggestions-grid::-webkit-scrollbar {
+    height: 3px;
+}
+
+.suggestions-grid::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.suggestions-grid::-webkit-scrollbar-thumb {
+    background: rgba(255, 107, 139, 0.3);
+    border-radius: 10px;
+}
+
+.suggestion-card {
+    position: relative;
+    min-width: 110px;
+    max-width: 110px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    transition: transform 0.3s;
+}
+
+.suggestion-card:hover {
+    transform: scale(1.05);
+}
+
+.suggestion-img {
+    width: 100%;
+    height: 155px;
+    object-fit: cover;
+    display: block;
+}
+
+.suggestion-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 7px 7px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+}
+
+.suggestion-title {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 2px;
+}
+
+.suggestion-rating {
+    font-size: 11px;
+    color: #999;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-top: 3px;
+}
+
+.star-icon {
+    color: #f5c518;
+    font-size: 10px;
+    margin-top: -1px;
+}
+
+/* ===== ریسپانسیو صفحه جزئیات ===== */
+@media (max-width: 360px) {
+    .detail-hero {
+        min-height: 240px;
+        border-radius: 18px 18px 0 0;
     }
+    .detail-body {
+        border-radius: 18px 18px 0 0;
+        padding: 12px 12px 100px 12px;
+    }
+    .detail-poster {
+        width: 90px;
+        height: 130px;
+        border-radius: 10px;
+    }
+    .detail-title {
+        font-size: 14px;
+    }
+    .detail-subtitle {
+        font-size: 10px;
+    }
+    .detail-hero-info {
+        gap: 10px;
+    }
+    .episode-item {
+        padding: 5px 7px;
+        gap: 5px;
+    }
+    .episode-name {
+        font-size: 10px;
+    }
+    .quality-link {
+        padding: 2px 7px;
+        font-size: 9px;
+    }
+    .info-grid {
+        gap: 6px;
+    }
+    .info-item {
+        padding: 8px 5px;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 400px) {
+    .detail-poster {
+        width: 100px;
+        height: 145px;
+    }
+    .detail-title {
+        font-size: 15px;
+    }
+    .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 7px;
+    }
+    .info-item {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 600px) {
+    .detail-hero {
+        min-height: 380px;
+        border-radius: 28px 28px 0 0;
+    }
+    .detail-body {
+        border-radius: 28px 28px 0 0;
+    }
+    .info-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .detail-poster {
+        width: 150px;
+        height: 210px;
+    }
+    .detail-title {
+        font-size: 20px;
+    }
+    .episode-item {
+        padding: 9px 14px;
+        gap: 10px;
+    }
+    .episode-name {
+        font-size: 13px;
+    }
+    .quality-link {
+        padding: 4px 14px;
+        font-size: 11px;
+    }
+}
+
+
+
+/* ===== دکستاپ مود ===== */
+@media (min-width: 900px) {
+    .detail-page {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .detail-hero {
+        border-radius: 30px 30px 0 0;
+    }
+    .detail-body {
+        max-width: 100%;
+        margin-top: -16px;
+        border-radius: 30px;
+        padding: 20px 30px 100px 30px;
+    }
+    .info-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .episode-item {
+        padding: 10px 16px;
+        gap: 14px;
+    }
+    .episode-name {
+        font-size: 14px;
+    }
+    .quality-link {
+        padding: 5px 18px;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+    .detail-title {
+        font-size: 24px;
+    }
+    .detail-subtitle {
+        font-size: 14px;
+    }
+    .detail-poster {
+        width: 170px;
+        height: 240px;
+    }
+    .detail-section-title {
+        font-size: 18px;
+    }
+    .detail-description p {
+        font-size: 14px;
+    }
+    .suggestions-grid {
+        gap: 14px;
+    }
+    .suggestion-card {
+        min-width: 140px;
+        max-width: 140px;
+    }
+    .suggestion-img {
+        height: 190px;
+    }
+}
