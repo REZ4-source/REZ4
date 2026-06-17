@@ -4,7 +4,7 @@ const animeData = [
    {
             "id": "Smoking-Behind-the-Supermarket-with-You",
             "title": "Smoking Behind the Supermarket with You",
-            "fullTitle": "Smoking Behind the Supermarket with You",
+            "fullTitle": "سیگار کشیدن پشت سوپرمارکت با تو",
             "description": "کارمند خسته از روزمرگی، و تایاما، موتورسوار آزاد و مرموز، در گوشه‌ای پنهان پشت یک سوپرمارکت با هم روبه‌رو می‌شوند؛ جایی دور از شلوغی جهان و نگاه دیگران. میان دود آرام سیگار و سکوت شبانه، دو روح تنها کم‌کم یکدیگر را می‌یابند و ارتباطی شکل می‌گیرد که ساده، بی‌صدا و عمیق است.",
             "genres": ["زندگی‌روزمره", "درام", "رمانتیک"],
             "imdbRating": "8.7",
@@ -37,7 +37,7 @@ const animeData = [
  {
             id: "one-piece",
             title: "One Piece S2",
-            fullTitle: "One Pice S2",
+            fullTitle: "وان پیس",
             description: "ماجراجویی لوفی و دوستانش برای پیدا کردن گنج وان پیس و رسیدن به رویای مشترکشون آزادی و تبدیل شدن به پادشاه دزدان دریایی. سفری حماسی پر از خنده، اشک، نبرد و رفاقت‌های موندگار.",
             genres: ["فانتزی", "ماجراجویی", "اکشن"],
             imdbRating: "9",
@@ -72,7 +72,7 @@ const animeData = [
      {
             id: "marriagetoxin",
             title: "Marriagetoxin",
-            fullTitle: "Marriagetoxin",
+            fullTitle: "ازدواج سمی",
             description: "هیکارو گرو، قاتل حرفه‌ای از خاندان زهر که هیچ تجربه‌ای در عشق و ازدواج ندارد. برای نجات خواهرش از اجبار به بارداری، از می کینوساکی، کلاهبردار حرفه‌ای ازدواج، کمک می‌خواهد تا همسر ایده‌آلش را پیدا کند.",
             genres: ["اکشن", "کمدی", "رمانتیک"],
             imdbRating: "--",
@@ -96,7 +96,8 @@ const animeData = [
                         { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E08.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E08.WEB-DL.720p.Film2Media.mkv" } },
                         { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E09.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E09.WEB-DL.720p.Film2Media.mkv" } },
                         { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E10.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E10.WEB-DL.720p.Film2Media.mkv" } },
-                        { epNum: 11, qualities: { "480p": "", "720p": "" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E11.WEB-DL.720p.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "", "720p": "" } },
                         
                     ]
                 }
@@ -105,7 +106,7 @@ const animeData = [
      {
             id: "witch-hat-atelier",
             title: "Witch Hat Atelier",
-            fullTitle: "Witch Hat Atelier",
+            fullTitle: "آتلیه کلاه جادوگرا",
             description: "داستان دختری به نام «کوکو» را دنبال می‌کند که رویای جادوگر شدن را در سر می‌پروراند، اما در دنیای او تنها کسانی که با قدرت‌های جادویی متولد شده‌اند می‌توانند به این مقام برسند.",
             genres: ["درام", "فانتزی", "ماجراجویی"],
             imdbRating: "--",
@@ -145,7 +146,7 @@ const animeData = [
          {
             id: "The-Angel-Next-Door-Spoils-Me-Rotten",
             title: "The Angel Next Door Spoils Me Rotten",
-            fullTitle: "The Angel Next Door Spoils Me Rotten",
+            fullTitle: "فرشته همسایه من را لوس میکند",
             description: "«ماهیرو» دختری آن‌قدر زیباست که او را «فرشته» می‌نامند. در مقابل، «آمانه» یک پسر کاملاً معمولی است که هرگز توجه چندانی به زیبایی نداشته است؛ اما وقتی در میان یک طوفان با ماهیرو روبه‌رو می‌شود، همه‌چیز تغییر می‌کند و یک رابطه‌ی شگفت‌انگیز و دور از انتظار میان این دو شکل می‌گیرد.",
             genres: ["زندگی روزمره", "کمدی", "عاشقانه"],
             imdbRating: "8",
@@ -198,7 +199,7 @@ const animeData = [
    {
             id: "Classroom-of-the-Elite",
             title: "Classroom of the Elite",
-            fullTitle: "Classroom of the Elite",
+            fullTitle: "کلاس نخبگان",
             description: "زمانی که «کیوتاکا» وارد یک دبیرستان ویژه‌ی نخبگان که تحت حمایت کامل دولت است می‌شود، تازه درمی‌یابد که سیستم آموزشی این مؤسسه تا چه اندازه و به شکلی افراطی بر پایه‌ی شایسته‌سالاری بنا شده است.",
             genres: ["مدرسه‌ای", "هیجان انگیز", "درام"],
             imdbRating: "7.7",
@@ -311,3 +312,4 @@ const animeData = [
    
    
     ];
+
