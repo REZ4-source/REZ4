@@ -492,7 +492,19 @@ const animeInfo = {
     note: "زیرنویس"
 },
   
-  
+    "I-Made-Friends-with-the-Second-Prettiest-Girl-in-My-Class": {
+    year: 2026,
+    episodes: 12,
+    status: "درحال پخش",
+    studio: "CONNECT",
+    duration: "24 دقیقه",
+    season: "نامشخص",
+    source: "لایت ناول",
+    ageRating: "PG-13",
+    director: "Hideki Tachibana",
+    language: "ژاپنی",
+    note: "زیرنویس"
+},
   
   
   
