@@ -1,6 +1,41 @@
 const animeData = [
 
- 
+
+ {
+            "id": "I-Made-Friends-with-the-Second-Prettiest-Girl-in-My-Class",
+            "title": "I Made Friends with the Second Prettiest Girl in My Class",
+            "fullTitle": "من با دومین دختر زیبای کلاسم دوست شدم",
+            "description": "ماکی مائه‌هارا که پسری گوشه‌گیر است، انتظار دارد یک سال دیگر را هم بدون دوست بگذراند؛ تا اینکه در یک فروشگاه ویدئو با همکلاسی محبوبش، اومی آساناگی، روبه‌رو می‌شود. با وجود تفاوت در دایره‌های اجتماعی‌شان، آن‌ها به‌خاطر علاقه‌ی مشترکشان به فیلم‌های درجه‌دو به هم نزدیک می‌شوند و آساناگی از او می‌خواهد با هم دوست باشند.",
+            "genres": ["مدرسه‌ای", "کمدی", "عاشقانه"],
+            "imdbRating": "8.2",
+            "malRating": "7.93",
+            "poster": "https://intocdn.top/wp-content/uploads/2026/04/q8vtAc81RluhMrh2QlaLgIm59Oa.jpg",
+            "horizontalCover": "https://intocdn.top/wp-content/uploads/2026/04/q8vtAc81RluhMrh2QlaLgIm59Oa.jpg",
+            "verticalCover": "https://intocdn.top/wp-content/uploads/2026/04/8Y90sEn06eQTf1hZ8qd3CnV3IAp-360x480.jpg",
+            "trailer": "https://edge06.166864.ir.cdn.ir/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/I-Made-Friends-with-the-Second-Prettiest_Media.mp4",
+            "seasons": [
+                {
+                    "seasonNumber": 1,
+                    "seasonName": "فصل اول - 12 قسمت",
+                    "episodes": [
+                        { "epNum": 1, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E01.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E01.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 2, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E02.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E02.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 3, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E03.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E03.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 4, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E04.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E04.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 5, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E05.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E05.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 6, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E06.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E06.720p.Farsi.Sub.Film2Medi.mkv" } },
+                        { "epNum": 7, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E07.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E07.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 8, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E08.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E08.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 9, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E09.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E09.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 10, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E10.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E10.720p.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 11, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E11.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E11.720p.Farsi.Sub.Film2Media.mkv" } }
+,
+                        { "epNum": 12, "qualities": { "480p": "", "720p": "" } }
+                        
+                    ]
+                }
+            ]     
+         },
    {
             "id": "Smoking-Behind-the-Supermarket-with-You",
             "title": "Smoking Behind the Supermarket with You",
