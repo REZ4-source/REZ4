@@ -3,7 +3,13 @@
 
 const recentEpisodes = [
 
-
+   {
+        id: "I-Made-Friends-with-the-Second-Prettiest-Girl-in-My-Class",
+        episodeNum: 11,
+        title: "...I Made Friends with the",
+        badge: "جدید",
+        type: "new"
+    },
     {
         id: "marriagetoxin",
         episodeNum: 11,
