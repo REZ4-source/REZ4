@@ -513,13 +513,21 @@ function renderDetailPage(animeId) {
         season.episodes.forEach(ep => {
             const quality480 = ep.qualities["480p"];
             const quality720 = ep.qualities["720p"];
+            const quality1080 = ep.qualities["1080p"];
+            
             const has480 = quality480 && quality480 !== "#" && quality480 !== "";
             const has720 = quality720 && quality720 !== "#" && quality720 !== "";
+            const has1080 = quality1080 && quality1080 !== "#" && quality1080 !== "";
 
             let buttonsHtml = '';
             if (has480) buttonsHtml += `<a href="${quality480}" class="quality-link q480" target="_blank" download>480p</a>`;
+            
             if (has720) buttonsHtml += `<a href="${quality720}" class="quality-link q720" target="_blank" download>720p</a>`;
-            if (!has480 && !has720) buttonsHtml = `<span class="quality-link q-soon">به زودی</span>`;
+            
+            if (has1080) buttonsHtml += `<a href="${quality1080}" class="quality-link q1080" target="_blank" download>1080p</a>`;
+            
+            if (!has480 && !has720 && !has1080) buttonsHtml = `<span class="quality-link q-soon">به زودی</span>`;
+
 
                         episodesHtml += `
                 <div class="episode-item">
