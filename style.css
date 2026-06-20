@@ -1199,6 +1199,18 @@ body, button, input, .anime-title, .season-title, .detail-btn {
     background: rgba(100, 149, 237, 0.25);
 }
 
+.quality-link.q1080 {  
+background: rgba(255, 128, 241, 0.12);
+    color: #ff80f1;
+    border: 1px solid rgba(255, 128, 241, 0.2);
+}
+
+.quality-link.q1080:hover {
+
+background: rgba(255, 128, 241, 0.25);
+    
+}
+
 .quality-link.q-soon {
     background: rgba(255, 255, 255, 0.05);
     color: #555;
