@@ -505,7 +505,20 @@ const animeInfo = {
     language: "ژاپنی",
     note: "زیرنویس"
 },
-  
+    
+  "Mushoku-Tensei": {
+    year: 2021,
+    episodes: 48,
+    status: "پایان یافته",
+    studio: "Studio Bind",
+    duration: "24 دقیقه",
+    season: "زمستان",
+    source: "لایت ناول",
+    ageRating: "R-17+",
+    director: "Manabu Okamoto",
+    language: "ژاپنی",
+    note: "زیرنویس"
+},  
   
   
   
