@@ -26,7 +26,7 @@ const recentEpisodes = [
     },
     {
         id: "Classroom-of-the-Elite",
-        episodeNum: 14,
+        episodeNum: 15,
         title: "Classroom of the Elite S4",
         badge: "بروزشده",
         type: "today"
