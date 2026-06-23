@@ -19,7 +19,7 @@ const recentEpisodes = [
     },
     {
         id: "one-piece",
-        episodeNum: 1166,
+        episodeNum: 1167,
         title: "One Piece S2",
         badge: "پربازدید",
         type: "hot"
