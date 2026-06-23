@@ -18,7 +18,7 @@ const animeInfo = {
     
     "one-piece": {
         "year": "۱۹۹۹",
-        "episodes": "+۱۱۳۷",
+        "episodes": "+۱۱۶۵",
         "status": "در حال پخش",
         "studio": "توئی انیمیشن",
         "duration": "۲۴ دقیقه",
@@ -47,7 +47,7 @@ const animeInfo = {
   "witch-hat-atelier": {
         "year": "۲۰۲۶",
         "episodes": "۱۳",
-        "status": "در حال پخش",
+        "status": "پایان یافته",
         "studio": "BUG FILMS",
         "duration": "۲۴ دقیقه",
         "season": "بهار ۲۰۲۶",
@@ -61,7 +61,7 @@ const animeInfo = {
     "The-Angel-Next-Door-Spoils-Me-Rotten": {
         "year": "۲۰۲۳",
         "episodes": "۲۴",
-        "status": "در حال پخش",
+        "status": "پایان یافته",
         "studio": "project No.9",
         "duration": "۲۴ دقیقه",
         "season": "زمستان ۲۰۲۳",
