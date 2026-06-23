@@ -28,116 +28,14 @@ const animeData = [
                         { "epNum": 8, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E08.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E08.720p.Farsi.Sub.Film2Media.mkv" } },
                         { "epNum": 9, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E09.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E09.720p.Farsi.Sub.Film2Media.mkv" } },
                         { "epNum": 10, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E10.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E10.720p.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 11, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E11.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E11.720p.Farsi.Sub.Film2Media.mkv" } }
-,
+                        { "epNum": 11, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E11.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E11.720p.Farsi.Sub.Film2Media.mkv" } },
                         { "epNum": 12, "qualities": { "480p": "", "720p": "" } }
-                        
+
+                     
                     ]
                 }
             ]     
          },
-   {
-            "id": "Smoking-Behind-the-Supermarket-with-You",
-            "title": "Smoking Behind the Supermarket with You",
-            "fullTitle": "سیگار کشیدن پشت سوپرمارکت با تو",
-            "description": "کارمند خسته از روزمرگی، و تایاما، موتورسوار آزاد و مرموز، در گوشه‌ای پنهان پشت یک سوپرمارکت با هم روبه‌رو می‌شوند؛ جایی دور از شلوغی جهان و نگاه دیگران. میان دود آرام سیگار و سکوت شبانه، دو روح تنها کم‌کم یکدیگر را می‌یابند و ارتباطی شکل می‌گیرد که ساده، بی‌صدا و عمیق است.",
-            "genres": ["زندگی‌روزمره", "درام", "رمانتیک"],
-            "imdbRating": "8.7",
-            "malRating": "8.58",
-            "poster": "https://intocdn.top/wp-content/uploads/2026/06/gkmE41A5ev5M299hLgX3JrWAM16.jpg",
-            "horizontalCover": "https://intocdn.top/wp-content/uploads/2026/06/gkmE41A5ev5M299hLgX3JrWAM16.jpg",
-            "verticalCover": "https://intocdn.top/wp-content/uploads/2026/06/gHVfuuOXPVs0ltFbOZQjxpXtSSH-360x480.jpg",
-            "trailer": "https://edge43.166864.ir.cdn.ir/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu_Trailer.mp4",
-            "seasons": [
-                {
-                    "seasonNumber": 1,
-                    "seasonName": "فصل اول - 12 قسمت",
-                    "episodes": [
-                        { "epNum": 1, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 2, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 3, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E03.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 4, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E04.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E04.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 5, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E05.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E05.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 6, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E06.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E06.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 7, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E07.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E07.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 8, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E08.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E08.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 9, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E09.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 10, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E10.FIX.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.FIX.mkv" } },
-                        { "epNum": 11, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 12, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E12.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Super.no.Ura.de.Yani.Suu/Super.no.Ura.de.Yani.Suu.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
-                    ]
-                }
-            ]
-        },
- {
-            id: "one-piece",
-            title: "One Piece S2",
-            fullTitle: "وان پیس",
-            description: "ماجراجویی لوفی و دوستانش برای پیدا کردن گنج وان پیس و رسیدن به رویای مشترکشون آزادی و تبدیل شدن به پادشاه دزدان دریایی. سفری حماسی پر از خنده، اشک، نبرد و رفاقت‌های موندگار.",
-            genres: ["فانتزی", "ماجراجویی", "اکشن"],
-            imdbRating: "9",
-            malRating: "8.73",
-            poster: "https://i.postimg.cc/dQrpqVvJ/42c4e1708c4136f128ecb57a084bee19.jpg",
-            horizontalCover: "https://i.postimg.cc/dQrpqVvJ/42c4e1708c4136f128ecb57a084bee19.jpg",
-            verticalCover: "https://i.postimg.cc/cJvkPsTc/0793036344891436c2a1b23df20c97e1.jpg",
-            trailer: "https://edge01.166864.ir.cdn.ir/Series/One.Piece.Anime/One.Piece.Trailer.mp4",
-            seasons: [
-                {
-                    seasonNumber: 2,
-                    seasonName: "فصل دوم - درحال پخش",
-                    episodes: [
-                        { epNum: 1156, qualities: { "480p": "", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.E1156.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
-                        { epNum: 1157, qualities: { "480p": "", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.E1157.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
-                        { epNum: 1158, qualities: { "480p": "", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.E1158.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
-                        { epNum: 1159, qualities: { "480p": "", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.E1159.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
-                        { epNum: 1160, qualities: { "480p": "", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.E1160.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
-                        { epNum: 1161, qualities: { "480p": "", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.E1161.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
-                        { epNum: 1162, qualities: { "480p": "", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.E1162.720p.WEB-DL.x264-AnimeON.mkv" } },
-                        { epNum: 1163, qualities: { "480p": "", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.1163.720p.WEB-DL.SoftSub.AnimeON.mkv" } },
-                        { epNum: 1164, qualities: { "480p": "", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.1164.720p.WEB-DL.SoftSub.AnimeON.mkv" } },
-                        { epNum: 1165, qualities: { "480p": "", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.E1165.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
-                        { epNum: 1166, qualities: { "1080p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/One.Piece.Anime/One.Piece.1166.1080p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.1166.720p.WEB-DL.SoftSub.AnimeON.mkv" } },
-                        { epNum: 1167, qualities: { "1080p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/One.Piece.Anime/One.Piece.1167.1080p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.E1167.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } }
-                          
-                    ]
-                }
-            ]
-         },
-  
-     {
-            id: "marriagetoxin",
-            title: "Marriagetoxin",
-            fullTitle: "ازدواج سمی",
-            description: "هیکارو گرو، قاتل حرفه‌ای از خاندان زهر که هیچ تجربه‌ای در عشق و ازدواج ندارد. برای نجات خواهرش از اجبار به بارداری، از می کینوساکی، کلاهبردار حرفه‌ای ازدواج، کمک می‌خواهد تا همسر ایده‌آلش را پیدا کند.",
-            genres: ["اکشن", "کمدی", "رمانتیک"],
-            imdbRating: "--",
-            malRating: "--",
-            poster: "https://intocdn.top/wp-content/uploads/2026/05/lmJKqQMBrRYDwm5zCoubnQHl8rH.jpg",
-            horizontalCover: "https://intocdn.top/wp-content/uploads/2026/05/lmJKqQMBrRYDwm5zCoubnQHl8rH.jpg",
-            verticalCover: "https://intocdn.top/wp-content/uploads/2026/05/wXyOAIxNUFTEk9Mpj7Ca4jCibMf-360x480.jpg",
-            trailer: "https://edge43.166864.ir.cdn.ir/Series/Marriagetoxin/MARRIAGETOXIN-Second-Trailer.mp4",
-            seasons: [
-                {
-                    seasonNumber: 1,
-                    seasonName: "فصل اول - درحال پخش",
-                    episodes: [
-                        { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E01.WEB-DL.720p.Film2Media.mkv" } },
-                        { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E02.WEB-DL.720p.Film2Media.mkv" } },
-                        { epNum: 3, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E03.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E03.WEB-DL.720p.Film2Media.mkv" } },
-                        { epNum: 4, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E04.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E04.WEB-DL.720p.Film2Media.mkv" } },
-                        { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E05.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E05.WEB-DL.720p.Film2Media.mkv" } },
-                        { epNum: 6, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E06.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E06.WEB-DL.720p.Film2Media.mkv" } },
-                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E07.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E07.WEB-DL.720p.Film2Media.mkv" } },
-                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E08.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E08.WEB-DL.720p.Film2Media.mkv" } },
-                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E09.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E09.WEB-DL.720p.Film2Media.mkv" } },
-                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E10.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E10.WEB-DL.720p.Film2Media.mkv" } },
-                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E11.WEB-DL.720p.Film2Media.mkv" } },
-                        { epNum: 12, qualities: { "480p": "", "720p": "" } },
-                        
-                    ]
-                }
-            ]
-        },
      {
             id: "witch-hat-atelier",
             title: "Witch Hat Atelier",
