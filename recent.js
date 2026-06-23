@@ -3,19 +3,19 @@
 
 const recentEpisodes = [
 
-   {
-        id: "I-Made-Friends-with-the-Second-Prettiest-Girl-in-My-Class",
-        episodeNum: 11,
-        title: "...I Made Friends with the",
-        badge: "جدید",
-        type: "new"
-    },
     {
-        id: "marriagetoxin",
-        episodeNum: 11,
-        title: "Marriagetoxin",
-        badge: "پربازدید",
-        type: "hot"
+        id: "witch-hat-atelier",
+        episodeNum: 13,
+        title: "Witch Hat Atelier",
+        badge: "بروزشد",
+        type: "today"
+ },   
+ {
+        id: "The-Angel-Next-Door-Spoils-Me-Rotten",
+        episodeNum: 12,
+        title: "The Angel Next Door Spoils Me Rotten",
+        badge: "بروزشد",
+        type: "today"
     },
     {
         id: "one-piece",
@@ -25,6 +25,13 @@ const recentEpisodes = [
         type: "hot"
     },
     {
+        id: "I-Made-Friends-with-the-Second-Prettiest-Girl-in-My-Class",
+        episodeNum: 11,
+        title: "...I Made Friends with the",
+        badge: "جدید",
+        type: "new"
+    },
+    {
         id: "Classroom-of-the-Elite",
         episodeNum: 15,
         title: "Classroom of the Elite S4",
@@ -32,19 +39,14 @@ const recentEpisodes = [
         type: "today"
     },
     {
-        id: "witch-hat-atelier",
-        episodeNum: 12,
-        title: "Witch Hat Atelier",
-        badge: "جدید",
-        type: "new"
- },   
- {
-        id: "The-Angel-Next-Door-Spoils-Me-Rotten",
+        id: "marriagetoxin",
         episodeNum: 11,
-        title: "The Angel Next Door Spoils Me Rotten",
-        badge: "بروزشده",
-        type: "today"
-    },
+        title: "Marriagetoxin",
+        badge: "پربازدید",
+        type: "hot"
+    },  
+    
+    
     
     
     
