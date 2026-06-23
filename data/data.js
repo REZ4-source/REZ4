@@ -97,7 +97,7 @@ const animeData = [
                         { epNum: 1164, qualities: { "480p": "", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.1164.720p.WEB-DL.SoftSub.AnimeON.mkv" } },
                         { epNum: 1165, qualities: { "480p": "", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.E1165.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
                         { epNum: 1166, qualities: { "1080p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/One.Piece.Anime/One.Piece.1166.1080p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.1166.720p.WEB-DL.SoftSub.AnimeON.mkv" } },
-                        { epNum: 1167, qualities: { "480p": "", "720p": "" } }
+                        { epNum: 1167, qualities: { "1080p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/One.Piece.Anime/One.Piece.1167.1080p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "" } }
                           
                     ]
                 }
