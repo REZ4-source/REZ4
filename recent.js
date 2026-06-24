@@ -40,7 +40,7 @@ const recentEpisodes = [
     },
     {
         id: "marriagetoxin",
-        episodeNum: 11,
+        episodeNum: 12,
         title: "Marriagetoxin",
         badge: "پربازدید",
         type: "hot"
