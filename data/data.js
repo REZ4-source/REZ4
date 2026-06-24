@@ -65,7 +65,7 @@ const animeData = [
                         { "epNum": 9, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E09.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E09.720p.Farsi.Sub.Film2Media.mkv" } },
                         { "epNum": 10, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E10.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E10.720p.Farsi.Sub.Film2Media.mkv" } },
                         { "epNum": 11, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E11.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E11.720p.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 12, "qualities": { "480p": "", "720p": "" } }
+                        { "epNum": 12, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E12.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E12.720p.Farsi.Sub.Film2Media.mkv" } }
 
                      
                     ]
