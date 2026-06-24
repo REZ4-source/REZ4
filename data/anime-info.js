@@ -33,7 +33,7 @@ const animeInfo = {
   "marriagetoxin": {
         "year": "۲۰۲۶",
         "episodes": "۱۲",
-        "status": "در حال پخش",
+        "status": "پایان یافته",
         "studio": "BONES Film",
         "duration": "۲۴ دقیقه",
         "season": "بهار ۲۰۲۶",
@@ -75,7 +75,7 @@ const animeInfo = {
   "Classroom-of-the-Elite": {
         "year": "۲۰۱۷",
         "episodes": "۳۸",
-        "status": "در حال پخش",
+        "status": "پایان یافته",
         "studio": "Lerche",
         "duration": "۲۴ دقیقه",
         "season": "تابستان ۲۰۱۷",
