@@ -6,7 +6,7 @@ const ITEMS_PER_PAGE = 10;
 const appContainer = document.getElementById('app');
 
 // ========== ترکیب دیتابیس ==========
-const fullAnimeData = [...animeData, ...animeData2, ...animeData3];
+const fullAnimeData = [...animeData, ...animeData2, ...animeData3, ...animeData4];
 
 // ========== مدیریت علاقه‌مندی‌ها ==========
 function getFavorites() {
