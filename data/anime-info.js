@@ -495,7 +495,7 @@ const animeInfo = {
     "I-Made-Friends-with-the-Second-Prettiest-Girl-in-My-Class": {
     year: 2026,
     episodes: 12,
-    status: "درحال پخش",
+    status: "پایان یافته",
     studio: "CONNECT",
     duration: "24 دقیقه",
     season: "نامشخص",
