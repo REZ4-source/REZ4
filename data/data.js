@@ -1,6 +1,42 @@
 const animeData = [
 
 
+      
+  
+     {
+            id: "marriagetoxin",
+            title: "Marriagetoxin",
+            fullTitle: "ازدواج سمی",
+            description: "هیکارو گرو، قاتل حرفه‌ای از خاندان زهر که هیچ تجربه‌ای در عشق و ازدواج ندارد. برای نجات خواهرش از اجبار به بارداری، از می کینوساکی، کلاهبردار حرفه‌ای ازدواج، کمک می‌خواهد تا همسر ایده‌آلش را پیدا کند.",
+            genres: ["اکشن", "کمدی", "رمانتیک"],
+            imdbRating: "--",
+            malRating: "--",
+            poster: "https://intocdn.top/wp-content/uploads/2026/05/lmJKqQMBrRYDwm5zCoubnQHl8rH.jpg",
+            horizontalCover: "https://intocdn.top/wp-content/uploads/2026/05/lmJKqQMBrRYDwm5zCoubnQHl8rH.jpg",
+            verticalCover: "https://intocdn.top/wp-content/uploads/2026/05/wXyOAIxNUFTEk9Mpj7Ca4jCibMf-360x480.jpg",
+            trailer: "https://edge43.166864.ir.cdn.ir/Series/Marriagetoxin/MARRIAGETOXIN-Second-Trailer.mp4",
+            seasons: [
+                {
+                    seasonNumber: 1,
+                    seasonName: "فصل اول - درحال پخش",
+                    episodes: [
+                        { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E01.WEB-DL.720p.Film2Media.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E02.WEB-DL.720p.Film2Media.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E03.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E03.WEB-DL.720p.Film2Media.mkv" } },
+                        { epNum: 4, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E04.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E04.WEB-DL.720p.Film2Media.mkv" } },
+                        { epNum: 5, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E05.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E05.WEB-DL.720p.Film2Media.mkv" } },
+                        { epNum: 6, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E06.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E06.WEB-DL.720p.Film2Media.mkv" } },
+                        { epNum: 7, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E07.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E07.WEB-DL.720p.Film2Media.mkv" } },
+                        { epNum: 8, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E08.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E08.WEB-DL.720p.Film2Media.mkv" } },
+                        { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E09.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E09.WEB-DL.720p.Film2Media.mkv" } },
+                        { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E10.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E10.WEB-DL.720p.Film2Media.mkv" } },
+                        { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E11.WEB-DL.720p.Film2Media.mkv" } },
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E12.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E12.WEB-DL.720p.Film2Media.mkv" } },
+                        
+                    ]
+                }
+            ]
+        },
  {
             "id": "I-Made-Friends-with-the-Second-Prettiest-Girl-in-My-Class",
             "title": "I Made Friends with the Second Prettiest Girl in My Class",
