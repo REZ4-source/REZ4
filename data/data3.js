@@ -1,4 +1,4 @@
-const animeData2 = [
+const animeData3 = [
 
 
     
