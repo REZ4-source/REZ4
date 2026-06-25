@@ -2,6 +2,20 @@
 const animeInfo = {
     // هر آیدی = آیدی همون انیمه توی دیتای اصلی
     
+ "The-Wrong-Way-to-Use-Healing-Magic": {
+    year: 2024,
+    episodes: 13,
+    status: "پایان یافته",
+    studio: "Studio Add",
+    duration: "24 دقیقه",
+    season: "زمستان",
+    source: "لایت ناول",
+    ageRating: "PG-13",
+    director: "Takahide Ogata",
+    language: "ژاپنی",
+    note: "زیرنویس"
+},
+
    "Smoking-Behind-the-Supermarket-with-You": {
         "year": "۲۰۲۶",
         "episodes": "۱۲",
