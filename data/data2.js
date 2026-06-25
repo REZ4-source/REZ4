@@ -271,7 +271,7 @@ const animeData2 = [
                 },
                 {
                     seasonNumber: 4,
-                    seasonName: "فصل چهارم - درحال پخش",
+                    seasonName: "فصل چهارم - 16 قسمت",
                     episodes: [
                         { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
