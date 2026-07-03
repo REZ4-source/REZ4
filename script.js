@@ -254,9 +254,9 @@ function renderHomePage() {
         </div>
     `;
 
-    // بخش آخرین قسمت‌ها
+    // بخش آخرین قسمت‌ها - به شکل کارت‌های افقی مثل پیشنهادات
     if (typeof getRecentEpisodes !== 'undefined') {
-        const recentList = getRecentEpisodes(5);
+        const recentList = getRecentEpisodes(10);
         if (recentList.length > 0) {
             cardsHtml += `
                 <div class="recent-section">
@@ -264,22 +264,28 @@ function renderHomePage() {
                         <img src="icons/recent.svg" alt="آخرین" width="22" height="22" style="margin-left: 5px;">
                         آخرین قسمت‌ها
                     </div>
-                    <div class="recent-list">
+                    <div class="recent-grid">
             `;
             recentList.forEach(ep => {
+                // پیدا کردن اطلاعات کامل انیمه برای دریافت کاور
+                const anime = fullAnimeData.find(a => a.id === ep.id);
+                const coverImage = anime ? anime.verticalCover : 'https://placehold.co/160x200/1e243b/9aa4bf?text=No+Image';
                 const badgeClass = ep.type === 'hot' ? 'hot' : (ep.type === 'today' ? 'today' : 'new');
+                
                 cardsHtml += `
-                    <div class="recent-item" data-id="${ep.id}">
-                        <div class="recent-left">
-                            <div class="recent-num">${ep.episodeNum}</div>
-                            <div class="recent-info">
-                                <h4>${escapeHtml(ep.title)}</h4>
-                                <span>قسمت ${ep.episodeNum} · جدید</span>
-                            </div>
-                        </div>
-                        <div class="recent-badge ${badgeClass}">${ep.badge}</div>
-                    </div>
-                `;
+    <div class="recent-card" data-id="${ep.id}">
+        <img class="recent-cover" src="${coverImage}" loading="lazy" 
+             onerror="this.src='https://placehold.co/160x200/1e243b/9aa4bf?text=No+Image'">
+        <div class="recent-badge ${badgeClass}">${ep.badge || 'جدید'}</div>
+        <div class="recent-overlay">
+            <div class="recent-title">${escapeHtml(ep.title)}</div>
+            <div class="recent-episode">
+                <span class="episode-label">قسمت</span>
+                <span class="episode-number">${ep.episodeNum}</span> 
+            </div>
+        </div>
+    </div>
+`;
             });
             cardsHtml += `</div></div>`;
         }
@@ -364,12 +370,14 @@ function renderHomePage() {
         });
     });
 
-    document.querySelectorAll('.recent-item').forEach(item => {
-        item.addEventListener('click', () => {
-            const id = item.getAttribute('data-id');
+    // Event listener برای کارت‌های آخرین قسمت‌ها
+    document.querySelectorAll('.recent-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const id = card.getAttribute('data-id');
             if (id) {
                 window.location.hash = `anime/${id}`;
                 renderDetailPage(id);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             }
         });
     });
@@ -528,8 +536,7 @@ function renderDetailPage(animeId) {
             
             if (!has480 && !has720 && !has1080) buttonsHtml = `<span class="quality-link q-soon">به زودی</span>`;
 
-
-                        episodesHtml += `
+            episodesHtml += `
                 <div class="episode-item">
                     <div class="episode-name">قسمت ${ep.epNum}</div>
                     <div class="quality-buttons">${buttonsHtml}</div>
