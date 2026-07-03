@@ -4,6 +4,13 @@
 const recentEpisodes = [
 
     {
+        id: "The-Exiled-Heavy-Knight-Knows-How-to-Game-the-System",
+        episodeNum: 1,
+        title: "The Exiled Heavy Knight ...",
+        badge: "جدید",
+        type: "today"
+    },
+    {
         id: "one-piece",
         episodeNum: 1168,
         title: "One Piece S2",
@@ -18,34 +25,7 @@ const recentEpisodes = [
         type: "hot"
     },  
     
-    {
-        id: "witch-hat-atelier",
-        episodeNum: 13,
-        title: "Witch Hat Atelier",
-        badge: "بروزشد",
-        type: "today"
-  },   
-  {
-        id: "The-Angel-Next-Door-Spoils-Me-Rotten",
-        episodeNum: 12,
-        title: "The Angel Next Door Spoils Me Rotten",
-        badge: "بروزشد",
-        type: "today"
-    },
-    {
-        id: "I-Made-Friends-with-the-Second-Prettiest-Girl-in-My-Class",
-        episodeNum: 12,
-        title: "...I Made Friends with the",
-        badge: "جدید",
-        type: "new"
-    },
-    {
-        id: "Classroom-of-the-Elite",
-        episodeNum: 15,
-        title: "Classroom of the Elite S4",
-        badge: "بروزشده",
-        type: "today"
-    },
+  
     
     
     
