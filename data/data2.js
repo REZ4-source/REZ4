@@ -19,7 +19,7 @@ const animeData2 = [
             seasons: [
                 {
                     seasonNumber: 1,
-                    seasonName: "فصل اول - 12 قسمت",
+                    seasonName: "فصل اول - 13 قسمت",
                     episodes: [
                         { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E01.WEB-DL.720p.Film2Media.mkv" } },
                         { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E02.WEB-DL.720p.Film2Media.mkv" } },
@@ -33,7 +33,7 @@ const animeData2 = [
                         { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E10.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E10.WEB-DL.720p.Film2Media.mkv" } },
                         { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E11.WEB-DL.720p.Film2Media.mkv" } },
                         { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E12.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E12.WEB-DL.720p.Film2Media.mkv" } },
-                        
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E13.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E13.WEB-DL.720p.Film2Media.mkv" } },         
                     ]
                 }
             ]
