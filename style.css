@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+
+
+
 body {
     font-family: 'Tahoma', 'Segoe UI', system-ui, sans-serif;
     background: radial-gradient(circle at 10% 20%, #0a0c18, #0F1022);
     color: #f0f3fa;
     min-height: 100vh;
     padding-bottom: 70px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
 }
 
 .app-wrapper {
@@ -21,10 +26,11 @@ body {
 .header {
     text-align: center;
     margin-bottom: 2rem;
-    padding: 1.5rem;
+    padding: 1rem;
     background: rgba(18, 22, 36, 0.7);
-    border-radius: 1.5rem;
+    border-radius: 1.5rem ;
     border: 1px solid rgba(255,107,139,0.3);
+    box-shadow: 0px 1px 10px rgba(255,107,139,0.4);
 }
 
 .logo {
@@ -54,6 +60,7 @@ body {
     align-items: center;
     gap: 0.8rem;
     transition: all 0.3s ease;
+    
 }
 
 .search-box:focus-within {
@@ -316,90 +323,304 @@ body, button, input, .anime-title, .season-title, .detail-btn {
     font-family: 'Vazir', 'Tahoma', 'Segoe UI', system-ui, sans-serif;
 }
 
-/* ========== آخرین قسمت‌ها ========== */
+
+
+
+/* ============================================
+   بخش آخرین قسمت‌ها - نسخه نهایی
+   ============================================ */
+
 .recent-section {
     margin: 1.5rem 0;
 }
 
+/* ===== عنوان بخش ===== */
 .section-title {
-    font-size: 1.2rem;
+    font-size: 0.95rem;
     color: #FFB347;
     margin-bottom: 0.8rem;
     display: flex;
     align-items: center;
-    gap: 1px;
+    gap: 5px;
+    padding: 4px 12px;
+    background: rgba(255, 107, 139, 0.08);
+    border-radius: 10px;
+    border-right: 2px solid #ff6b8b;
+    width: fit-content;
 }
 
-.recent-list {
+.section-title img {
+    width: 18px !important;
+    height: 18px !important;
+    filter: drop-shadow(0 0 6px rgba(255, 107, 139, 0.3));
+}
+
+/* ===== گرید کارت‌ها ===== */
+.recent-grid {
     display: flex;
-    flex-direction: column;
     gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
 }
 
-.recent-item {
-    background: rgba(16, 16, 30, 0.6);
-    border-radius: 14px;
-    padding: 10px 15px;
-    border: 1px solid #262636;
+.recent-grid::-webkit-scrollbar {
+    height: 3px;
+}
+
+.recent-grid::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.recent-grid::-webkit-scrollbar-thumb {
+    background: rgba(255, 107, 139, 0.3);
+    border-radius: 10px;
+}
+
+/* ===== کارت ===== */
+.recent-card {
+    position: relative;
+    min-width: 110px;
+    max-width: 110px;
+    border-radius: 10px;
+    overflow: hidden;
     cursor: pointer;
-    transition: 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    transition: transform 0.3s;
 }
 
-.recent-item:hover {
-    border-color: #ff6b8b;
-    background: rgba(30, 30, 50, 0.8);
-    transform: translateX(3px);
+.recent-card:hover {
+    transform: scale(1.05);
 }
 
-.recent-left {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+.recent-cover {
+    width: 100%;
+    height: 155px;
+    object-fit: cover;
+    display: block;
 }
 
-.recent-num {
-    background: #ff6b8b;
-    width: 36px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    font-weight: bold;
-    font-size: 1rem;
+/* ===== لایه پایین ===== */
+.recent-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 7px 7px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+    min-height: 70px;
 }
 
-.recent-info h4 {
-    font-size: 0.9rem;
-    margin-bottom: 3px;
-    color: #FFB347;
+/* ===== عنوان (کنترل‌شده) ===== */
+.recent-title {
+    position: relative;
+    top:-10px;    
+    font-size: 10px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 0;
+   
 }
 
-.recent-info span {
-    font-size: 0.65rem;
-    color: #aaa;
+/* ===== ظرف اصلی (فقط برای دسته‌بندی) ===== */
+.recent-episode {
+    margin-top: 2px;
+    font-size: 8px;    
+    font-family:'vazir';
+    font-weight: 600;
+    gap:4px;
+          
 }
 
+/* ===== کلمه "قسمت" (مثل برچسب) ===== */
+.episode-label {
+    position: absolute;
+    top: 45px;  
+    left: 74px;     
+    background: #424242cf;     
+    color: #FF6B8B;      
+    font-size: 8px;    
+    padding: 1px 7px;
+    border-radius: 20px 0px 0px 20px;         
+    box-shadow: 1px 1px 2px rgba(255,107,139,0.3); 
+}
+
+/* ===== عدد (مثل برچسب) ===== */
+.episode-number {
+    position: absolute;
+    top: 45px ;  
+    right: 39px ; 
+    background: #424242cf;     
+    color: #FF6B8B;      
+    font-size: 8px;    
+    padding: 1px 7px;
+    border-radius: 20px;  
+    direction: ltr;
+    text-align: left;
+    min-width: 14px;
+    max-width: 40px;
+    box-shadow: 1px 1px 2px rgba(255,107,139,0.3);
+}
+
+/* برچسب */
 .recent-badge {
-    font-size: 0.6rem;
-    padding: 4px 10px;
-    border-radius: 30px;
-    background: #1e3a2f;
-    color: #99ffcc;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    background: #424242cf;     
+    color: #ffaa66 ;      
+    font-size: 8px;    
+    padding: 1px 7px;
+    border-radius: 0px 20px 20px 0px;    
+    font-weight: 600;
+    z-index:10;    
+    box-shadow: 1px 2px 2px rgba(255,107,139,0.3);
+    
 }
 
 .recent-badge.hot {
-    background: #3a2a1e;
-    color: #ffaa66;
+    background: #424242cf;     
+    color: #ffaa66 ;      
+   
 }
 
 .recent-badge.today {
-    background: #2a1e3a;
+    background: #424242cf; 
     color: #cc99ff;
+    
 }
+
+.recent-badge.new {
+    background: #424242cf;  
+    color: #99ffcc;
+}
+
+.recent-badge.updated {
+    background: #424242cf;  
+    color: #6495ED;    
+}
+
+/* ریسپانسیو دسکتاپ */
+
+
+@media screen and (min-width: 768px) {
+    .recent-section {
+        margin: 2.5rem 0;
+    }
+
+    /* ===== عنوان بخش ===== */
+    .section-title {
+        font-size: 1.1rem;
+        padding: 6px 18px;
+        border-right: 3px solid #ff6b8b;
+        gap: 8px;
+        margin-bottom: 1.2rem;
+    }
+
+    .section-title img {
+        width: 22px !important;
+        height: 22px !important;
+    }
+
+    /* ===== گرید (همون اسکرول افقی) ===== */
+    .recent-grid {
+        display: flex;
+        gap: 14px;
+        overflow-x: auto;
+        padding-bottom: 10px;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .recent-grid::-webkit-scrollbar {
+        height: 4px;
+    }
+
+    .recent-grid::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .recent-grid::-webkit-scrollbar-thumb {
+        background: rgba(255, 107, 139, 0.4);
+        border-radius: 10px;
+    }
+
+    /* ===== کارت (بزرگ‌تر) ===== */
+    .recent-card {
+        min-width: 160px;
+        max-width: 160px;
+        border-radius: 12px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .recent-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 25px rgba(255, 107, 139, 0.2);
+    }
+
+    .recent-cover {
+        height: 220px;
+    }
+
+    /* ===== لایه پایین ===== */
+    .recent-overlay {
+        padding: 35px 10px 10px;
+        min-height: 85px;
+    }
+
+    /* ===== عنوان ===== */
+    .recent-title {
+        top: -12px;
+        font-size: 13px;
+        line-height: 1.5;
+        -webkit-line-clamp: 2;
+    }
+
+    /* ===== قسمت ===== */
+    .recent-episode {
+        font-size: 10px;
+        margin-top: 4px;
+        gap: 8px;
+    }
+
+    /* ===== برچسب "قسمت" ===== */
+    .episode-label {
+        top: 58px;
+        left: 115px;
+        font-size: 10px;
+        padding: 2px 10px;
+    }
+
+    /* ===== عدد قسمت ===== */
+    .episode-number {
+        top: 58px;
+        right: 45px;
+        font-size: 10px;
+        padding: 2px 10px;
+        min-width: 18px;
+        max-width: 50px;
+    }
+
+    /* ===== برچسب اصلی ===== */
+    .recent-badge {
+        top: 6px;
+        left: 0px;
+        font-size: 10px;
+        padding: 2px 10px;
+        border-radius: 0px 20px 20px 0px;
+        box-shadow: 1px 2px 4px rgba(255, 107, 139, 0.3);
+    }
+}
+
+
+
 
 /* ========== عنوان جداکننده ========== */
 .section-divider {
@@ -757,6 +978,50 @@ body, button, input, .anime-title, .season-title, .detail-btn {
     }
     .nav-label {
         font-size: 0.45rem;
+    }
+}
+
+/* ========== ریسپانسیو برای کارت‌های آخرین قسمت‌ها ========== */
+@media (max-width: 480px) {
+    .recent-card {
+        min-width: 110px;
+        max-width: 110px;
+    }
+    
+    .recent-cover {
+        height: 150px;
+    }
+    
+    .recent-title {
+        font-size: 10px;
+    }
+    
+    .recent-episode {
+        font-size: 9px;
+    }
+    
+    .recent-badge {
+        font-size: 8px;
+        padding: 2px 8px;
+    }
+}
+
+@media (min-width: 768px) {
+    .recent-card {
+        min-width: 160px;
+        max-width: 160px;
+    }
+    
+    .recent-cover {
+        height: 220px;
+    }
+    
+    .recent-title {
+        font-size: 13px;
+    }
+    
+    .recent-episode {
+        font-size: 11px;
     }
 }
 
@@ -1210,7 +1475,6 @@ background: rgba(255, 128, 241, 0.12);
 background: rgba(255, 128, 241, 0.25);
     
 }
-
 .quality-link.q-soon {
     background: rgba(255, 255, 255, 0.05);
     color: #555;
