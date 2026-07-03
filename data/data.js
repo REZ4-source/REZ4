@@ -1,5 +1,29 @@
 const animeData = [
-
+     
+   {
+            "id":"The-Exiled-Heavy-Knight-Knows-How-to-Game-the-System",
+            "title": "the heavy Knight knows how to game the system",
+            "fullTitle": "شوالیه زره‌سنگین راه دور زدن سیستم را بلد است",
+            "description": "الما، پسر ۱۵ ساله خانواده‌ای اشرافی از نوادگان شمشیرزنان افسانه‌ای، در مراسمی به نام «آیین برکت الهی» کلاسی به نام شوالیه سنگین (Heavy Knight) دریافت می‌کند که در جامعه به عنوان یک کلاس ناقص و بی‌مصرف شناخته می‌شود. به همین دلیل، او از حق جانشینی محروم و از خانواده تبعید می‌شود.",
+            "genres": ["ایسکای", "ماجراجویی", "فانتزی"],
+            "imdbRating": "?",
+            "malRating": "?",
+            "poster": "https://intocdn.top/wp-content/uploads/2026/07/3Ku9HXFDzpohlL2rgGSOugeNP0a.jpg",
+            "horizontalCover": "https://intocdn.top/wp-content/uploads/2026/07/3Ku9HXFDzpohlL2rgGSOugeNP0a.jpg",
+            "verticalCover": "https://intocdn.top/wp-content/uploads/2026/07/bADzMfofNWYdxLnlqNuMkO6du34-360x480.jpg",
+            "trailer": "",
+            "seasons": [
+                {
+                    "seasonNumber": 1,
+                    "seasonName": "فصل اول - 1 قسمت",
+                    "episodes": [
+                   { "epNum": 1, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tsuihou.sareta.Tensei.Juukishi.wa.Game/Tsuihou.sareta.Tensei.Juukishi.wa.Game.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tsuihou.sareta.Tensei.Juukishi.wa.Game/Tsuihou.sareta.Tensei.Juukishi.wa.Game.S01E01.WEB-DL.720p.Farsi.Sub.Film2Media.mkv" } },    
+                   { "epNum": 2, "qualities": { "480p": "", "720p": "" } },            
+     
+                   ]
+                }
+            ]
+        },   
 {
             id: "one-piece",
             title: "One Piece S2",
