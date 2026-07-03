@@ -25,7 +25,7 @@ function escapeHtml(str) {
     });
 }
 
-const fullAnimeData = [...animeData, ...animeData2, ...animeData3];
+const fullAnimeData = [...animeData, ...animeData2, ...animeData3, ...animeData4, ...animeData5];
 
 function getBottomNav() {
     return `
@@ -42,9 +42,9 @@ function getBottomNav() {
                 <div class="nav-icon"><img src="../icons/favorites.svg" alt="علاقه‌مندی" width="22" height="22"></div>
                 <div class="nav-label">علاقه‌مندی</div>
             </div>
-            <div class="nav-item" data-nav="profile">
-                <div class="nav-icon"><img src="../icons/profile.svg" alt="آخرین" width="22" height="22"></div>
-                <div class="nav-label">آخرین</div>
+            <div class="nav-item" data-nav="archive">
+                <div class="nav-icon"><img src="../icons/profile.svg" alt="آرشیو" width="22" height="22"></div>
+                <div class="nav-label">آرشیو</div>
             </div>
         </div>
     `;
@@ -124,7 +124,7 @@ function renderFavoritesPage() {
             const action = item.getAttribute('data-nav');
             if (action === 'home') window.location.href = '../index.html';
             else if (action === 'favorites') location.reload();
-            else if (action === 'profile') window.location.href = '../index.html';
+            else if (action === 'archive') window.location.href = '../archive/archive.html';
             else if (action === 'categories') alert('دسته‌بندی ژانرها در صفحه اصلی');
         });
     });
