@@ -1,7 +1,20 @@
 // data/anime-info.js
 const animeInfo = {
     // هر آیدی = آیدی همون انیمه توی دیتای اصلی
-    
+        "The-Exiled-Heavy-Knight-Knows-How-to-Game-the-System": {
+    year: 2026,
+    episodes: 26,
+    status: "در حال پخش",
+    studio: "GoHands",
+    duration: "24 دقیقه",
+    season: "تابستان",
+    source: "لایت ناول",
+    ageRating: "PG-13",
+    director: "Katsumasa Yokomine",
+    language: "ژاپنی",
+    note: "زیرنویس"
+},
+
  "The-Wrong-Way-to-Use-Healing-Magic": {
     year: 2024,
     episodes: 13,
