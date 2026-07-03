@@ -6,7 +6,7 @@ const recentEpisodes = [
     {
         id: "The-Exiled-Heavy-Knight-Knows-How-to-Game-the-System",
         episodeNum: 1,
-        title: "The Exiled Heavy Knight ...",
+        title: "The Exiled Heavy Knight Knows How to Game the System",
         badge: "جدید",
         type: "today"
     },
