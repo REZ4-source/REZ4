@@ -6,7 +6,8 @@ const ITEMS_PER_PAGE = 10;
 const appContainer = document.getElementById('app');
 
 // ========== ترکیب دیتابیس ==========
-const fullAnimeData = [...animeData, ...animeData2, ...animeData3, ...animeData4];
+const fullAnimeData = [...animeData, ...animeData2, ...animeData3,
+ ...animeData4, ...animeData5];
 
 // ========== مدیریت علاقه‌مندی‌ها ==========
 function getFavorites() {
@@ -109,9 +110,9 @@ function getBottomNav() {
                 <div class="nav-icon"><img src="icons/favorites.svg" alt="علاقه‌مندی" width="22" height="22"></div>
                 <div class="nav-label">علاقه‌مندی</div>
             </div>
-            <div class="nav-item" data-nav="profile">
+            <div class="nav-item" data-nav="archive">
                 <div class="nav-icon"><img src="icons/profile.svg" alt="آخرین" width="22" height="22"></div>
-                <div class="nav-label">آخرین</div>
+                <div class="nav-label">آرشیو</div>
             </div>
         </div>
     `;
@@ -136,7 +137,7 @@ function renderCategorySidebar() {
     const genreCounts = getGenreCounts();
     const genresList = [
         "اکشن", "کمدی", "درام", "فانتزی", "عاشقانه",
-        "علمی تخیلی", "ماجراجویی", "ماورایی", "ترسناک", "هیجانی", "تاریخی", "مدرسه‌ای"
+        "علمی تخیلی", "ماجراجویی", "ماورایی", "ترسناک", "هیجانی", "تاریخی", "مدرسه‌ای", "ایسکای", "شونن",
     ];
 
     let html = `
@@ -214,22 +215,12 @@ function setupBottomNav() {
                 openCategorySidebar();
             } else if (action === 'favorites') {
                 window.location.href = 'favorites/favorites.html';
-            } else if (action === 'profile') {
-                window.location.hash = '';
-                currentSearchTerm = '';
-                currentPage = 1;
-                renderHomePage();
-                setTimeout(() => {
-                    const recentSection = document.querySelector('.recent-section');
-                    if (recentSection) {
-                        scrollToWithOffset(recentSection, 80);
-                    }
-                }, 200);
+            } else if (action === 'archive') {
+                window.location.href = 'archive/archive.html';
             }
         });
     });
 }
-
 // ========================================
 //          صفحه اصلی (Home)
 // ========================================
