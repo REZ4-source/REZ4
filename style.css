@@ -823,7 +823,7 @@ body, button, input, .anime-title, .season-title, .detail-btn {
 }
 
 .category-sub.open {
-    max-height: 500px;
+    max-height: 1000px;
 }
 
 .sub-item {
