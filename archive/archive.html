@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>آرشیو ژانرها - Anivora</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="archive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-wrapper">
+        <div class="archive-page" id="archivePage">
+            <!-- هدر -->
+            <div class="archive-header">
+                <div class="archive-header-left">
+                    <button class="archive-back-btn" onclick="goBack()">
+                        بازگشت
+                    </button>
+                    <span class="archive-title">آرشیو ژانرها</span>
+                </div>
+                <div class="archive-search">
+                    <img src="../icons/search.svg" alt="جستجو">
+                    <input type="text" id="archiveSearch" placeholder="جستجوی ژانر..." oninput="filterGenres(this.value)">
+                </div>
+            </div>
+
+            <!-- محتوای آرشیو -->
+            <div id="archiveContent">
+                <!-- توسط JS پر میشه -->
+            </div>
+        </div>
+
+        <!-- نوار پایین -->
+        <div class="bottom-nav">
+            <div class="nav-item" data-nav="categories">
+                <div class="nav-icon"><img src="../icons/category.svg" alt="دسته‌بندی" width="22" height="22"></div>
+                <div class="nav-label">دسته‌ها</div>
+            </div>
+            <div class="nav-item" data-nav="home">
+                <div class="nav-icon"><img src="../icons/home.svg" alt="خانه" width="22" height="22"></div>
+                <div class="nav-label">خانه</div>
+            </div>
+            <div class="nav-item" data-nav="favorites">
+                <div class="nav-icon"><img src="../icons/favorites.svg" alt="علاقه‌مندی" width="22" height="22"></div>
+                <div class="nav-label">علاقه‌مندی</div>
+            </div>
+            <div class="nav-item active" data-nav="archive">
+                <div class="nav-icon"><img src="../icons/profile.svg" alt="آرشیو" width="22" height="22"></div>
+                <div class="nav-label">آرشیو</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- لود کردن دیتاها -->
+    <script src="../data/data.js"></script>
+    <script src="../data/data2.js"></script>
+    <script src="../data/data3.js"></script>
+    <script src="../data/data4.js"></script>
+    <script src="../data/data5.js"></script>
+    <script src="archive.js"></script>
+</body>
+</html>

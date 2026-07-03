@@ -1,0 +1,416 @@
+/* ============================================
+   صفحه آرشیو
+   ============================================ */
+.archive-page {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* ===== هدر ===== */
+.archive-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 0.5rem;
+}
+
+.archive-header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.archive-back-btn {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Vazir', 'Tahoma', sans-serif;
+    font-size: 13px;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.archive-back-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.archive-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #FF6B8B, #9D4EDD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.archive-search {
+    background: rgba(25, 30, 50, 0.8);
+    border: 1px solid rgba(255, 107, 139, 0.2);
+    border-radius: 30px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 200px;
+}
+
+.archive-search input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Vazir', 'Tahoma', sans-serif;
+    font-size: 0.85rem;
+    width: 100%;
+}
+
+.archive-search input::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.archive-search img {
+    width: 18px;
+    height: 18px;
+    filter: brightness(0) invert(0.4);
+}
+
+/* ============================================
+   بخش‌های ژانر
+   ============================================ */
+
+.genre-section {
+    margin-bottom: 2rem;
+    padding: 0 0.5rem;
+}
+
+.genre-section-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #FFB347;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    background: rgba(255, 107, 139, 0.08);
+    border-radius: 12px;
+    border-right: 2px solid #ff6b8b;
+    width: fit-content;
+}
+
+.genre-section-title .genre-count-badge {
+    background: rgba(255, 107, 139, 0.12);
+    padding: 0px 8px;
+    border-radius: 12px;
+    font-size: 0.65rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.genre-anime-grid {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.genre-anime-grid::-webkit-scrollbar {
+    height: 4px;
+}
+
+.genre-anime-grid::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.genre-anime-grid::-webkit-scrollbar-thumb {
+    background: rgba(255, 107, 139, 0.3);
+    border-radius: 10px;
+}
+
+/* ===== کارت انیمه ===== */
+.genre-anime-card {
+    position: relative;
+    min-width: 160px;
+    max-width: 160px;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    transition: transform 0.3s;
+    background: rgba(18, 22, 36, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.genre-anime-card:hover {
+    transform: scale(1.05);
+    border-color: rgba(255, 107, 139, 0.4);
+    box-shadow: 0 8px 25px rgba(255, 107, 139, 0.15);
+}
+
+.genre-anime-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    background: linear-gradient(145deg, #1e243b, #0f1222);
+}
+
+.genre-anime-card .card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 35px 10px 10px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+}
+
+.genre-anime-card .card-title {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 3px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.genre-anime-card .card-rating {
+    font-size: 11px;
+    color: #999;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 3px;
+}
+
+.genre-anime-card .card-rating .star {
+    color: #f5c518;
+    font-size: 10px;
+}
+
+.empty-archive {
+    text-align: center;
+    padding: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.empty-archive p {
+    font-size: 1rem;
+}
+
+/* ============================================
+   نوار پایین - با رنگ اصلی آیکون‌ها
+   ============================================ */
+.bottom-nav {
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(18, 22, 36, 0.9);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    padding: 5px 25px;
+    display: flex;
+    gap: 35px;
+    z-index: 1000;
+    border: 1px solid rgba(255, 107, 139, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 4px 8px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #9aa4bf;
+}
+
+.nav-item:hover {
+    transform: translateY(-2px);
+}
+
+.nav-item.active {
+    color: #ff6b8b;
+}
+
+.nav-item.active .nav-icon {
+    background: #ff6b8b;
+}
+
+.nav-icon {
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 107, 139, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.nav-item:hover .nav-icon {
+    background: #ff6b8b;
+    transform: scale(1.05);
+}
+
+/* ===== آیکون‌ها با رنگ اصلی ===== */
+.nav-icon img {
+    width: 18px;
+    height: 18px;
+    display: block;
+}
+
+.nav-item.active .nav-icon img {
+    filter: brightness(0) invert(1);
+}
+
+.nav-item:hover .nav-icon img {
+    filter: brightness(0) invert(1);
+}
+
+.nav-label {
+    font-size: 0.5rem;
+    color: #9aa4bf;
+    font-weight: 500;
+}
+
+.nav-item:hover .nav-label {
+    color: #ff6b8b;
+}
+
+/* ============================================
+   ریسپانسیو
+   ============================================ */
+
+@media (max-width: 600px) {
+    .archive-page {
+        padding: 0;
+    }
+
+    .archive-header {
+        padding: 0 0.5rem;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .archive-search {
+        min-width: auto;
+    }
+
+    .genre-section {
+        padding: 0 0.5rem;
+    }
+
+    .genre-anime-grid {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        gap: 10px;
+    }
+
+    .genre-anime-card {
+        min-width: 130px;
+        max-width: 130px;
+    }
+
+    .genre-anime-card img {
+        height: 180px;
+    }
+
+    .genre-anime-card .card-title {
+        font-size: 11px;
+    }
+
+    .bottom-nav {
+        padding: 4px 20px;
+        gap: 25px;
+        bottom: 12px;
+    }
+
+    .nav-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .nav-icon img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .nav-label {
+        font-size: 0.45rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .genre-anime-card {
+        min-width: 110px;
+        max-width: 110px;
+    }
+
+    .genre-anime-card img {
+        height: 150px;
+    }
+
+    .genre-anime-card .card-title {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .genre-anime-card {
+        min-width: 180px;
+        max-width: 180px;
+    }
+
+    .genre-anime-card img {
+        height: 250px;
+    }
+
+    .genre-anime-card .card-title {
+        font-size: 14px;
+    }
+
+    .genre-anime-grid {
+        gap: 16px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .genre-anime-card {
+        min-width: 200px;
+        max-width: 200px;
+    }
+
+    .genre-anime-card img {
+        height: 280px;
+    }
+
+    .genre-anime-card .card-title {
+        font-size: 15px;
+    }
+
+    .genre-anime-grid {
+        gap: 18px;
+    }
+}
