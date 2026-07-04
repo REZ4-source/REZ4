@@ -11,7 +11,7 @@ const animeData = [
             "poster": "https://intocdn.top/wp-content/uploads/2026/07/ceirDIa8QgeeiFKFnLcQpfAH5V7.jpg",
             "horizontalCover": "https://intocdn.top/wp-content/uploads/2026/07/ceirDIa8QgeeiFKFnLcQpfAH5V7.jpg",
             "verticalCover": "https://intocdn.top/wp-content/uploads/2026/07/blacktorch2-360x480.png",
-            "trailer": "",
+            "trailer": "https://edge41.166864.ir.cdn.ir/Series/Black.Torch/BLACK.TORCH.Official.Trailer.mp4",
             "seasons": [
                 {
                     "seasonNumber": 1,
@@ -34,7 +34,7 @@ const animeData = [
             "poster": "https://intocdn.top/wp-content/uploads/2024/07/j9fRIimor0AMFJR9kjZubXcABzZ.jpg",
             "horizontalCover": "https://intocdn.top/wp-content/uploads/2024/07/j9fRIimor0AMFJR9kjZubXcABzZ.jpg",
             "verticalCover": "https://intocdn.top/wp-content/uploads/2024/07/fSHa8kwMPhD29grGX3miBq1BWCN-360x480.jpg",
-            "trailer": "https://edge06.324902.ir.cdn.ir/Series/Mushoku.Tensei.Jobless.Reincarnation/Mushoku.Tensei.Jobless.Reincarnation_Trailer.mp4",
+            "trailer": "https://edge42.324902.ir.cdn.ir/Series/Mushoku.Tensei.Jobless.Reincarnation/Mushoku.Tensei.Jobless.Reincarnation_Trailer.mp4",
             "seasons": [
                 {
                     "seasonNumber": 1,
@@ -124,7 +124,7 @@ const animeData = [
             "poster": "https://intocdn.top/wp-content/uploads/2026/07/3Ku9HXFDzpohlL2rgGSOugeNP0a.jpg",
             "horizontalCover": "https://intocdn.top/wp-content/uploads/2026/07/3Ku9HXFDzpohlL2rgGSOugeNP0a.jpg",
             "verticalCover": "https://intocdn.top/wp-content/uploads/2026/07/bADzMfofNWYdxLnlqNuMkO6du34-360x480.jpg",
-            "trailer": "",
+            "trailer": "https://edge41.166864.ir.cdn.ir/Series/Tsuihou.sareta.Tensei.Juukishi.wa.Game/Tsuihou.sareta.Tensei.Juukishi.wa.Game_Trailer.mp4",
             "seasons": [
                 {
                     "seasonNumber": 1,
