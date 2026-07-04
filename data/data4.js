@@ -31,8 +31,7 @@ const animeData4 = [
                         { "epNum": 8, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E08.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E08.720p.Farsi.Sub.Film2Media.mkv" } },
                         { "epNum": 9, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E09.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E09.720p.Farsi.Sub.Film2Media.mkv" } },
                         { "epNum": 10, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E10.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E10.720p.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 11, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E11.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E11.720p.Farsi.Sub.Film2Media.mkv" } }
-,
+                        { "epNum": 11, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E11.Farsi.Sub.Film2Media.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Class.de.2-banme.ni.Kawaii.Onnanoko/Class.de.2-banme.ni.Kawaii.Onnanoko.S01E11.720p.Farsi.Sub.Film2Media.mkv" } },
                         { "epNum": 12, "qualities": { "480p": "", "720p": "", "1080p": "" } }
                         
                     ]
@@ -89,7 +88,7 @@ const animeData4 = [
             seasons: [
                 {
                     seasonNumber: 1,
-                    seasonName: "فصل اول - درحال پخش",
+                    seasonName: "فصل اول - 13 قسمت",
                     episodes: [
                         { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E01.WEB-DL.720p.Film2Media.mkv" } },
                         { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E02.WEB-DL.720p.Film2Media.mkv" } },
@@ -103,7 +102,7 @@ const animeData4 = [
                         { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E10.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E10.WEB-DL.720p.Film2Media.mkv" } },
                         { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E11.WEB-DL.720p.Film2Media.mkv" } },
                         { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E12.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E12.WEB-DL.720p.Film2Media.mkv" } },
-                        
+                        { epNum: 13, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E13.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Marriagetoxin/Marriagetoxin.S01E13.WEB-DL.720p.Film2Media.mkv" } }             
                     ]
                 }
             ]
@@ -123,7 +122,7 @@ const animeData4 = [
             seasons: [
                 {
                     seasonNumber: 1,
-                    seasonName: "فصل اول - درحال پخش",
+                    seasonName: "فصل اول - 13 قسمت",
                     episodes: [
                         { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
@@ -137,7 +136,7 @@ const animeData4 = [
                         { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E10.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E12.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { epNum: 13, qualities: { "480p": "", "720p": "" } },
+                        { epNum: 13, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E13.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tongari.Boushi.no.Atelier/Tongari.Boushi.no.Atelier.S01E13.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         
                         
                         
@@ -181,7 +180,7 @@ const animeData4 = [
                   },
                 {
                     seasonNumber: 2,
-                    seasonName: "فصل دوم - درحال پخش",
+                    seasonName: "فصل دوم - 12 قسمت",
                     episodes: [
                         { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
@@ -194,7 +193,7 @@ const animeData4 = [
                         { epNum: 9, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E09.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E09.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 10, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E10.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E10.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { epNum: 12, qualities: { "480p": "", "720p": "" } }
+                        { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E12.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.Ningen.ni.Sareteita.Ken/S02/Otonari.no.Tenshi-sama.ni.Itsunomanika.Dame.S02E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
                     ]
                  }
             ]
@@ -272,7 +271,7 @@ const animeData4 = [
                 },
                 {
                     seasonNumber: 4,
-                    seasonName: "فصل چهارم - درحال پخش",
+                    seasonName: "فصل چهارم - 16 قسمت",
                     episodes: [
                         { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
@@ -287,9 +286,9 @@ const animeData4 = [
                         { epNum: 11, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E11.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E11.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 12, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E12.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E12.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { epNum: 13, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E13.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E13.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { epNum: 14, qualities: { "480p": "", "720p": "" } },
-                        
-                        
+                        { epNum: 14, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E14.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E14.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 15, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E15.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E15.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { epNum: 16, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E16.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.e/S04/Youkoso.Jitsuryoku.Shijou.Shugi.no.Kyoushitsu.S04E16.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } }
                     ]
                 }
             ]
@@ -329,12 +328,12 @@ const animeData4 = [
                 },
               {
                     seasonNumber: 1,
-                    seasonName: "فصل اول - درحال پخش",
+                    seasonName: "قسمت های ویژه",
                     episodes: [ 
   
-                        { epNum: 1, qualities: { "480p": "", "720p": "" } },
-                        { epNum: 2, qualities: { "480p": "", "720p": "" } },
-  
+                        { epNum: 1, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/Special/Guimi.Zhi.Zhu.Tebie.Pian.Liewu.E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/Special/Guimi.Zhi.Zhu.Tebie.Pian.Liewu.E01.720p.WEB-DL.mkv" } },
+                        { epNum: 2, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/Special/Guimi.Zhi.Zhu.Tebie.Pian.Liewu.E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/Special/Guimi.Zhi.Zhu.Tebie.Pian.Liewu.E02.720p.WEB-DL.mkv" } },
+                        { epNum: 3, qualities: { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/Special/Guimi.Zhi.Zhu.Tebie.Pian.Liewu.E03.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Lord.Of.Mysteries/Special/Guimi.Zhi.Zhu.Tebie.Pian.Liewu.E03.720p.WEB-DL.mkv" } }
   
   
   
