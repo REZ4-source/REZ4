@@ -1,5 +1,28 @@
 const animeData = [
      
+{
+            "id": "Black-Torch",
+            "title": "Black Torch",
+            "fullTitle": "مشعل سیاه",
+            "description": "جیرو آزوما از خاندانی نینجا می‌آید و توسط پدربزرگش در هنرهای شینوبی آموزش دیده است. او توانایی ارتباط با حیوانات را دارد. زندگی او پس از برخورد با یک گربه‌ی سیاه مجروح به نام «راگو» در جنگل، دستخوش تغییری شگرف می‌شود.",
+            "genres": ["اکشن", "فراطبیعی", "شونن"],
+            "imdbRating": "?",
+            "malRating": "?",
+            "poster": "https://intocdn.top/wp-content/uploads/2026/07/ceirDIa8QgeeiFKFnLcQpfAH5V7.jpg",
+            "horizontalCover": "https://intocdn.top/wp-content/uploads/2026/07/ceirDIa8QgeeiFKFnLcQpfAH5V7.jpg",
+            "verticalCover": "https://intocdn.top/wp-content/uploads/2026/07/blacktorch2-360x480.png",
+            "trailer": "",
+            "seasons": [
+                {
+                    "seasonNumber": 1,
+                    "seasonName": "فصل اول - درحال پخش",
+                    "episodes": [
+                        { "epNum": 1, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Black.Torch/Black.Torch.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Black.Torch/Black.Torch.S01E01.720p.WEB-Dl.Farsi.Sub.Film2Media.mkv" } },
+                         { "epNum": 2, "qualities": { "480p": "", "720p": "" } }
+                    ]
+                }
+            ]
+        },
    {
             "id": "Mushoku-Tensei",
             "title": "Mushoku Tensei: Jobless Reincarnation",
