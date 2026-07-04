@@ -24,14 +24,7 @@ const recentEpisodes = [
         badge: "پربازدید",
         type: "hot"
     },
-   {
-        id: "marriagetoxin",
-        episodeNum: 12,
-        title: "Marriagetoxin",
-        badge: "پربازدید",
-        type: "hot"
-    },  
-    
+   
   
     
     
