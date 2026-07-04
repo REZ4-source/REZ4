@@ -3,6 +3,14 @@
 
 const recentEpisodes = [
   
+
+   {
+        id: "Black-Torch",
+        episodeNum: 1,
+        title: "Black Torch",
+        badge: "جدید",
+        type: "new"
+   },
    {
         id: "Mushoku-Tensei",
         episodeNum: 2,
