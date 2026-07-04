@@ -2,7 +2,14 @@
 // اینجا میتونی قسمت‌های جدید رو بدون دستکاری انیمه‌ها اضافه کنی
 
 const recentEpisodes = [
-
+  
+   {
+        id: "Mushoku-Tensei",
+        episodeNum: 2,
+        title: "Mushoku Tensei Season 3",
+        badge: "پربازدید",
+        type: "hot"
+    },
     {
         id: "The-Exiled-Heavy-Knight-Knows-How-to-Game-the-System",
         episodeNum: 1,
