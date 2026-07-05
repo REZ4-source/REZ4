@@ -42,8 +42,22 @@ const animeInfo = {
     director: "Takahide Ogata",
     language: "ژاپنی",
     note: "زیرنویس"
-},
-
+    },
+    
+"Wistoria-Wand-and-Sword": {
+    year: 2024,
+    episodes: 24,
+    status: "پایان یافته",
+    studio: "Actas / Bandai Namco Pictures",
+    duration: "24 دقیقه",
+    season: "تابستان",
+    source: "مانگا",
+    ageRating: "PG-13",
+    director: "Tatsuya Yoshihara",
+    language: "ژاپنی",
+    note: "زیرنویس"
+    },
+    
    "Smoking-Behind-the-Supermarket-with-You": {
         "year": "۲۰۲۶",
         "episodes": "۱۲",
