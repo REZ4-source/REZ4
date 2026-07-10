@@ -3,7 +3,13 @@
 
 const recentEpisodes = [
   
-
+   {
+        id: "The-Exiled-Heavy-Knight-Knows-How-to-Game-the-System",
+        episodeNum: 2,
+        title: "The Exiled Heavy Knight Knows How to Game the System",
+        badge: "جدید",
+        type: "today"
+   },
    {
         id: "Black-Torch",
         episodeNum: 1,
@@ -17,14 +23,7 @@ const recentEpisodes = [
         title: "Mushoku Tensei Season 3",
         badge: "پربازدید",
         type: "hot"
-    },
-    {
-        id: "The-Exiled-Heavy-Knight-Knows-How-to-Game-the-System",
-        episodeNum: 1,
-        title: "The Exiled Heavy Knight Knows How to Game the System",
-        badge: "جدید",
-        type: "today"
-    },
+    },    
     {
         id: "one-piece",
         episodeNum: 1168,
