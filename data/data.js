@@ -131,8 +131,9 @@ const animeData = [
                     "seasonName": "فصل اول - 1 قسمت",
                     "episodes": [
                    { "epNum": 1, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tsuihou.sareta.Tensei.Juukishi.wa.Game/Tsuihou.sareta.Tensei.Juukishi.wa.Game.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tsuihou.sareta.Tensei.Juukishi.wa.Game/Tsuihou.sareta.Tensei.Juukishi.wa.Game.S01E01.WEB-DL.720p.Farsi.Sub.Film2Media.mkv" } },    
-                   { "epNum": 2, "qualities": { "480p": "", "720p": "" } },            
-     
+                   { "epNum": 2, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tsuihou.sareta.Tensei.Juukishi.wa.Game/Tsuihou.sareta.Tensei.Juukishi.wa.Game.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tsuihou.sareta.Tensei.Juukishi.wa.Game/Tsuihou.sareta.Tensei.Juukishi.wa.Game.S01E02.WEB-DL.720p.Farsi.Sub.Film2Media.mkv" } },            
+                   { "epNum": 3, "qualities": { "480p": "", "720p": "" } },            
+
                    ]
                 }
             ]
