@@ -2,21 +2,21 @@
 // اینجاا میتونی قسمت‌های جدید رو بدون دستکاری انیمه‌ها اضافه کنی
 
 const recentEpisodes = [
-  
+
+   {
+        id: "Black-Torch",
+        episodeNum: 2,
+        title: "Black Torch",
+        badge: "جدید",
+        type: "new"
+   },
    {
         id: "The-Exiled-Heavy-Knight-Knows-How-to-Game-the-System",
         episodeNum: 2,
         title: "The Exiled Heavy Knight Knows How to Game the System",
         badge: "جدید",
         type: "today"
-   },
-   {
-        id: "Black-Torch",
-        episodeNum: 1,
-        title: "Black Torch",
-        badge: "جدید",
-        type: "new"
-   },
+   },  
    {
         id: "Mushoku-Tensei",
         episodeNum: 2,
