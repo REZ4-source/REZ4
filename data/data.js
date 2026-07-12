@@ -105,8 +105,8 @@ const animeData = [
                         
                         { "epNum": 1, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mushoku.Tensei.III.Isekai.Ittara.Honki/S03/Mushoku.Tensei.III.Isekai.Ittara.Honki.S03E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mushoku.Tensei.III.Isekai.Ittara.Honki/S03/Mushoku.Tensei.III.Isekai.Ittara.Honki.S03E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { "epNum": 2, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mushoku.Tensei.III.Isekai.Ittara.Honki/S03/Mushoku.Tensei.III.Isekai.Ittara.Honki.S03E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mushoku.Tensei.III.Isekai.Ittara.Honki/S03/Mushoku.Tensei.III.Isekai.Ittara.Honki.S03E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 3, "qualities": { "480p": "", "720p": "" } },
-      
+                        { "epNum": 3, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mushoku.Tensei.III.Isekai.Ittara.Honki/S03/Mushoku.Tensei.III.Isekai.Ittara.Honki.S03E03.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Mushoku.Tensei.III.Isekai.Ittara.Honki/S03/Mushoku.Tensei.III.Isekai.Ittara.Honki.S03E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 4, "qualities": { "480p": "", "720p": "" } },
       
       
       
@@ -168,7 +168,10 @@ const animeData = [
                         { epNum: 1165, qualities: { "480p": "", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.E1165.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
                         { epNum: 1166, qualities: { "1080p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/One.Piece.Anime/One.Piece.1166.1080p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.1166.720p.WEB-DL.SoftSub.AnimeON.mkv" } },
                         { epNum: 1167, qualities: { "1080p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/One.Piece.Anime/One.Piece.1167.1080p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.E1167.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
-                        { epNum: 1168, qualities: { "1080p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/One.Piece.Anime/One.Piece.1168.1080p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.E1168.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } }
+                        { epNum: 1168, qualities: { "1080p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/One.Piece.Anime/One.Piece.1168.1080p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "http://anjs33.animeonapp.com/anjsdl22/One.Piece.E1168.720p.WEB-DL.x264.SoftSub.AnimeON.mkv" } },
+                        { epNum: 1169, qualities: { "1080p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/One.Piece.Anime/One.Piece.1169.1080p.WEB-DL.Farsi.Sub.Film2Media.mkv", "720p": "" } },      
+                        { epNum: 1170, qualities: { "1080p": "", "720p": "" } },
+                    
                     ]
                 }
             ]
