@@ -1,5 +1,29 @@
 const animeData = [
-     
+
+       {
+            "id": "Tomb-Raider-King",
+            "title": "Tomb Raider King",
+            "fullTitle": "پادشاه مقبره‌نورد",
+            "description": "جوهون سوه، یک حفار و غارتگر مقبره، توسط کارفرمای خود به طرز فجیعی به قتل می‌رسد. اما در آستانه مرگ، به طور مرموزی ۱۵ سال به گذشته پرتاب می‌شود و به سال ۲۰۲۵ بازمی‌گردد . او که از دانش آینده و محل تمام گنج‌ها برخوردار است، برای انتقام و تبدیل شدن به پادشاه واقعی مقبره‌ها، مسابقه‌ای را با تمام حکمرانان دنیا برای تصاحب یادگاری‌ها آغاز می‌کند .",
+            "genres": ["ماجراجویی", "فانتزی", "اکشن"],
+            "imdbRating": "?",
+            "malRating": "?",
+            "poster": "https://intocdn.top/wp-content/uploads/2026/07/wK1SL5EUJ6Bq2UhDCRtT1FA1HdN.jpg",
+            "horizontalCover": "https://intocdn.top/wp-content/uploads/2026/07/wK1SL5EUJ6Bq2UhDCRtT1FA1HdN.jpg",
+            "verticalCover": "https://intocdn.top/wp-content/uploads/2026/07/xDW6cor12UD0b2IqboQWnrIn0UO-360x480.jpg",
+            "trailer": "https://edge42.166864.ir.cdn.ir/Series/Dogulwang/Tomb.Raider.King.Official.Trailer.mp4",
+            "seasons": [
+                {
+                    "seasonNumber": 1,
+                    "seasonName": "فصل اول - 2 قسمت",
+                    "episodes": [
+                        { "epNum": 1, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dogulwang/Dogulwang.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dogulwang/Dogulwang.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 2, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dogulwang/Dogulwang.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dogulwang/Dogulwang.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 3, "qualities": { "480p": "", "720p": "" } }
+                    ]
+                }
+            ]
+        },  
 {
             "id": "Black-Torch",
             "title": "Black Torch",
