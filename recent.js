@@ -2,7 +2,14 @@
 // اینجاا میتونی قسمت‌های جدید رو بدون دستکاری انیمه‌ها اضافه کنی
 
 const recentEpisodes = [
-
+    
+     {
+        id: "Tomb-Raider-King",
+        episodeNum: 2,
+        title: "Tomb Raider King",
+        badge: "جدید",
+        type: "new"
+     },
       {
         id: "Mushoku-Tensei",
         episodeNum: 3,
