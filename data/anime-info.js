@@ -2,7 +2,20 @@
 const animeInfo = {
     // هر آیدی = آیدی همون انیمه تووی دیتای اصلی
    
-
+"Tomb-Raider-King": {
+    year: 2026,
+    episodes: 13,
+    status: "در حال پخش",
+    studio: "STUDIO EEK",
+    duration: "24 دقیقه",
+    season: "تابستان",
+    source: "وب ناول",
+    ageRating: "R-17+",
+    director: "Seung Wook Woo",
+    language: "ژاپنی",
+    note: "زیرنویس"
+},
+    
    "Black-Torch": {
     year: 2026,
     episodes: 12,
