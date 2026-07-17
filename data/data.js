@@ -15,7 +15,7 @@ const animeData = [
             "seasons": [
                 {
                     "seasonNumber": 1,
-                    "seasonName": "فصل اول - 2 قسمت",
+                    "seasonName": "فصل اول - درحال پخش",
                     "episodes": [
                         { "epNum": 1, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dogulwang/Dogulwang.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dogulwang/Dogulwang.S01E01.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
                         { "epNum": 2, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dogulwang/Dogulwang.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Dogulwang/Dogulwang.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
@@ -153,7 +153,7 @@ const animeData = [
             "seasons": [
                 {
                     "seasonNumber": 1,
-                    "seasonName": "فصل اول - 1 قسمت",
+                    "seasonName": "فصل اول - درحال‌پخش",
                     "episodes": [
                    { "epNum": 1, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tsuihou.sareta.Tensei.Juukishi.wa.Game/Tsuihou.sareta.Tensei.Juukishi.wa.Game.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tsuihou.sareta.Tensei.Juukishi.wa.Game/Tsuihou.sareta.Tensei.Juukishi.wa.Game.S01E01.WEB-DL.720p.Farsi.Sub.Film2Media.mkv" } },    
                    { "epNum": 2, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tsuihou.sareta.Tensei.Juukishi.wa.Game/Tsuihou.sareta.Tensei.Juukishi.wa.Game.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Tsuihou.sareta.Tensei.Juukishi.wa.Game/Tsuihou.sareta.Tensei.Juukishi.wa.Game.S01E02.WEB-DL.720p.Farsi.Sub.Film2Media.mkv" } },            
