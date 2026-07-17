@@ -2,7 +2,14 @@
 // اینجاا میتونی قسمت‌های جدید رو بدون دستکاری انیمه‌ها اضافه کنی
 
 const recentEpisodes = [
-    
+
+    {
+        id: "The-Exiled-Heavy-Knight-Knows-How-to-Game-the-System",
+        episodeNum: 3,
+        title: "The Exiled Heavy Knight Knows How to Game the System",
+        badge: "جدید",
+        type: "today"
+    },  
      {
         id: "Tomb-Raider-King",
         episodeNum: 2,
@@ -31,14 +38,7 @@ const recentEpisodes = [
         badge: "جدید",
         type: "new"
    },
-   {
-        id: "The-Exiled-Heavy-Knight-Knows-How-to-Game-the-System",
-        episodeNum: 2,
-        title: "The Exiled Heavy Knight Knows How to Game the System",
-        badge: "جدید",
-        type: "today"
-   },  
-
+   
    
   
     
