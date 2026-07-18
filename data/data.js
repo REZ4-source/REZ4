@@ -43,7 +43,8 @@ const animeData = [
                     "episodes": [
                         { "epNum": 1, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Black.Torch/Black.Torch.S01E01.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Black.Torch/Black.Torch.S01E01.720p.WEB-Dl.Farsi.Sub.Film2Media.mkv" } },
                         { "epNum": 2, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Black.Torch/Black.Torch.S01E02.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Black.Torch/Black.Torch.S01E02.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
-                        { "epNum": 3, "qualities": { "480p": "", "720p": "" } },
+                        { "epNum": 3, "qualities": { "480p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Black.Torch/Black.Torch.S01E03.mkv", "720p": "https://bnrhd3fvb374s4bkwzxm54xf.abrtech.top/pnot/Series/Black.Torch/Black.Torch.S01E03.720p.WEB-DL.Farsi.Sub.Film2Media.mkv" } },
+                        { "epNum": 4, "qualities": { "480p": "", "720p": "" } },
                     ]      
                 }
             ]
