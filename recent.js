@@ -3,6 +3,14 @@
 
 const recentEpisodes = [
 
+
+   {
+        id: "Black-Torch",
+        episodeNum: 3,
+        title: "Black Torch",
+        badge: "جدید",
+        type: "new"
+    },
     {
         id: "The-Exiled-Heavy-Knight-Knows-How-to-Game-the-System",
         episodeNum: 3,
@@ -31,13 +39,7 @@ const recentEpisodes = [
         badge: "پربازدید",
         type: "hot"
     },
-   {
-        id: "Black-Torch",
-        episodeNum: 2,
-        title: "Black Torch",
-        badge: "جدید",
-        type: "new"
-   },
+   
    
    
   
