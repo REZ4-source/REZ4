@@ -4,7 +4,24 @@
 const recentEpisodes = [
 
 
+
+
+
+    {
+        id: "one-piece",
+        episodeNum: 1170,
+        title: "One Piece S2",
+        badge: "پربازدید",
+        type: "hot"
+    },
    {
+        id: "Mushoku-Tensei",
+        episodeNum: 4,
+        title: "Mushoku Tensei Season 3",
+        badge: "پربازدید",
+        type: "hot"
+    },    
+    {
         id: "Black-Torch",
         episodeNum: 3,
         title: "Black Torch",
@@ -25,20 +42,7 @@ const recentEpisodes = [
         badge: "جدید",
         type: "new"
      },
-      {
-        id: "Mushoku-Tensei",
-        episodeNum: 3,
-        title: "Mushoku Tensei Season 3",
-        badge: "پربازدید",
-        type: "hot"
-    },    
-    {
-        id: "one-piece",
-        episodeNum: 1169,
-        title: "One Piece S2",
-        badge: "پربازدید",
-        type: "hot"
-    },
+   
    
    
    
